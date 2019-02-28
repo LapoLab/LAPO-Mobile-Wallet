@@ -1,0 +1,31 @@
+rootProject.name = 'Lapo'
+include ':react-native-splash-screen'
+project(':react-native-splash-screen').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-splash-screen/android')
+include ':react-native-select-contact'
+project(':react-native-select-contact').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-select-contact/android/app')
+include ':react-native-keep-awake'
+project(':react-native-keep-awake').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-keep-awake/android')
+include ':react-native-notifications'
+project(':react-native-notifications').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-notifications/android')
+include ':react-native-device-info'
+project(':react-native-device-info').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-device-info/android')
+include ':react-native-fabric'
+project(':react-native-fabric').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-fabric/android')
+include ':react-native-gesture-handler'
+project(':react-native-gesture-handler').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-gesture-handler/android')
+include ':react-native-image-picker'
+project(':react-native-image-picker').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-image-picker/android')
+include ':react-native-share'
+project(':react-native-share').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-share/android')
+include ':react-native-svg'
+project(':react-native-svg').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-svg/android')
+include ':react-native-pdf-lib'
+project(':react-native-pdf-lib').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-pdf-lib/android')
+include ':react-native-camera'
+project(':react-native-camera').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-camera/android')
+include ':react-native-linear-gradient'
+project(':react-native-linear-gradient').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-linear-gradient/android')
+include ':lapo-core'
+project(':lapo-core').projectDir = new File(rootProject.projectDir, '../node_modules/lapo-core/android')
+
+include ':app'

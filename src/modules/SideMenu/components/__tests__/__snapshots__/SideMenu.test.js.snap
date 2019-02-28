@@ -1,0 +1,366 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SideMenu page renders snapshots 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#160A3A",
+      "flex": 1,
+      "padding": 23,
+    }
+  }
+>
+  <RCTScrollView>
+    <View>
+      <RCTSafeAreaView>
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "marginBottom": 20,
+              "marginTop": 0,
+            }
+          }
+        >
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "flex": 1,
+              "flexDirection": "column",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "flex": 1,
+                "flexDirection": "row",
+                "marginBottom": 40,
+                "opacity": 1,
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/assets/dashboard.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 24,
+                  "resizeMode": "contain",
+                  "width": 54,
+                }
+              }
+            />
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                }
+              }
+            >
+              Dashboard
+            </Text>
+          </View>
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "flex": 1,
+                "flexDirection": "row",
+                "marginBottom": 40,
+                "opacity": 1,
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/assets/send.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 24,
+                  "resizeMode": "contain",
+                  "width": 54,
+                }
+              }
+            />
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                }
+              }
+            >
+              Send LAX
+            </Text>
+          </View>
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "flex": 1,
+                "flexDirection": "row",
+                "marginBottom": 40,
+                "opacity": 1,
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/assets/recieve.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 24,
+                  "resizeMode": "contain",
+                  "width": 54,
+                }
+              }
+            />
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                }
+              }
+            >
+              Receive LAX
+            </Text>
+          </View>
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "flex": 1,
+                "flexDirection": "row",
+                "marginBottom": 40,
+                "opacity": 1,
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/assets/trans.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 24,
+                  "resizeMode": "contain",
+                  "width": 54,
+                }
+              }
+            />
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                }
+              }
+            >
+              Transactions
+            </Text>
+          </View>
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "flex": 1,
+                "flexDirection": "row",
+                "marginBottom": 40,
+                "opacity": 1,
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/assets/notify.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 24,
+                  "resizeMode": "contain",
+                  "width": 54,
+                }
+              }
+            />
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                }
+              }
+            >
+              Notifications
+            </Text>
+          </View>
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "flex": 1,
+                "flexDirection": "row",
+                "marginBottom": 40,
+                "opacity": 1,
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/assets/profile.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 24,
+                  "resizeMode": "contain",
+                  "width": 54,
+                }
+              }
+            />
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                }
+              }
+            >
+              Profile
+            </Text>
+          </View>
+        </View>
+      </RCTSafeAreaView>
+    </View>
+  </RCTScrollView>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "flexDirection": "column",
+        "height": 50,
+        "justifyContent": "flex-end",
+      }
+    }
+  >
+    <View
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "flexDirection": "row",
+          "opacity": 1,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/setup.png",
+          }
+        }
+        style={
+          Object {
+            "height": 24,
+            "resizeMode": "contain",
+            "width": 54,
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 18,
+          }
+        }
+      >
+        Settings
+      </Text>
+    </View>
+  </View>
+</View>
+`;

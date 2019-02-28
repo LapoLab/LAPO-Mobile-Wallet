@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "/Users/develexedev/dev/integral/Lapo/node_modules/lapo-core/android/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/develexedev/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/develexedev/dev/integral/Lapo/node_modules/lapo-core/android/.externalNativeBuild/cmake/brdDebug/armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "core-Debug-armeabi-v7a": {
+      "artifactName": "core",
+      "buildCommand": "/Users/develexedev/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/develexedev/dev/integral/Lapo/node_modules/lapo-core/android/.externalNativeBuild/cmake/brdDebug/armeabi-v7a --target core",
+      "abi": "armeabi-v7a",
+      "output": "/Users/develexedev/dev/integral/Lapo/node_modules/lapo-core/android/build/intermediates/cmake/brd/debug/obj/armeabi-v7a/libcore.so"
+    }
+  }
+}

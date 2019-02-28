@@ -1,0 +1,345 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DateFunctions"
+provides-nominal:
+- "6SQLite13DateFunctionsC"
+provides-member:
+- ["6SQLite13DateFunctionsC", ""]
+- ["10Foundation4DateV", ""]
+- ["6SQLite10ExpressionV", ""]
+- ["10Foundation4DateV", "date"]
+- ["10Foundation4DateV", "time"]
+- ["10Foundation4DateV", "datetime"]
+- ["10Foundation4DateV", "julianday"]
+- ["6SQLite10ExpressionV", "date"]
+- ["6SQLite10ExpressionV", "time"]
+- ["6SQLite10ExpressionV", "datetime"]
+- ["6SQLite10ExpressionV", "julianday"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "+"
+- !private "Array"
+- "Date"
+- "DateFunctions"
+- "Expression"
+- "String"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+- !private "dateFormatter"
+depends-member:
+- !private ["Sa", "count"]
+- !private ["Sa", "init"]
+- !private ["Sa", "isEmpty"]
+- !private ["Sa", "joined"]
+- !private ["s13ArrayProtocolP", "count"]
+- !private ["s13ArrayProtocolP", "init"]
+- !private ["s13ArrayProtocolP", "isEmpty"]
+- !private ["s13ArrayProtocolP", "joined"]
+- !private ["SK", "count"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "isEmpty"]
+- !private ["SK", "joined"]
+- !private ["6SQLite7BindingP", "_getBuiltinLogicValue"]
+- !private ["6SQLite7BindingP", "init"]
+- !private ["6SQLite7BindingP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "joined"]
+- !private ["s7CVarArgP", "string"]
+- !private ["Sl", "count"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "joined"]
+- !private ["SL", "DateFunctions"]
+- !private ["SL", "dateFormatter"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "DateFunctions"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "dateFormatter"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "joined"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s29CustomPlaygroundQuickLookableP", "DateFunctions"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "dateFormatter"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "DateFunctions"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "dateFormatter"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "joined"]
+- !private ["s23CustomStringConvertibleP", "DateFunctions"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "dateFormatter"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "joined"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- ["10Foundation4DateV", "Date"]
+- !private ["10Foundation4DateV", "DateFunctions"]
+- ["10Foundation4DateV", "Expression"]
+- ["10Foundation4DateV", "date"]
+- !private ["10Foundation4DateV", "dateFormatter"]
+- ["10Foundation4DateV", "datetime"]
+- ["10Foundation4DateV", "julianday"]
+- ["10Foundation4DateV", "time"]
+- !private ["So15NSDateFormatterC", "string"]
+- ["6SQLite13DateFunctionsC", "Date"]
+- ["6SQLite13DateFunctionsC", "Expression"]
+- ["6SQLite13DateFunctionsC", "String"]
+- ["6SQLite13DateFunctionsC", "date"]
+- ["6SQLite13DateFunctionsC", "datetime"]
+- ["6SQLite13DateFunctionsC", "init"]
+- ["6SQLite13DateFunctionsC", "julianday"]
+- ["6SQLite13DateFunctionsC", "strftime"]
+- ["6SQLite13DateFunctionsC", "time"]
+- !private ["6SQLite13DateFunctionsC", "timefunction"]
+- !private ["Se", "DateFunctions"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "count"]
+- !private ["Se", "dateFormatter"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "joined"]
+- !private ["SE", "DateFunctions"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "count"]
+- !private ["SE", "dateFormatter"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "joined"]
+- !private ["SQ", "DateFunctions"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "count"]
+- !private ["SQ", "dateFormatter"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "joined"]
+- !private ["SQ", "string"]
+- ["6SQLite11ExpressibleP", "Date"]
+- !private ["6SQLite11ExpressibleP", "DateFunctions"]
+- !private ["6SQLite11ExpressibleP", "Expression"]
+- ["6SQLite11ExpressibleP", "UnderlyingType"]
+- !private ["6SQLite11ExpressibleP", "_getBuiltinLogicValue"]
+- !private ["6SQLite11ExpressibleP", "bindings"]
+- !private ["6SQLite11ExpressibleP", "dateFormatter"]
+- !private ["6SQLite11ExpressibleP", "init"]
+- !private ["6SQLite11ExpressibleP", "init"]
+- !private ["6SQLite11ExpressibleP", "template"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s25ExpressibleByArrayLiteralP", "joined"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["6SQLite10ExpressionV", "Date"]
+- ["6SQLite10ExpressionV", "Expression"]
+- ["6SQLite10ExpressionV", "UnderlyingType"]
+- !private ["6SQLite10ExpressionV", "bindings"]
+- ["6SQLite10ExpressionV", "date"]
+- ["6SQLite10ExpressionV", "datetime"]
+- !private ["6SQLite10ExpressionV", "deinit"]
+- !private ["6SQLite10ExpressionV", "init"]
+- ["6SQLite10ExpressionV", "julianday"]
+- !private ["6SQLite10ExpressionV", "template"]
+- ["6SQLite10ExpressionV", "time"]
+- ["6SQLite14ExpressionTypeP", "Date"]
+- !private ["6SQLite14ExpressionTypeP", "Expression"]
+- ["6SQLite14ExpressionTypeP", "UnderlyingType"]
+- !private ["6SQLite14ExpressionTypeP", "bindings"]
+- !private ["6SQLite14ExpressionTypeP", "init"]
+- !private ["6SQLite14ExpressionTypeP", "template"]
+- !private ["So11NSFormatterC", "string"]
+- !private ["SH", "DateFunctions"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "count"]
+- !private ["SH", "dateFormatter"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "joined"]
+- !private ["SH", "string"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "count"]
+- !private ["SM", "init"]
+- !private ["SM", "isEmpty"]
+- !private ["SM", "joined"]
+- !private ["So8NSCodingP", "string"]
+- !private ["So9NSCopyingP", "string"]
+- !private ["So8NSObjectC", "string"]
+- !private ["So8NSObjectP", "string"]
+- !private ["Sk", "count"]
+- !private ["Sk", "init"]
+- !private ["Sk", "isEmpty"]
+- !private ["Sk", "joined"]
+- !private ["Sm", "count"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "isEmpty"]
+- !private ["Sm", "joined"]
+- !private ["10Foundation20ReferenceConvertibleP", "DateFunctions"]
+- !private ["10Foundation20ReferenceConvertibleP", "dateFormatter"]
+- !private ["ST", "count"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "joined"]
+- !private ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["6SQLite5ValueP", "DateFunctions"]
+- !private ["6SQLite5ValueP", "_getBuiltinLogicValue"]
+- !private ["6SQLite5ValueP", "dateFormatter"]
+- !private ["6SQLite5ValueP", "init"]
+- !private ["6SQLite5ValueP", "init"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "joined"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "joined"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- !private ["s21_ObjectiveCBridgeableP", "DateFunctions"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "dateFormatter"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "joined"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "SK"
+- !private "6SQLite7BindingP"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- "10Foundation4DateV"
+- !private "So15NSDateFormatterC"
+- "6SQLite13DateFunctionsC"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- "6SQLite11ExpressibleP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "6SQLite10ExpressionV"
+- "6SQLite14ExpressionTypeP"
+- !private "So11NSFormatterC"
+- !private "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "Sk"
+- !private "Sm"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "ST"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "6SQLite5ValueP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/develexedev/dev/integral/Lapo/ios/Pods/Target Support Files/SQLite.swift/SQLite.swift-umbrella.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/Pods/SQLite.swift/Sources/SQLite/SQLite.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/Pods/SQLite.swift/Sources/SQLiteObjc/include/SQLite-Bridging.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SQLite.swift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "58e70ea60eb1cae3b360d012faac24d8"

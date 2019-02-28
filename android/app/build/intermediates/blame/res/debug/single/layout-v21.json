@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/develexedev/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/23331e8fe11037a127b3b92ded55724a/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/develexedev/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/23331e8fe11037a127b3b92ded55724a/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/develexedev/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/23331e8fe11037a127b3b92ded55724a/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/develexedev/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/23331e8fe11037a127b3b92ded55724a/res/layout-v21/notification_action_tombstone.xml"
+    }
+]

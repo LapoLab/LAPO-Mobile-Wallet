@@ -1,0 +1,184 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Recieve page renders snapshots 1`] = `
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "transparent",
+      "flex": 1,
+      "flexDirection": "column",
+      "justifyContent": "flex-end",
+    }
+  }
+>
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "backgroundColor": "#EFF4FC",
+        "borderTopLeftRadius": 12,
+        "borderTopRightRadius": 12,
+        "height": 450,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "borderBottomColor": "#D8D8D8",
+            "borderBottomWidth": 1,
+            "flexDirection": "row",
+            "height": 60,
+            "justifyContent": "space-between",
+            "paddingRight": 15,
+            "paddingVertical": 15,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+              "padding": 15,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../src/assets/close.png",
+              }
+            }
+            style={
+              Object {
+                "height": 15,
+                "resizeMode": "contain",
+                "width": 15,
+              }
+            }
+          />
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#131313",
+              "flex": 1,
+              "fontFamily": "Lato-Bold",
+              "fontSize": 18,
+              "textAlign": "center",
+            }
+          }
+        >
+          Receive
+        </Text>
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+              "padding": 15,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "borderTopColor": "#D8D8D8",
+            "borderTopWidth": 1,
+            "height": 110,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#4183BD",
+                "borderColor": "#BBCDEB",
+                "borderRadius": 74,
+                "borderWidth": 8,
+                "height": 64,
+                "justifyContent": "center",
+                "marginHorizontal": 25,
+                "opacity": 1,
+                "width": "80%",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontFamily": "Lato-Regular",
+                  "fontSize": 18,
+                }
+              }
+            >
+              SHARE IT!
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

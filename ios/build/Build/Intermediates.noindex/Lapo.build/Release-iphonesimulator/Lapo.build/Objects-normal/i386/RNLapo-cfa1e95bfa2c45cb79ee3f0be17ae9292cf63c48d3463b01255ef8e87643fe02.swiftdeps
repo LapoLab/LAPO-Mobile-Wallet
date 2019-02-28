@@ -1,0 +1,1328 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "pathDB"
+- "ID"
+- "HASH"
+- "HEIGHT"
+- "TX_ID"
+- "TX_COLUMN_ID"
+- "TX_HASH"
+- "TX_HEIGHT"
+- "TX_TIME_STAMP"
+- "TX_AMOUNT"
+- "TX_OUT_ID"
+- "TX_OUT_AMOUNT"
+- "TX_OUT_ADDRESS"
+- "TX_OUT_TIME"
+- "ListernerWallet"
+- "ListernerPeerManager"
+- "Transaction"
+- "RNLapo"
+provides-nominal:
+- "4Lapo15ListernerWalletC"
+- "4Lapo20ListernerPeerManagerC"
+- "4Lapo11TransactionV"
+- "4Lapo6RNLapoC"
+provides-member:
+- ["4Lapo15ListernerWalletC", ""]
+- ["4Lapo20ListernerPeerManagerC", ""]
+- ["4Lapo11TransactionV", ""]
+- ["4Lapo6RNLapoC", ""]
+provides-dynamic-lookup:
+- "connectPeers"
+- "copyDB"
+- "createWallet"
+- "getBalance"
+- "getLastBlockHeight"
+- "getReceiveAddress"
+- "getTransactions"
+- "isReady"
+- "lapoName"
+- "newTransaction"
+- "setPathDB"
+- "setPhrase"
+depends-top-level:
+- !private "*"
+- !private "-"
+- !private "<-"
+- "=="
+- !private ">"
+- !private ">="
+- !private "??"
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "BRBIP32MasterPubKey"
+- !private "BRBIP39DeriveKey"
+- "BRBlockRef"
+- !private "BRMasterPubKey"
+- !private "BRMerkleBlockCopy"
+- !private "BRMerkleBlockParse"
+- "BRPeer"
+- "BRPeerManager"
+- "BRPeerManagerError"
+- "BRPeerManagerListener"
+- !private "BRTransactionParse"
+- !private "BRTransactionSerialize"
+- "BRTxRef"
+- "BRWallet"
+- "BRWalletListener"
+- "Blob"
+- "Bool"
+- "BooleanLiteralType"
+- !private "Bundle"
+- !private "CChar"
+- "Codable"
+- !private "Connection"
+- "Expression"
+- !private "FileManager"
+- "Float"
+- "FloatLiteralType"
+- "HASH"
+- "HEIGHT"
+- "ID"
+- "Int"
+- "Int64"
+- "IntegerLiteralType"
+- !private "JSONEncoder"
+- "ListernerPeerManager"
+- "ListernerWallet"
+- !private "MemoryLayout"
+- !private "NSDate"
+- !private "NSError"
+- "NSObject"
+- !private "NSTimeIntervalSince1970"
+- "RCTPromiseRejectBlock"
+- "RCTPromiseResolveBlock"
+- "RNLapo"
+- "String"
+- "StringLiteralType"
+- "TX_AMOUNT"
+- "TX_COLUMN_ID"
+- "TX_HASH"
+- "TX_HEIGHT"
+- "TX_ID"
+- "TX_OUT_ADDRESS"
+- "TX_OUT_AMOUNT"
+- "TX_OUT_ID"
+- "TX_OUT_TIME"
+- "TX_TIME_STAMP"
+- !private "Table"
+- "TernaryPrecedence"
+- "TimeInterval"
+- "Transaction"
+- "UInt256"
+- "UInt32"
+- !private "UInt512"
+- "UInt64"
+- !private "UInt8"
+- !private "UnsafeRawPointer"
+- "Void"
+- !private "Zip"
+- "pathDB"
+- !private "print"
+- !private "~="
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "contains"]
+- !private ["Sa", "count"]
+- !private ["Sa", "init"]
+- !private ["Sa", "map"]
+- !private ["Sa", "subscript"]
+- !private ["Sa", "withUnsafeBytes"]
+- !private ["s13ArrayProtocolP", "append"]
+- !private ["s13ArrayProtocolP", "contains"]
+- !private ["s13ArrayProtocolP", "count"]
+- !private ["s13ArrayProtocolP", "init"]
+- !private ["s13ArrayProtocolP", "map"]
+- !private ["s13ArrayProtocolP", "subscript"]
+- !private ["s13ArrayProtocolP", "withUnsafeBytes"]
+- !private ["So14BRMasterPubKeya", "init"]
+- !private ["So13BRMerkleBlocka", "height"]
+- !private ["4Lapo13BRPeerManagerC", "connect"]
+- !private ["4Lapo13BRPeerManagerC", "init"]
+- !private ["4Lapo13BRPeerManagerC", "lastBlockHeight"]
+- !private ["4Lapo13BRPeerManagerC", "publishTx"]
+- !private ["4Lapo21BRPeerManagerListenerP", "BRMerkleBlockCopy"]
+- !private ["4Lapo21BRPeerManagerListenerP", "Connection"]
+- !private ["4Lapo21BRPeerManagerListenerP", "Table"]
+- ["4Lapo21BRPeerManagerListenerP", ""]
+- ["4Lapo21BRPeerManagerListenerP", "init"]
+- ["4Lapo21BRPeerManagerListenerP", "networkIsReachable"]
+- !private ["4Lapo21BRPeerManagerListenerP", "pathDB"]
+- !private ["4Lapo21BRPeerManagerListenerP", "print"]
+- ["4Lapo21BRPeerManagerListenerP", "saveBlocks"]
+- ["4Lapo21BRPeerManagerListenerP", "savePeers"]
+- ["4Lapo21BRPeerManagerListenerP", "syncStarted"]
+- ["4Lapo21BRPeerManagerListenerP", "syncStopped"]
+- ["4Lapo21BRPeerManagerListenerP", "txStatusUpdate"]
+- !private ["So13BRTransactiona", "blockHeight"]
+- !private ["So13BRTransactiona", "inCount"]
+- !private ["So13BRTransactiona", "inputs"]
+- !private ["So13BRTransactiona", "lockTime"]
+- !private ["So13BRTransactiona", "outputs"]
+- !private ["So13BRTransactiona", "timestamp"]
+- !private ["So13BRTransactiona", "txHash"]
+- !private ["So10BRTxOutputa", "address"]
+- !private ["So10BRTxOutputa", "amount"]
+- !private ["4Lapo8BRWalletC", "allAddresses"]
+- !private ["4Lapo8BRWalletC", "balance"]
+- !private ["4Lapo8BRWalletC", "createTransaction"]
+- !private ["4Lapo8BRWalletC", "init"]
+- !private ["4Lapo8BRWalletC", "receiveAddress"]
+- !private ["4Lapo8BRWalletC", "signTransaction"]
+- !private ["4Lapo8BRWalletC", "transactions"]
+- !private ["4Lapo16BRWalletListenerP", "BRTransactionSerialize"]
+- !private ["4Lapo16BRWalletListenerP", "Blob"]
+- !private ["4Lapo16BRWalletListenerP", "Connection"]
+- !private ["4Lapo16BRWalletListenerP", "Int"]
+- !private ["4Lapo16BRWalletListenerP", "NSTimeIntervalSince1970"]
+- !private ["4Lapo16BRWalletListenerP", "TX_COLUMN_ID"]
+- !private ["4Lapo16BRWalletListenerP", "TX_HASH"]
+- !private ["4Lapo16BRWalletListenerP", "TX_HEIGHT"]
+- !private ["4Lapo16BRWalletListenerP", "TX_TIME_STAMP"]
+- !private ["4Lapo16BRWalletListenerP", "Table"]
+- !private ["4Lapo16BRWalletListenerP", "UInt32"]
+- !private ["4Lapo16BRWalletListenerP", "UInt8"]
+- ["4Lapo16BRWalletListenerP", ""]
+- ["4Lapo16BRWalletListenerP", "balanceChanged"]
+- ["4Lapo16BRWalletListenerP", "init"]
+- !private ["4Lapo16BRWalletListenerP", "pathDB"]
+- !private ["4Lapo16BRWalletListenerP", "print"]
+- ["4Lapo16BRWalletListenerP", "txAdded"]
+- ["4Lapo16BRWalletListenerP", "txDeleted"]
+- ["4Lapo16BRWalletListenerP", "txUpdated"]
+- !private ["SK", "append"]
+- !private ["SK", "contains"]
+- !private ["SK", "count"]
+- ["SK", "init"]
+- ["SK", "init"]
+- !private ["SK", "map"]
+- !private ["SK", "subscript"]
+- !private ["SK", "withUnsafeBytes"]
+- !private ["Sz", "init"]
+- !private ["Sz", "littleEndian"]
+- !private ["6SQLite7BindingP", "_getBuiltinLogicValue"]
+- !private ["6SQLite7BindingP", "bytes"]
+- ["6SQLite7BindingP", "init"]
+- ["6SQLite7BindingP", "init"]
+- !private ["6SQLite4BlobV", "bytes"]
+- !private ["6SQLite4BlobV", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So8NSBundleC", "main"]
+- !private ["So8NSBundleC", "url"]
+- !private ["s7CVarArgP", "BRBIP32MasterPubKey"]
+- !private ["s7CVarArgP", "BRBIP39DeriveKey"]
+- !private ["s7CVarArgP", "BRBlockRef"]
+- !private ["s7CVarArgP", "BRMasterPubKey"]
+- !private ["s7CVarArgP", "BRMerkleBlockParse"]
+- !private ["s7CVarArgP", "BRPeerManager"]
+- !private ["s7CVarArgP", "BRTransactionParse"]
+- !private ["s7CVarArgP", "BRTxRef"]
+- !private ["s7CVarArgP", "BRWallet"]
+- !private ["s7CVarArgP", "Bundle"]
+- !private ["s7CVarArgP", "CChar"]
+- !private ["s7CVarArgP", "Connection"]
+- !private ["s7CVarArgP", "FileManager"]
+- !private ["s7CVarArgP", "HASH"]
+- !private ["s7CVarArgP", "HEIGHT"]
+- !private ["s7CVarArgP", "Int"]
+- !private ["s7CVarArgP", "JSONEncoder"]
+- ["s7CVarArgP", "ListernerPeerManager"]
+- ["s7CVarArgP", "ListernerWallet"]
+- !private ["s7CVarArgP", "MemoryLayout"]
+- !private ["s7CVarArgP", "NSDate"]
+- !private ["s7CVarArgP", "NSError"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "TX_HASH"]
+- !private ["s7CVarArgP", "TX_OUT_ADDRESS"]
+- !private ["s7CVarArgP", "TX_OUT_AMOUNT"]
+- !private ["s7CVarArgP", "TX_OUT_TIME"]
+- !private ["s7CVarArgP", "Table"]
+- !private ["s7CVarArgP", "Transaction"]
+- !private ["s7CVarArgP", "UInt32"]
+- !private ["s7CVarArgP", "UInt512"]
+- !private ["s7CVarArgP", "UInt64"]
+- !private ["s7CVarArgP", "UnsafeRawPointer"]
+- !private ["s7CVarArgP", "Zip"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "contains"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "earliestKeyTime"]
+- !private ["s7CVarArgP", "fileExists"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isReady"]
+- !private ["s7CVarArgP", "listernPeerManager"]
+- !private ["s7CVarArgP", "listernWallet"]
+- !private ["s7CVarArgP", "littleEndian"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "oldAddress"]
+- !private ["s7CVarArgP", "pathDB"]
+- !private ["s7CVarArgP", "peerManager"]
+- !private ["s7CVarArgP", "pointee"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "seedPhrase"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "timeIntervalSince1970"]
+- !private ["s7CVarArgP", "url"]
+- !private ["s7CVarArgP", "urls"]
+- !private ["s7CVarArgP", "wallet"]
+- !private ["s7CVarArgP", "withUnsafeBytes"]
+- !private ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "stringValue"]
+- !private ["Sl", "append"]
+- !private ["Sl", "contains"]
+- !private ["Sl", "count"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- !private ["Sl", "map"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "withUnsafeBytes"]
+- !private ["SL", "assumingMemoryBound"]
+- ["SL", "init"]
+- ["SL", "init"]
+- !private ["SL", "littleEndian"]
+- !private ["SL", "pointee"]
+- !private ["6SQLite10ConnectionC", "description"]
+- !private ["6SQLite10ConnectionC", "init"]
+- !private ["6SQLite10ConnectionC", "prepare"]
+- !private ["6SQLite10ConnectionC", "run"]
+- !private ["6SQLite10ConnectionC", "scalar"]
+- !private ["s28CustomDebugStringConvertibleP", "BRBIP32MasterPubKey"]
+- !private ["s28CustomDebugStringConvertibleP", "BRBIP39DeriveKey"]
+- !private ["s28CustomDebugStringConvertibleP", "BRBlockRef"]
+- !private ["s28CustomDebugStringConvertibleP", "BRMasterPubKey"]
+- !private ["s28CustomDebugStringConvertibleP", "BRMerkleBlockParse"]
+- !private ["s28CustomDebugStringConvertibleP", "BRPeerManager"]
+- !private ["s28CustomDebugStringConvertibleP", "BRTransactionParse"]
+- !private ["s28CustomDebugStringConvertibleP", "BRTxRef"]
+- !private ["s28CustomDebugStringConvertibleP", "BRWallet"]
+- !private ["s28CustomDebugStringConvertibleP", "Bundle"]
+- !private ["s28CustomDebugStringConvertibleP", "CChar"]
+- !private ["s28CustomDebugStringConvertibleP", "Connection"]
+- !private ["s28CustomDebugStringConvertibleP", "FileManager"]
+- !private ["s28CustomDebugStringConvertibleP", "HASH"]
+- !private ["s28CustomDebugStringConvertibleP", "HEIGHT"]
+- !private ["s28CustomDebugStringConvertibleP", "Int"]
+- !private ["s28CustomDebugStringConvertibleP", "JSONEncoder"]
+- ["s28CustomDebugStringConvertibleP", "ListernerPeerManager"]
+- ["s28CustomDebugStringConvertibleP", "ListernerWallet"]
+- !private ["s28CustomDebugStringConvertibleP", "MemoryLayout"]
+- !private ["s28CustomDebugStringConvertibleP", "NSDate"]
+- !private ["s28CustomDebugStringConvertibleP", "NSError"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "TX_HASH"]
+- !private ["s28CustomDebugStringConvertibleP", "TX_OUT_ADDRESS"]
+- !private ["s28CustomDebugStringConvertibleP", "TX_OUT_AMOUNT"]
+- !private ["s28CustomDebugStringConvertibleP", "TX_OUT_TIME"]
+- !private ["s28CustomDebugStringConvertibleP", "Table"]
+- !private ["s28CustomDebugStringConvertibleP", "Transaction"]
+- !private ["s28CustomDebugStringConvertibleP", "UInt32"]
+- !private ["s28CustomDebugStringConvertibleP", "UInt512"]
+- !private ["s28CustomDebugStringConvertibleP", "UInt64"]
+- !private ["s28CustomDebugStringConvertibleP", "UnsafeRawPointer"]
+- !private ["s28CustomDebugStringConvertibleP", "Zip"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "appendingPathComponent"]
+- !private ["s28CustomDebugStringConvertibleP", "assumingMemoryBound"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "earliestKeyTime"]
+- !private ["s28CustomDebugStringConvertibleP", "fileExists"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s28CustomDebugStringConvertibleP", "isReady"]
+- !private ["s28CustomDebugStringConvertibleP", "listernPeerManager"]
+- !private ["s28CustomDebugStringConvertibleP", "listernWallet"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "oldAddress"]
+- !private ["s28CustomDebugStringConvertibleP", "path"]
+- !private ["s28CustomDebugStringConvertibleP", "pathDB"]
+- !private ["s28CustomDebugStringConvertibleP", "peerManager"]
+- !private ["s28CustomDebugStringConvertibleP", "pointee"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "seedPhrase"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "timeIntervalSince1970"]
+- !private ["s28CustomDebugStringConvertibleP", "url"]
+- !private ["s28CustomDebugStringConvertibleP", "urls"]
+- !private ["s28CustomDebugStringConvertibleP", "wallet"]
+- !private ["s28CustomDebugStringConvertibleP", "withUnsafeBytes"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "appendingPathComponent"]
+- !private ["s29CustomPlaygroundQuickLookableP", "assumingMemoryBound"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "littleEndian"]
+- !private ["s29CustomPlaygroundQuickLookableP", "path"]
+- !private ["s29CustomPlaygroundQuickLookableP", "pointee"]
+- !private ["s29CustomPlaygroundQuickLookableP", "timeIntervalSince1970"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "assumingMemoryBound"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "count"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "littleEndian"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "pointee"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "withUnsafeBytes"]
+- !private ["s23CustomStringConvertibleP", "BRBIP32MasterPubKey"]
+- !private ["s23CustomStringConvertibleP", "BRBIP39DeriveKey"]
+- !private ["s23CustomStringConvertibleP", "BRBlockRef"]
+- !private ["s23CustomStringConvertibleP", "BRMasterPubKey"]
+- !private ["s23CustomStringConvertibleP", "BRMerkleBlockParse"]
+- !private ["s23CustomStringConvertibleP", "BRPeerManager"]
+- !private ["s23CustomStringConvertibleP", "BRTransactionParse"]
+- !private ["s23CustomStringConvertibleP", "BRTxRef"]
+- !private ["s23CustomStringConvertibleP", "BRWallet"]
+- !private ["s23CustomStringConvertibleP", "Bundle"]
+- !private ["s23CustomStringConvertibleP", "CChar"]
+- !private ["s23CustomStringConvertibleP", "Connection"]
+- !private ["s23CustomStringConvertibleP", "FileManager"]
+- !private ["s23CustomStringConvertibleP", "HASH"]
+- !private ["s23CustomStringConvertibleP", "HEIGHT"]
+- !private ["s23CustomStringConvertibleP", "Int"]
+- !private ["s23CustomStringConvertibleP", "JSONEncoder"]
+- ["s23CustomStringConvertibleP", "ListernerPeerManager"]
+- ["s23CustomStringConvertibleP", "ListernerWallet"]
+- !private ["s23CustomStringConvertibleP", "MemoryLayout"]
+- !private ["s23CustomStringConvertibleP", "NSDate"]
+- !private ["s23CustomStringConvertibleP", "NSError"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "TX_HASH"]
+- !private ["s23CustomStringConvertibleP", "TX_OUT_ADDRESS"]
+- !private ["s23CustomStringConvertibleP", "TX_OUT_AMOUNT"]
+- !private ["s23CustomStringConvertibleP", "TX_OUT_TIME"]
+- !private ["s23CustomStringConvertibleP", "Table"]
+- !private ["s23CustomStringConvertibleP", "Transaction"]
+- !private ["s23CustomStringConvertibleP", "UInt32"]
+- !private ["s23CustomStringConvertibleP", "UInt512"]
+- !private ["s23CustomStringConvertibleP", "UInt64"]
+- !private ["s23CustomStringConvertibleP", "UnsafeRawPointer"]
+- !private ["s23CustomStringConvertibleP", "Zip"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "appendingPathComponent"]
+- !private ["s23CustomStringConvertibleP", "bytes"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "earliestKeyTime"]
+- !private ["s23CustomStringConvertibleP", "fileExists"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "isReady"]
+- !private ["s23CustomStringConvertibleP", "listernPeerManager"]
+- !private ["s23CustomStringConvertibleP", "listernWallet"]
+- !private ["s23CustomStringConvertibleP", "littleEndian"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "oldAddress"]
+- !private ["s23CustomStringConvertibleP", "path"]
+- !private ["s23CustomStringConvertibleP", "pathDB"]
+- !private ["s23CustomStringConvertibleP", "peerManager"]
+- !private ["s23CustomStringConvertibleP", "prepare"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "run"]
+- !private ["s23CustomStringConvertibleP", "scalar"]
+- !private ["s23CustomStringConvertibleP", "seedPhrase"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "timeIntervalSince1970"]
+- !private ["s23CustomStringConvertibleP", "url"]
+- !private ["s23CustomStringConvertibleP", "urls"]
+- !private ["s23CustomStringConvertibleP", "utf8"]
+- !private ["s23CustomStringConvertibleP", "wallet"]
+- !private ["s23CustomStringConvertibleP", "withUnsafeBytes"]
+- ["Se", ""]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "address"]
+- !private ["Se", "amount"]
+- !private ["Se", "append"]
+- !private ["Se", "appendingPathComponent"]
+- !private ["Se", "assumingMemoryBound"]
+- !private ["Se", "contains"]
+- !private ["Se", "count"]
+- ["Se", "encode"]
+- ["Se", "init"]
+- ["Se", "init"]
+- !private ["Se", "littleEndian"]
+- !private ["Se", "map"]
+- !private ["Se", "mode"]
+- !private ["Se", "path"]
+- !private ["Se", "subscript"]
+- !private ["Se", "time"]
+- !private ["Se", "withUnsafeBytes"]
+- !private ["s7DecoderP", "container"]
+- ["SE", ""]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "address"]
+- !private ["SE", "amount"]
+- !private ["SE", "append"]
+- !private ["SE", "appendingPathComponent"]
+- !private ["SE", "assumingMemoryBound"]
+- !private ["SE", "contains"]
+- !private ["SE", "count"]
+- ["SE", "encode"]
+- ["SE", "init"]
+- ["SE", "init"]
+- !private ["SE", "littleEndian"]
+- !private ["SE", "map"]
+- !private ["SE", "mode"]
+- !private ["SE", "path"]
+- !private ["SE", "subscript"]
+- !private ["SE", "time"]
+- !private ["SE", "withUnsafeBytes"]
+- !private ["s7EncoderP", "container"]
+- !private ["SS10FoundationE8EncodingV", "utf8"]
+- !private ["SQ", "BRBIP32MasterPubKey"]
+- !private ["SQ", "BRBIP39DeriveKey"]
+- !private ["SQ", "BRBlockRef"]
+- !private ["SQ", "BRMasterPubKey"]
+- !private ["SQ", "BRMerkleBlockParse"]
+- !private ["SQ", "BRPeerManager"]
+- !private ["SQ", "BRTransactionParse"]
+- !private ["SQ", "BRTxRef"]
+- !private ["SQ", "BRWallet"]
+- !private ["SQ", "Bundle"]
+- !private ["SQ", "CChar"]
+- !private ["SQ", "Connection"]
+- !private ["SQ", "FileManager"]
+- !private ["SQ", "HASH"]
+- !private ["SQ", "HEIGHT"]
+- !private ["SQ", "Int"]
+- !private ["SQ", "JSONEncoder"]
+- ["SQ", "ListernerPeerManager"]
+- ["SQ", "ListernerWallet"]
+- !private ["SQ", "MemoryLayout"]
+- !private ["SQ", "NSDate"]
+- !private ["SQ", "NSError"]
+- !private ["SQ", "String"]
+- !private ["SQ", "TX_HASH"]
+- !private ["SQ", "TX_OUT_ADDRESS"]
+- !private ["SQ", "TX_OUT_AMOUNT"]
+- !private ["SQ", "TX_OUT_TIME"]
+- !private ["SQ", "Table"]
+- !private ["SQ", "Transaction"]
+- !private ["SQ", "UInt32"]
+- !private ["SQ", "UInt512"]
+- !private ["SQ", "UInt64"]
+- !private ["SQ", "UnsafeRawPointer"]
+- !private ["SQ", "Zip"]
+- ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "append"]
+- !private ["SQ", "appendingPathComponent"]
+- !private ["SQ", "assumingMemoryBound"]
+- !private ["SQ", "bytes"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "count"]
+- ["SQ", "debugDescription"]
+- !private ["SQ", "default"]
+- ["SQ", "description"]
+- !private ["SQ", "documentDirectory"]
+- !private ["SQ", "earliestKeyTime"]
+- !private ["SQ", "fileExists"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- !private ["SQ", "isReady"]
+- !private ["SQ", "listernPeerManager"]
+- !private ["SQ", "listernWallet"]
+- !private ["SQ", "littleEndian"]
+- !private ["SQ", "main"]
+- !private ["SQ", "map"]
+- !private ["SQ", "oldAddress"]
+- !private ["SQ", "path"]
+- !private ["SQ", "pathDB"]
+- !private ["SQ", "peerManager"]
+- !private ["SQ", "pointee"]
+- !private ["SQ", "print"]
+- !private ["SQ", "seedPhrase"]
+- ["SQ", "stringValue"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "timeIntervalSince1970"]
+- !private ["SQ", "url"]
+- !private ["SQ", "urls"]
+- !private ["SQ", "userDomainMask"]
+- !private ["SQ", "utf8"]
+- !private ["SQ", "wallet"]
+- !private ["SQ", "withUnsafeBytes"]
+- !private ["s5ErrorP", "init"]
+- !private ["6SQLite11ExpressibleP", "_getBuiltinLogicValue"]
+- !private ["6SQLite11ExpressibleP", "bytes"]
+- !private ["6SQLite11ExpressibleP", "count"]
+- !private ["6SQLite11ExpressibleP", "filter"]
+- ["6SQLite11ExpressibleP", "init"]
+- ["6SQLite11ExpressibleP", "init"]
+- !private ["6SQLite11ExpressibleP", "insert"]
+- !private ["6SQLite11ExpressibleP", "update"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "userDomainMask"]
+- !private ["s25ExpressibleByArrayLiteralP", "withUnsafeBytes"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "littleEndian"]
+- !private ["s23ExpressibleByNilLiteralP", "assumingMemoryBound"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["6SQLite10ExpressionV", "init"]
+- ["6SQLite14ExpressionTypeP", "init"]
+- !private ["So13NSFileManagerC", "default"]
+- !private ["So13NSFileManagerC", "fileExists"]
+- !private ["So13NSFileManagerC", "urls"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["s17FixedWidthIntegerP", "littleEndian"]
+- !private ["SH", "BRBIP32MasterPubKey"]
+- !private ["SH", "BRBIP39DeriveKey"]
+- !private ["SH", "BRBlockRef"]
+- !private ["SH", "BRMasterPubKey"]
+- !private ["SH", "BRMerkleBlockParse"]
+- !private ["SH", "BRPeerManager"]
+- !private ["SH", "BRTransactionParse"]
+- !private ["SH", "BRTxRef"]
+- !private ["SH", "BRWallet"]
+- !private ["SH", "Bundle"]
+- !private ["SH", "CChar"]
+- !private ["SH", "Connection"]
+- !private ["SH", "FileManager"]
+- !private ["SH", "HASH"]
+- !private ["SH", "HEIGHT"]
+- !private ["SH", "Int"]
+- !private ["SH", "JSONEncoder"]
+- ["SH", "ListernerPeerManager"]
+- ["SH", "ListernerWallet"]
+- !private ["SH", "MemoryLayout"]
+- !private ["SH", "NSDate"]
+- !private ["SH", "NSError"]
+- !private ["SH", "String"]
+- !private ["SH", "TX_HASH"]
+- !private ["SH", "TX_OUT_ADDRESS"]
+- !private ["SH", "TX_OUT_AMOUNT"]
+- !private ["SH", "TX_OUT_TIME"]
+- !private ["SH", "Table"]
+- !private ["SH", "Transaction"]
+- !private ["SH", "UInt32"]
+- !private ["SH", "UInt512"]
+- !private ["SH", "UInt64"]
+- !private ["SH", "UnsafeRawPointer"]
+- !private ["SH", "Zip"]
+- ["SH", ""]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "append"]
+- !private ["SH", "appendingPathComponent"]
+- !private ["SH", "assumingMemoryBound"]
+- !private ["SH", "contains"]
+- !private ["SH", "count"]
+- ["SH", "debugDescription"]
+- !private ["SH", "default"]
+- ["SH", "description"]
+- !private ["SH", "documentDirectory"]
+- !private ["SH", "earliestKeyTime"]
+- !private ["SH", "fileExists"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- !private ["SH", "isReady"]
+- !private ["SH", "listernPeerManager"]
+- !private ["SH", "listernWallet"]
+- !private ["SH", "littleEndian"]
+- !private ["SH", "main"]
+- !private ["SH", "map"]
+- !private ["SH", "oldAddress"]
+- !private ["SH", "path"]
+- !private ["SH", "pathDB"]
+- !private ["SH", "peerManager"]
+- !private ["SH", "pointee"]
+- !private ["SH", "print"]
+- !private ["SH", "seedPhrase"]
+- ["SH", "stringValue"]
+- !private ["SH", "subscript"]
+- !private ["SH", "timeIntervalSince1970"]
+- !private ["SH", "url"]
+- !private ["SH", "urls"]
+- !private ["SH", "utf8"]
+- !private ["SH", "wallet"]
+- !private ["SH", "withUnsafeBytes"]
+- !private ["s6HasherV", "combine"]
+- !private ["Si", "init"]
+- !private ["10Foundation11JSONEncoderC", "encode"]
+- !private ["10Foundation11JSONEncoderC", "init"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s22KeyedDecodingContainerV", "decodeIfPresent"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s22KeyedEncodingContainerV", "encodeIfPresent"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encodeIfPresent"]
+- ["4Lapo20ListernerPeerManagerC", "BRBlockRef"]
+- !private ["4Lapo20ListernerPeerManagerC", "BRMerkleBlockCopy"]
+- ["4Lapo20ListernerPeerManagerC", "BRPeer"]
+- ["4Lapo20ListernerPeerManagerC", "BRPeerManagerError"]
+- ["4Lapo20ListernerPeerManagerC", "Bool"]
+- !private ["4Lapo20ListernerPeerManagerC", "Connection"]
+- !private ["4Lapo20ListernerPeerManagerC", "Table"]
+- ["4Lapo20ListernerPeerManagerC", "deinit"]
+- ["4Lapo20ListernerPeerManagerC", "init"]
+- ["4Lapo20ListernerPeerManagerC", "networkIsReachable"]
+- !private ["4Lapo20ListernerPeerManagerC", "pathDB"]
+- !private ["4Lapo20ListernerPeerManagerC", "print"]
+- ["4Lapo20ListernerPeerManagerC", "saveBlocks"]
+- ["4Lapo20ListernerPeerManagerC", "savePeers"]
+- ["4Lapo20ListernerPeerManagerC", "syncStarted"]
+- ["4Lapo20ListernerPeerManagerC", "syncStopped"]
+- ["4Lapo20ListernerPeerManagerC", "txStatusUpdate"]
+- !private ["4Lapo15ListernerWalletC", "BRTransactionSerialize"]
+- ["4Lapo15ListernerWalletC", "BRTxRef"]
+- !private ["4Lapo15ListernerWalletC", "Blob"]
+- ["4Lapo15ListernerWalletC", "Bool"]
+- !private ["4Lapo15ListernerWalletC", "Connection"]
+- !private ["4Lapo15ListernerWalletC", "Int"]
+- !private ["4Lapo15ListernerWalletC", "NSTimeIntervalSince1970"]
+- !private ["4Lapo15ListernerWalletC", "TX_COLUMN_ID"]
+- !private ["4Lapo15ListernerWalletC", "TX_HASH"]
+- !private ["4Lapo15ListernerWalletC", "TX_HEIGHT"]
+- !private ["4Lapo15ListernerWalletC", "TX_TIME_STAMP"]
+- !private ["4Lapo15ListernerWalletC", "Table"]
+- ["4Lapo15ListernerWalletC", "UInt256"]
+- ["4Lapo15ListernerWalletC", "UInt32"]
+- ["4Lapo15ListernerWalletC", "UInt64"]
+- !private ["4Lapo15ListernerWalletC", "UInt8"]
+- ["4Lapo15ListernerWalletC", "balanceChanged"]
+- ["4Lapo15ListernerWalletC", "deinit"]
+- ["4Lapo15ListernerWalletC", "init"]
+- !private ["4Lapo15ListernerWalletC", "pathDB"]
+- !private ["4Lapo15ListernerWalletC", "print"]
+- ["4Lapo15ListernerWalletC", "txAdded"]
+- ["4Lapo15ListernerWalletC", "txDeleted"]
+- ["4Lapo15ListernerWalletC", "txUpdated"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "littleEndian"]
+- !private ["s12MemoryLayoutO", "size"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["SM", "append"]
+- !private ["SM", "contains"]
+- !private ["SM", "count"]
+- !private ["SM", "init"]
+- !private ["SM", "map"]
+- !private ["SM", "subscript"]
+- !private ["SM", "withUnsafeBytes"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "timeIntervalSince1970"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "timeIntervalSince1970"]
+- !private ["So6NSDateC", "init"]
+- !private ["So6NSDateC", "timeIntervalSince1970"]
+- !private ["So7NSErrorC", "init"]
+- !private ["So8NSObjectC", "BRBIP32MasterPubKey"]
+- !private ["So8NSObjectC", "BRBIP39DeriveKey"]
+- !private ["So8NSObjectC", "BRBlockRef"]
+- !private ["So8NSObjectC", "BRMasterPubKey"]
+- !private ["So8NSObjectC", "BRMerkleBlockParse"]
+- ["So8NSObjectC", "BRPeerManager"]
+- !private ["So8NSObjectC", "BRTransactionParse"]
+- !private ["So8NSObjectC", "BRTxRef"]
+- ["So8NSObjectC", "BRWallet"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "Bundle"]
+- !private ["So8NSObjectC", "CChar"]
+- !private ["So8NSObjectC", "Connection"]
+- !private ["So8NSObjectC", "FileManager"]
+- ["So8NSObjectC", "Float"]
+- !private ["So8NSObjectC", "HASH"]
+- !private ["So8NSObjectC", "HEIGHT"]
+- !private ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "JSONEncoder"]
+- ["So8NSObjectC", "ListernerPeerManager"]
+- ["So8NSObjectC", "ListernerWallet"]
+- !private ["So8NSObjectC", "MemoryLayout"]
+- !private ["So8NSObjectC", "NSDate"]
+- !private ["So8NSObjectC", "NSError"]
+- ["So8NSObjectC", "RCTPromiseRejectBlock"]
+- ["So8NSObjectC", "RCTPromiseResolveBlock"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "TX_HASH"]
+- !private ["So8NSObjectC", "TX_OUT_ADDRESS"]
+- !private ["So8NSObjectC", "TX_OUT_AMOUNT"]
+- !private ["So8NSObjectC", "TX_OUT_TIME"]
+- !private ["So8NSObjectC", "Table"]
+- ["So8NSObjectC", "TimeInterval"]
+- !private ["So8NSObjectC", "Transaction"]
+- !private ["So8NSObjectC", "UInt32"]
+- !private ["So8NSObjectC", "UInt512"]
+- !private ["So8NSObjectC", "UInt64"]
+- !private ["So8NSObjectC", "UnsafeRawPointer"]
+- ["So8NSObjectC", "Void"]
+- !private ["So8NSObjectC", "Zip"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "connectPeers"]
+- ["So8NSObjectC", "copyDB"]
+- ["So8NSObjectC", "createWallet"]
+- !private ["So8NSObjectC", "default"]
+- ["So8NSObjectC", "earliestKeyTime"]
+- !private ["So8NSObjectC", "fileExists"]
+- ["So8NSObjectC", "getBalance"]
+- ["So8NSObjectC", "getLastBlockHeight"]
+- ["So8NSObjectC", "getReceiveAddress"]
+- ["So8NSObjectC", "getTransactions"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "isReady"]
+- ["So8NSObjectC", "lapoName"]
+- ["So8NSObjectC", "listernPeerManager"]
+- ["So8NSObjectC", "listernWallet"]
+- !private ["So8NSObjectC", "main"]
+- ["So8NSObjectC", "newTransaction"]
+- ["So8NSObjectC", "oldAddress"]
+- !private ["So8NSObjectC", "pathDB"]
+- ["So8NSObjectC", "peerManager"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "seedPhrase"]
+- ["So8NSObjectC", "setPathDB"]
+- ["So8NSObjectC", "setPhrase"]
+- !private ["So8NSObjectC", "timeIntervalSince1970"]
+- !private ["So8NSObjectC", "url"]
+- !private ["So8NSObjectC", "urls"]
+- ["So8NSObjectC", "wallet"]
+- !private ["So8NSObjectP", "BRBIP32MasterPubKey"]
+- !private ["So8NSObjectP", "BRBIP39DeriveKey"]
+- !private ["So8NSObjectP", "BRBlockRef"]
+- !private ["So8NSObjectP", "BRMasterPubKey"]
+- !private ["So8NSObjectP", "BRMerkleBlockParse"]
+- !private ["So8NSObjectP", "BRPeerManager"]
+- !private ["So8NSObjectP", "BRTransactionParse"]
+- !private ["So8NSObjectP", "BRTxRef"]
+- !private ["So8NSObjectP", "BRWallet"]
+- !private ["So8NSObjectP", "Bundle"]
+- !private ["So8NSObjectP", "CChar"]
+- !private ["So8NSObjectP", "Connection"]
+- !private ["So8NSObjectP", "FileManager"]
+- !private ["So8NSObjectP", "HASH"]
+- !private ["So8NSObjectP", "HEIGHT"]
+- !private ["So8NSObjectP", "Int"]
+- !private ["So8NSObjectP", "JSONEncoder"]
+- ["So8NSObjectP", "ListernerPeerManager"]
+- ["So8NSObjectP", "ListernerWallet"]
+- !private ["So8NSObjectP", "MemoryLayout"]
+- !private ["So8NSObjectP", "NSDate"]
+- !private ["So8NSObjectP", "NSError"]
+- !private ["So8NSObjectP", "String"]
+- !private ["So8NSObjectP", "TX_HASH"]
+- !private ["So8NSObjectP", "TX_OUT_ADDRESS"]
+- !private ["So8NSObjectP", "TX_OUT_AMOUNT"]
+- !private ["So8NSObjectP", "TX_OUT_TIME"]
+- !private ["So8NSObjectP", "Table"]
+- !private ["So8NSObjectP", "Transaction"]
+- !private ["So8NSObjectP", "UInt32"]
+- !private ["So8NSObjectP", "UInt512"]
+- !private ["So8NSObjectP", "UInt64"]
+- !private ["So8NSObjectP", "UnsafeRawPointer"]
+- !private ["So8NSObjectP", "Zip"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "default"]
+- !private ["So8NSObjectP", "earliestKeyTime"]
+- !private ["So8NSObjectP", "fileExists"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isReady"]
+- !private ["So8NSObjectP", "listernPeerManager"]
+- !private ["So8NSObjectP", "listernWallet"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "oldAddress"]
+- !private ["So8NSObjectP", "pathDB"]
+- !private ["So8NSObjectP", "peerManager"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "seedPhrase"]
+- !private ["So8NSObjectP", "timeIntervalSince1970"]
+- !private ["So8NSObjectP", "url"]
+- !private ["So8NSObjectP", "urls"]
+- !private ["So8NSObjectP", "wallet"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "timeIntervalSince1970"]
+- !private ["6SQLite6NumberP", "init"]
+- !private ["Sj", "init"]
+- !private ["Sj", "littleEndian"]
+- !private ["s9OptionSetP", "userDomainMask"]
+- !private ["Sq", "assumingMemoryBound"]
+- !private ["6SQLite9QueryTypeP", "count"]
+- !private ["6SQLite9QueryTypeP", "filter"]
+- !private ["6SQLite9QueryTypeP", "init"]
+- !private ["6SQLite9QueryTypeP", "insert"]
+- !private ["6SQLite9QueryTypeP", "update"]
+- !private ["4Lapo6RNLapoC", "BRBIP32MasterPubKey"]
+- !private ["4Lapo6RNLapoC", "BRBIP39DeriveKey"]
+- !private ["4Lapo6RNLapoC", "BRBlockRef"]
+- !private ["4Lapo6RNLapoC", "BRMasterPubKey"]
+- !private ["4Lapo6RNLapoC", "BRMerkleBlockParse"]
+- ["4Lapo6RNLapoC", "BRPeerManager"]
+- !private ["4Lapo6RNLapoC", "BRTransactionParse"]
+- !private ["4Lapo6RNLapoC", "BRTxRef"]
+- ["4Lapo6RNLapoC", "BRWallet"]
+- ["4Lapo6RNLapoC", "Bool"]
+- !private ["4Lapo6RNLapoC", "Bundle"]
+- !private ["4Lapo6RNLapoC", "CChar"]
+- !private ["4Lapo6RNLapoC", "Connection"]
+- !private ["4Lapo6RNLapoC", "FileManager"]
+- ["4Lapo6RNLapoC", "Float"]
+- !private ["4Lapo6RNLapoC", "HASH"]
+- !private ["4Lapo6RNLapoC", "HEIGHT"]
+- !private ["4Lapo6RNLapoC", "Int"]
+- !private ["4Lapo6RNLapoC", "JSONEncoder"]
+- ["4Lapo6RNLapoC", "ListernerPeerManager"]
+- ["4Lapo6RNLapoC", "ListernerWallet"]
+- !private ["4Lapo6RNLapoC", "MemoryLayout"]
+- !private ["4Lapo6RNLapoC", "NSDate"]
+- !private ["4Lapo6RNLapoC", "NSError"]
+- ["4Lapo6RNLapoC", "RCTPromiseRejectBlock"]
+- ["4Lapo6RNLapoC", "RCTPromiseResolveBlock"]
+- ["4Lapo6RNLapoC", "String"]
+- !private ["4Lapo6RNLapoC", "TX_HASH"]
+- !private ["4Lapo6RNLapoC", "TX_OUT_ADDRESS"]
+- !private ["4Lapo6RNLapoC", "TX_OUT_AMOUNT"]
+- !private ["4Lapo6RNLapoC", "TX_OUT_TIME"]
+- !private ["4Lapo6RNLapoC", "Table"]
+- ["4Lapo6RNLapoC", "TimeInterval"]
+- !private ["4Lapo6RNLapoC", "Transaction"]
+- !private ["4Lapo6RNLapoC", "UInt32"]
+- !private ["4Lapo6RNLapoC", "UInt512"]
+- !private ["4Lapo6RNLapoC", "UInt64"]
+- !private ["4Lapo6RNLapoC", "UnsafeRawPointer"]
+- ["4Lapo6RNLapoC", "Void"]
+- !private ["4Lapo6RNLapoC", "Zip"]
+- ["4Lapo6RNLapoC", "connectPeers"]
+- ["4Lapo6RNLapoC", "copyDB"]
+- ["4Lapo6RNLapoC", "createWallet"]
+- ["4Lapo6RNLapoC", "earliestKeyTime"]
+- ["4Lapo6RNLapoC", "getBalance"]
+- ["4Lapo6RNLapoC", "getLastBlockHeight"]
+- ["4Lapo6RNLapoC", "getReceiveAddress"]
+- ["4Lapo6RNLapoC", "getTransactions"]
+- ["4Lapo6RNLapoC", "init"]
+- ["4Lapo6RNLapoC", "isReady"]
+- ["4Lapo6RNLapoC", "lapoName"]
+- !private ["4Lapo6RNLapoC", "listernPeerManager"]
+- !private ["4Lapo6RNLapoC", "listernWallet"]
+- ["4Lapo6RNLapoC", "newTransaction"]
+- ["4Lapo6RNLapoC", "oldAddress"]
+- !private ["4Lapo6RNLapoC", "pathDB"]
+- ["4Lapo6RNLapoC", "peerManager"]
+- !private ["4Lapo6RNLapoC", "print"]
+- ["4Lapo6RNLapoC", "seedPhrase"]
+- ["4Lapo6RNLapoC", "setPathDB"]
+- ["4Lapo6RNLapoC", "setPhrase"]
+- ["4Lapo6RNLapoC", "wallet"]
+- !private ["Sk", "append"]
+- !private ["Sk", "contains"]
+- !private ["Sk", "count"]
+- !private ["Sk", "init"]
+- !private ["Sk", "map"]
+- !private ["Sk", "subscript"]
+- !private ["Sk", "withUnsafeBytes"]
+- !private ["Sm", "append"]
+- !private ["Sm", "contains"]
+- !private ["Sm", "count"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- !private ["Sm", "map"]
+- !private ["Sm", "subscript"]
+- !private ["Sm", "withUnsafeBytes"]
+- !private ["SY", "documentDirectory"]
+- !private ["SY", "userDomainMask"]
+- !private ["SY", "utf8"]
+- !private ["10Foundation20ReferenceConvertibleP", "appendingPathComponent"]
+- !private ["10Foundation20ReferenceConvertibleP", "path"]
+- !private ["6SQLite3RowV", "subscript"]
+- !private ["6SQLite10SchemaTypeP", "count"]
+- !private ["6SQLite10SchemaTypeP", "filter"]
+- !private ["6SQLite10SchemaTypeP", "init"]
+- !private ["6SQLite10SchemaTypeP", "insert"]
+- !private ["6SQLite10SchemaTypeP", "update"]
+- !private ["So21NSSearchPathDirectoryV", "documentDirectory"]
+- !private ["So22NSSearchPathDomainMaskV", "userDomainMask"]
+- !private ["ST", "append"]
+- !private ["ST", "contains"]
+- !private ["ST", "count"]
+- ["ST", "init"]
+- ["ST", "init"]
+- !private ["ST", "map"]
+- !private ["ST", "subscript"]
+- !private ["ST", "withUnsafeBytes"]
+- !private ["s10SetAlgebraP", "userDomainMask"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "assumingMemoryBound"]
+- !private ["Sx", "init"]
+- !private ["Sx", "littleEndian"]
+- !private ["Sx", "pointee"]
+- ["SS", "init"]
+- ["SS", "init"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- !private ["6SQLite5TableV", "count"]
+- !private ["6SQLite5TableV", "filter"]
+- !private ["6SQLite5TableV", "init"]
+- !private ["6SQLite5TableV", "insert"]
+- !private ["6SQLite5TableV", "update"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["4Lapo11TransactionV", "String"]
+- ["4Lapo11TransactionV", "UInt32"]
+- ["4Lapo11TransactionV", "UInt64"]
+- ["4Lapo11TransactionV", "address"]
+- ["4Lapo11TransactionV", "amount"]
+- ["4Lapo11TransactionV", "deinit"]
+- ["4Lapo11TransactionV", "encode"]
+- ["4Lapo11TransactionV", "init"]
+- ["4Lapo11TransactionV", "mode"]
+- ["4Lapo11TransactionV", "time"]
+- !private ["So7UInt256a", "deinit"]
+- !private ["s6UInt32V", "init"]
+- !private ["s6UInt32V", "littleEndian"]
+- !private ["So7UInt512a", "init"]
+- !private ["s6UInt64V", "init"]
+- !private ["10Foundation3URLV", "appendingPathComponent"]
+- !private ["10Foundation3URLV", "path"]
+- !private ["Sp", "pointee"]
+- !private ["SV", "assumingMemoryBound"]
+- !private ["SV", "init"]
+- !private ["SU", "init"]
+- !private ["SU", "littleEndian"]
+- !private ["6SQLite5ValueP", "_getBuiltinLogicValue"]
+- !private ["6SQLite5ValueP", "bytes"]
+- ["6SQLite5ValueP", "init"]
+- ["6SQLite5ValueP", "init"]
+- !private ["3ZipAAC", "unzipFile"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s18_BitwiseOperationsP", "littleEndian"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "contains"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "withUnsafeBytes"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "littleEndian"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "appendingPathComponent"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "path"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "contains"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "littleEndian"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "timeIntervalSince1970"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "withUnsafeBytes"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "BRBIP32MasterPubKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "BRBIP39DeriveKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "BRBlockRef"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "BRMasterPubKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "BRMerkleBlockParse"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "BRPeerManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "BRTransactionParse"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "BRTxRef"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "BRWallet"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Bundle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CChar"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Connection"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FileManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "HASH"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "HEIGHT"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Int"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "JSONEncoder"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "ListernerPeerManager"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "ListernerWallet"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MemoryLayout"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSDate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "TX_HASH"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "TX_OUT_ADDRESS"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "TX_OUT_AMOUNT"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "TX_OUT_TIME"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Table"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Transaction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UInt32"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UInt512"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UInt64"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UnsafeRawPointer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Zip"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "earliestKeyTime"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fileExists"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isReady"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "listernPeerManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "listernWallet"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "oldAddress"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pathDB"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "peerManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "seedPhrase"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "timeIntervalSince1970"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "url"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "urls"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "wallet"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "appendingPathComponent"]
+- !private ["s21_ObjectiveCBridgeableP", "assumingMemoryBound"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "littleEndian"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "path"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "withUnsafeBytes"]
+- !private ["6SQLite13_OptionalTypeP", "assumingMemoryBound"]
+- !private ["s8_PointerP", "assumingMemoryBound"]
+- !private ["s8_PointerP", "init"]
+- !private ["s8_PointerP", "pointee"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "So14BRMasterPubKeya"
+- !private "So13BRMerkleBlocka"
+- !private "4Lapo13BRPeerManagerC"
+- "4Lapo21BRPeerManagerListenerP"
+- !private "So13BRTransactiona"
+- !private "So10BRTxOutputa"
+- !private "4Lapo8BRWalletC"
+- "4Lapo16BRWalletListenerP"
+- "SK"
+- !private "Sz"
+- "6SQLite7BindingP"
+- !private "6SQLite4BlobV"
+- !private "Sb"
+- !private "So8NSBundleC"
+- "s7CVarArgP"
+- "s9CodingKeyP"
+- "Sl"
+- "SL"
+- !private "6SQLite10ConnectionC"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "s7DecoderP"
+- "SE"
+- !private "s7EncoderP"
+- !private "SS10FoundationE8EncodingV"
+- "SQ"
+- !private "s5ErrorP"
+- "6SQLite11ExpressibleP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "6SQLite10ExpressionV"
+- "6SQLite14ExpressionTypeP"
+- !private "So13NSFileManagerC"
+- !private "s17FixedWidthIntegerP"
+- "SH"
+- !private "s6HasherV"
+- !private "Si"
+- !private "10Foundation11JSONEncoderC"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- "4Lapo20ListernerPeerManagerC"
+- "4Lapo15ListernerWalletC"
+- "s25LosslessStringConvertibleP"
+- !private "s12MemoryLayoutO"
+- "s10MirrorPathP"
+- !private "SM"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So6NSDateC"
+- !private "So7NSErrorC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "6SQLite6NumberP"
+- !private "Sj"
+- !private "s9OptionSetP"
+- !private "Sq"
+- !private "6SQLite9QueryTypeP"
+- "4Lapo6RNLapoC"
+- !private "Sk"
+- "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "6SQLite3RowV"
+- !private "6SQLite10SchemaTypeP"
+- !private "So21NSSearchPathDirectoryV"
+- !private "So22NSSearchPathDomainMaskV"
+- "ST"
+- !private "s10SetAlgebraP"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- "SS"
+- "Sy"
+- !private "6SQLite5TableV"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "4Lapo11TransactionV"
+- !private "So7UInt256a"
+- !private "s6UInt32V"
+- !private "So7UInt512a"
+- !private "s6UInt64V"
+- !private "10Foundation3URLV"
+- !private "Sp"
+- !private "SV"
+- !private "SU"
+- "6SQLite5ValueP"
+- !private "3ZipAAC"
+- !private "s18_BitwiseOperationsP"
+- !private "s15_CVarArgAlignedP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "6SQLite13_OptionalTypeP"
+- !private "s8_PointerP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.apinotesc"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/SQLite.swift/SQLite.framework/Modules/SQLite.swiftmodule/i386.swiftmodule"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/Zip/Zip.framework/Modules/Zip.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/include/yoga/Yoga.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/Zip/Zip.framework/Headers/Zip-umbrella.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/SQLite.swift/SQLite.framework/Headers/SQLite.swift-umbrella.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/include/React/RCTBridge.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/include/React/RCTBridgeModule.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/include/React/RCTBorderStyle.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/include/React/RCTTextDecorationLineType.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/include/React/RCTAnimationType.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/include/React/RCTFrameUpdate.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/include/React/RCTBridgeDelegate.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/SQLite.swift/SQLite.framework/Headers/SQLite.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/SQLite.swift/SQLite.framework/Headers/SQLite-Bridging.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/include/React/RCTInvalidating.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/include/React/RCTLog.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/Zip/Zip.framework/Headers/Zip.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/Lapo-Bridging-Header.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/include/React/RCTJavaScriptLoader.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/include/React/RCTViewManager.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/include/React/RCTEventDispatcher.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/include/React/RCTDefines.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/include/React/RCTUtils.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/include/yoga/YGEnums.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/include/yoga/YGMacros.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/include/React/RCTPointerEvents.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/include/React/UIView+React.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/SQLite.swift/SQLite.framework/Headers/SQLite-Swift.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/Zip/Zip.framework/Headers/Zip-Swift.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/include/React/RCTComponent.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/include/React/RCTAssert.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/include/React/RCTConvert.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/Modules/breadwallet-core/module.modulemap"
+- "/Users/develexedev/dev/integral/Lapo/ios/Pods/Zip/Zip/minizip/module.modulemap"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/SQLite.swift/SQLite.framework/Modules/module.modulemap"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/Zip/Zip.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "485bd1f6c7cedae3895ae914861bbb15"

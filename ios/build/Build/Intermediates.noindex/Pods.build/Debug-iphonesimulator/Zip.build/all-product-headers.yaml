@@ -1,0 +1,113 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Debug-iphonesimulator/Pods_Lapo.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-Lapo-umbrella.h",
+          'external-contents': "/Users/develexedev/dev/integral/Lapo/ios/Pods/Target Support Files/Pods-Lapo/Pods-Lapo-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_Lapo-Swift.h",
+          'external-contents': "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Debug-iphonesimulator/Pods_Lapo.framework/Headers/Pods_Lapo-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Debug-iphonesimulator/Pods_Lapo.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Lapo.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Debug-iphonesimulator/SQLite.swift/SQLite.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SQLite-Bridging.h",
+          'external-contents': "/Users/develexedev/dev/integral/Lapo/ios/Pods/SQLite.swift/Sources/SQLiteObjc/include/SQLite-Bridging.h"
+        },
+        {
+          'type': 'file',
+          'name': "SQLite-Swift.h",
+          'external-contents': "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Debug-iphonesimulator/SQLite.swift/SQLite.framework/Headers/SQLite-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SQLite.h",
+          'external-contents': "/Users/develexedev/dev/integral/Lapo/ios/Pods/SQLite.swift/Sources/SQLite/SQLite.h"
+        },
+        {
+          'type': 'file',
+          'name': "SQLite.swift-umbrella.h",
+          'external-contents': "/Users/develexedev/dev/integral/Lapo/ios/Pods/Target Support Files/SQLite.swift/SQLite.swift-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Debug-iphonesimulator/SQLite.swift/SQLite.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SQLite.swift.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Debug-iphonesimulator/SQLite.swift/SQLite.framework/PrivateHeaders",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "fts3_tokenizer.h",
+          'external-contents': "/Users/develexedev/dev/integral/Lapo/ios/Pods/SQLite.swift/Sources/SQLiteObjc/fts3_tokenizer.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Debug-iphonesimulator/Zip/Zip.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Zip-Swift.h",
+          'external-contents': "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Debug-iphonesimulator/Zip/Zip.framework/Headers/Zip-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Zip-umbrella.h",
+          'external-contents': "/Users/develexedev/dev/integral/Lapo/ios/Pods/Target Support Files/Zip/Zip-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Zip.h",
+          'external-contents': "/Users/develexedev/dev/integral/Lapo/ios/Pods/Zip/Zip/Zip.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Debug-iphonesimulator/Zip/Zip.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Zip.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

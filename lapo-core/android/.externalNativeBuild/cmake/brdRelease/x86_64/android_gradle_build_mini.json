@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "/Users/develexedev/dev/integral/Lapo/node_modules/lapo-core/android/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/develexedev/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/develexedev/dev/integral/Lapo/node_modules/lapo-core/android/.externalNativeBuild/cmake/brdRelease/x86_64 --target clean"
+  ],
+  "libraries": {
+    "core-Release-x86_64": {
+      "artifactName": "core",
+      "buildCommand": "/Users/develexedev/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/develexedev/dev/integral/Lapo/node_modules/lapo-core/android/.externalNativeBuild/cmake/brdRelease/x86_64 --target core",
+      "abi": "x86_64",
+      "output": "/Users/develexedev/dev/integral/Lapo/node_modules/lapo-core/android/build/intermediates/cmake/brd/release/obj/x86_64/libcore.so"
+    }
+  }
+}

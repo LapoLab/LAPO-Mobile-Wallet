@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Alert page renders snapshots 1`] = `
+<Modal
+  animationType="fade"
+  hardwareAccelerated={false}
+  onRequestClose={[Function]}
+  transparent={true}
+  visible={false}
+>
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "rgba(0, 0, 0, 0.45)",
+        "flex": 1,
+        "flexDirection": "column",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "white",
+          "borderRadius": 12,
+          "elevation": 6,
+          "justifyContent": "center",
+          "minHeight": 180,
+          "shadowColor": "rgb(0,0,0)",
+          "shadowOffset": Object {
+            "height": 4,
+            "width": 2,
+          },
+          "shadowOpacity": 0.34,
+          "width": "80%",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "borderTopLeftRadius": 8,
+                "borderTopRightRadius": 8,
+                "padding": 24,
+                "paddingLeft": 18,
+                "paddingRight": 18,
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              null,
+              Object {
+                "padding": 20,
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#151822",
+                  "fontFamily": "sans-serif-medium",
+                  "fontSize": 19,
+                  "fontWeight": "400",
+                },
+                null,
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "paddingBottom": 24,
+                "paddingLeft": 18,
+                "paddingRight": 18,
+              },
+              Object {
+                "flex": 1,
+                "height": "100%",
+                "width": "100%",
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontSize": 16,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+              },
+              Object {
+                "borderColor": "#CCD0D5",
+                "borderTopWidth": 0.2,
+              },
+              null,
+            ]
+          }
+        />
+      </View>
+    </View>
+  </View>
+</Modal>
+`;

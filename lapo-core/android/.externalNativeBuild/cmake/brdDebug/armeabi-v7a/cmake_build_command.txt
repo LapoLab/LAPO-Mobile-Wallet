@@ -1,0 +1,17 @@
+Executable : /Users/develexedev/Library/Android/sdk/cmake/3.6.4111459/bin/cmake
+arguments : 
+-H/Users/develexedev/dev/integral/Lapo/node_modules/lapo-core/android
+-B/Users/develexedev/dev/integral/Lapo/node_modules/lapo-core/android/.externalNativeBuild/cmake/brdDebug/armeabi-v7a
+-DANDROID_ABI=armeabi-v7a
+-DANDROID_PLATFORM=android-23
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/develexedev/dev/integral/Lapo/node_modules/lapo-core/android/build/intermediates/cmake/brd/debug/obj/armeabi-v7a
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=/Users/develexedev/Library/Android/sdk/ndk-bundle
+-DCMAKE_C_FLAGS=-DBITCOIN_TESTNET=0 -DBITCOIN_DEBUG=1
+-DCMAKE_TOOLCHAIN_FILE=/Users/develexedev/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/Users/develexedev/Library/Android/sdk/cmake/3.6.4111459/bin/ninja
+-GAndroid Gradle - Ninja
+-DANDROID_TOOLCHAIN=clang
+-DANDROID_STL=gnustl_static
+jvmArgs : 
+

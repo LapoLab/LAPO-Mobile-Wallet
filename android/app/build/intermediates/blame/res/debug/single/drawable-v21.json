@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/develexedev/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/632213ddf4cda71fd9cc5099a7ce1892/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/develexedev/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/632213ddf4cda71fd9cc5099a7ce1892/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/develexedev/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/632213ddf4cda71fd9cc5099a7ce1892/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
+        "source": "/Users/develexedev/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/23331e8fe11037a127b3b92ded55724a/res/drawable-v21/notification_action_background.xml"
+    }
+]

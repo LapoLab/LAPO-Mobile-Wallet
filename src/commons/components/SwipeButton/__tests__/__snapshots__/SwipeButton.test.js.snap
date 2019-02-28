@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SwipeButton component renders snapshots default 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#BBCDEB",
+      "borderRadius": 30,
+      "flexDirection": "row",
+      "height": 64,
+      "justifyContent": "flex-start",
+      "paddingHorizontal": 10,
+      "width": "80%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 56,
+        "position": "absolute",
+        "top": 22,
+        "width": 600,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "fontFamily": "Lato-Regular",
+          "fontSize": 18,
+        }
+      }
+    >
+      SLIDE TO SEND
+    </Text>
+  </View>
+  <View
+    onMoveShouldSetResponder={[Function]}
+    onMoveShouldSetResponderCapture={[Function]}
+    onResponderEnd={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderReject={[Function]}
+    onResponderRelease={[Function]}
+    onResponderStart={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    onStartShouldSetResponderCapture={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#4183BD",
+        "borderRadius": 26,
+        "height": 52,
+        "justifyContent": "center",
+        "marginLeft": "-1%",
+        "width": 52,
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/sendButton.png",
+        }
+      }
+      style={
+        Object {
+          "resizeMode": "contain",
+          "width": 24,
+        }
+      }
+    />
+  </View>
+</View>
+`;

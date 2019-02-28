@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "24d369b90d1155b9cf1cd06e10498258"
+build_time: [1545284422, 141009000]
+inputs:
+  "/Users/develexedev/dev/integral/Lapo/ios/Pods/Zip/Zip/QuickZip.swift": [1542872654, 0]
+  "/Users/develexedev/dev/integral/Lapo/ios/Pods/Zip/Zip/Zip.swift": [1542872654, 0]
+  "/Users/develexedev/dev/integral/Lapo/ios/Pods/Zip/Zip/ZipUtilities.swift": [1542872654, 0]

@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component renders snapshots activeLight 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#4183BD",
+        "borderColor": "rgb(42, 101, 117)",
+        "borderRadius": 74,
+        "borderWidth": 8,
+        "height": 64,
+        "justifyContent": "center",
+        "marginHorizontal": 25,
+        "opacity": 1,
+        "width": "80%",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "fontFamily": "Lato-Regular",
+          "fontSize": 18,
+        }
+      }
+    >
+      Button
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Button component renders snapshots default 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#4183BD",
+        "borderColor": "#BBCDEB",
+        "borderRadius": 74,
+        "borderWidth": 8,
+        "height": 64,
+        "justifyContent": "center",
+        "marginHorizontal": 25,
+        "opacity": 1,
+        "width": "80%",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "fontFamily": "Lato-Regular",
+          "fontSize": 18,
+        }
+      }
+    >
+      Button
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Button component renders snapshots gray  1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#aeb4ba",
+        "borderColor": "#d7dee5",
+        "borderRadius": 74,
+        "borderWidth": 8,
+        "height": 64,
+        "justifyContent": "center",
+        "marginHorizontal": 25,
+        "opacity": 1,
+        "width": "80%",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "fontFamily": "Lato-Regular",
+          "fontSize": 18,
+        }
+      }
+    >
+      Button
+    </Text>
+  </View>
+</View>
+`;

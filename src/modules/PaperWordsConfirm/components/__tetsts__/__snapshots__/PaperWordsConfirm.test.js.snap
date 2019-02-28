@@ -1,0 +1,303 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PaperWordsConfirm page renders snapshots 1`] = `
+<BVLinearGradient
+  colors={
+    Array [
+      -12483651,
+      -16172276,
+    ]
+  }
+  endPoint={
+    Object {
+      "x": 1.2,
+      "y": 1.2,
+    }
+  }
+  locations={
+    Array [
+      0,
+      1,
+    ]
+  }
+  startPoint={
+    Object {
+      "x": -0.1,
+      "y": -0.1,
+    }
+  }
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RCTSafeAreaView
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      onLayout={[Function]}
+      style={
+        Object {
+          "flex": 1,
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "height": 30,
+            "justifyContent": "flex-start",
+            "marginTop": 20,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../src/assets/back.png",
+              }
+            }
+            style={
+              Object {
+                "flex": 1,
+                "marginLeft": 12,
+                "resizeMode": "contain",
+                "width": 12,
+              }
+            }
+          />
+        </View>
+        <Text
+          style={
+            Object {
+              "alignItems": "center",
+              "color": "white",
+              "flex": 1,
+              "fontFamily": "Lato-Regular",
+              "fontSize": 22,
+              "marginRight": 24,
+              "textAlign": "center",
+            }
+          }
+        >
+          Confirm words
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "height": 50,
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/indicator4.png",
+            }
+          }
+          style={
+            Object {
+              "height": 20,
+              "resizeMode": "contain",
+            }
+          }
+        />
+      </View>
+      <RCTScrollView>
+        <View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "height": 120,
+                "justifyContent": "center",
+                "paddingHorizontal": 25,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontFamily": "Lato-Light",
+                  "fontSize": 20,
+                  "textAlign": "center",
+                }
+              }
+            >
+              To make sure everything was written down correctly, please enter the following words from your paper key.
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flexDirection": "column",
+                "padding": 25,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "column",
+                  "marginBottom": 20,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "white",
+                    "fontFamily": "Lato-Regular",
+                    "fontSize": 20,
+                    "marginTop": 10,
+                  }
+                }
+              >
+                Word #2
+              </Text>
+              <TextInput
+                allowFontScaling={true}
+                onChangeText={[Function]}
+                style={
+                  Object {
+                    "borderBottomWidth": 1,
+                    "borderColor": "white",
+                    "color": "white",
+                    "fontFamily": "Lato-Regular",
+                    "fontSize": 20,
+                    "height": 40,
+                    "marginTop": 10,
+                    "paddingBottom": 5,
+                    "width": "100%",
+                  }
+                }
+                underlineColorAndroid="transparent"
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "flexDirection": "column",
+                  "marginBottom": 20,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "white",
+                    "fontFamily": "Lato-Regular",
+                    "fontSize": 20,
+                    "marginTop": 10,
+                  }
+                }
+              >
+                Word #8
+              </Text>
+              <TextInput
+                allowFontScaling={true}
+                onChangeText={[Function]}
+                style={
+                  Object {
+                    "borderBottomWidth": 1,
+                    "borderColor": "white",
+                    "color": "white",
+                    "fontFamily": "Lato-Regular",
+                    "fontSize": 20,
+                    "height": 40,
+                    "marginTop": 10,
+                    "paddingBottom": 5,
+                    "width": "100%",
+                  }
+                }
+                underlineColorAndroid="transparent"
+              />
+            </View>
+          </View>
+        </View>
+      </RCTScrollView>
+      <View
+        style={
+          Object {
+            "height": 100,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#4183BD",
+                "borderColor": "rgb(42, 101, 117)",
+                "borderRadius": 74,
+                "borderWidth": 8,
+                "height": 64,
+                "justifyContent": "center",
+                "marginHorizontal": 25,
+                "opacity": 1,
+                "width": "80%",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontFamily": "Lato-Regular",
+                  "fontSize": 18,
+                }
+              }
+            >
+              VERIFY IT!
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTSafeAreaView>
+</BVLinearGradient>
+`;

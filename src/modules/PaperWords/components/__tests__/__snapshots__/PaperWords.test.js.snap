@@ -1,0 +1,368 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PaperWords page renders snapshots 1`] = `
+<BVLinearGradient
+  colors={
+    Array [
+      -12483651,
+      -16172276,
+    ]
+  }
+  endPoint={
+    Object {
+      "x": 1.2,
+      "y": 1.2,
+    }
+  }
+  locations={
+    Array [
+      0,
+      1,
+    ]
+  }
+  startPoint={
+    Object {
+      "x": -0.1,
+      "y": -0.1,
+    }
+  }
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RCTSafeAreaView
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 30,
+          "justifyContent": "space-between",
+          "marginTop": 20,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/back.png",
+            }
+          }
+          style={
+            Object {
+              "marginLeft": 12,
+              "resizeMode": "contain",
+              "width": 12,
+            }
+          }
+        />
+      </View>
+      <Text
+        style={
+          Object {
+            "alignItems": "center",
+            "color": "white",
+            "fontFamily": "Lato-Regular",
+            "fontSize": 22,
+            "marginLeft": 30,
+            "paddingLeft": 10,
+            "textAlign": "center",
+          }
+        }
+      >
+        Paper key
+      </Text>
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "white",
+              "marginRight": 12,
+            }
+          }
+        >
+          Save to pdf
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 50,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/indicator3.png",
+          }
+        }
+        style={
+          Object {
+            "height": 20,
+            "resizeMode": "contain",
+          }
+        }
+      />
+    </View>
+    <RCTScrollView>
+      <View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "height": 180,
+              "justifyContent": "center",
+              "paddingHorizontal": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "white",
+                "fontFamily": "Lato-Light",
+                "fontSize": 20,
+                "marginTop": 20,
+                "textAlign": "center",
+              }
+            }
+          >
+            Your paper key is the only way to restore your LAPO Mobile wallet if your phone is lost, stolen, broken or upgraded.
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "white",
+                "fontFamily": "Lato-Light",
+                "fontSize": 20,
+                "marginTop": 20,
+                "textAlign": "center",
+              }
+            }
+          >
+            We will show you a list of words to write down in this exactly order on a piece of paper and keep safe.
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "column",
+              "height": 200,
+              "marginTop": 10,
+              "paddingHorizontal": 20,
+              "paddingVertical": 20,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-around",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#0C3841",
+                  "borderRadius": 8,
+                  "justifyContent": "center",
+                  "marginVertical": 5,
+                  "paddingHorizontal": 10,
+                  "paddingVertical": 5,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "white",
+                    "fontFamily": "Lato-Bold",
+                    "fontSize": 14,
+                  }
+                }
+              >
+                1.  
+                123
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#0C3841",
+                  "borderRadius": 8,
+                  "justifyContent": "center",
+                  "marginVertical": 5,
+                  "paddingHorizontal": 10,
+                  "paddingVertical": 5,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "white",
+                    "fontFamily": "Lato-Bold",
+                    "fontSize": 14,
+                  }
+                }
+              >
+                2.  
+                234
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#0C3841",
+                  "borderRadius": 8,
+                  "justifyContent": "center",
+                  "marginVertical": 5,
+                  "paddingHorizontal": 10,
+                  "paddingVertical": 5,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "white",
+                    "fontFamily": "Lato-Bold",
+                    "fontSize": 14,
+                  }
+                }
+              >
+                3.  
+                345
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-around",
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-around",
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-around",
+              }
+            }
+          />
+        </View>
+      </View>
+    </RCTScrollView>
+    <View
+      style={
+        Object {
+          "height": 100,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "justifyContent": "center",
+          }
+        }
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#4183BD",
+              "borderColor": "rgb(42, 101, 117)",
+              "borderRadius": 74,
+              "borderWidth": 8,
+              "height": 64,
+              "justifyContent": "center",
+              "marginHorizontal": 25,
+              "opacity": 1,
+              "width": "80%",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "white",
+                "fontFamily": "Lato-Regular",
+                "fontSize": 18,
+              }
+            }
+          >
+            OK, I NOTED IT
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTSafeAreaView>
+</BVLinearGradient>
+`;

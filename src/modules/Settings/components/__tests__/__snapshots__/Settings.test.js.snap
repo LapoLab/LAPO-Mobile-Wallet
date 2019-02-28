@@ -1,0 +1,404 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Settings page renders snapshots 1`] = `
+<BVLinearGradient
+  colors={
+    Array [
+      -12483651,
+      -16172276,
+    ]
+  }
+  endPoint={
+    Object {
+      "x": 1.2,
+      "y": 1.2,
+    }
+  }
+  locations={
+    Array [
+      0.04,
+      0.96,
+    ]
+  }
+  startPoint={
+    Object {
+      "x": -0.1,
+      "y": -0.1,
+    }
+  }
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RCTSafeAreaView
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 30,
+          "justifyContent": "flex-start",
+          "marginTop": 20,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/back.png",
+            }
+          }
+          style={
+            Object {
+              "flex": 1,
+              "marginLeft": 12,
+              "resizeMode": "contain",
+              "width": 12,
+            }
+          }
+        />
+      </View>
+      <Text
+        style={
+          Object {
+            "alignItems": "center",
+            "color": "white",
+            "flex": 1,
+            "fontFamily": "Lato-Bold",
+            "fontSize": 18,
+            "marginRight": 24,
+            "textAlign": "center",
+          }
+        }
+      >
+        App settings
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "flex-start",
+          "flexDirection": "column",
+          "justifyContent": "center",
+          "marginTop": 50,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "height": 100,
+            "justifyContent": "center",
+            "opacity": 1,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/restore.png",
+            }
+          }
+          style={
+            Object {
+              "height": 48,
+              "resizeMode": "contain",
+              "width": 100,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "column",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "white",
+                "fontFamily": "Lato-Bold",
+                "fontSize": 20,
+              }
+            }
+          >
+            Restore wallet
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "white",
+                "fontFamily": "Lato-Light",
+                "fontSize": 16,
+                "marginTop": 5,
+              }
+            }
+          >
+            Restore a wallet that you previously created
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "borderTopColor": "#C9C9C9",
+            "borderTopWidth": 1,
+            "width": "100%",
+          }
+        }
+      />
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "height": 100,
+            "justifyContent": "center",
+            "opacity": 1,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/backupIcon.png",
+            }
+          }
+          style={
+            Object {
+              "height": 48,
+              "resizeMode": "contain",
+              "width": 100,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "column",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "white",
+                "fontFamily": "Lato-Bold",
+                "fontSize": 20,
+              }
+            }
+          >
+            Backup wallet
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "white",
+                "fontFamily": "Lato-Light",
+                "fontSize": 16,
+                "marginTop": 5,
+              }
+            }
+          >
+            Backup your wallet
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "borderTopColor": "#C9C9C9",
+            "borderTopWidth": 1,
+            "width": "100%",
+          }
+        }
+      />
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "height": 100,
+            "justifyContent": "center",
+            "opacity": 1,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/reset.png",
+            }
+          }
+          style={
+            Object {
+              "height": 48,
+              "resizeMode": "contain",
+              "width": 100,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "column",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "white",
+                "fontFamily": "Lato-Bold",
+                "fontSize": 20,
+              }
+            }
+          >
+            Reset the blockchain
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "white",
+                "fontFamily": "Lato-Light",
+                "fontSize": 16,
+                "marginTop": 5,
+              }
+            }
+          >
+            Reset the blockchain data stored locally
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "borderTopColor": "#C9C9C9",
+            "borderTopWidth": 1,
+            "width": "100%",
+          }
+        }
+      />
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "height": 100,
+            "justifyContent": "center",
+            "opacity": 1,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/printPaperWords.png",
+            }
+          }
+          style={
+            Object {
+              "height": 48,
+              "resizeMode": "contain",
+              "width": 100,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "column",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "white",
+                "fontFamily": "Lato-Bold",
+                "fontSize": 20,
+              }
+            }
+          >
+            Print paper wallet
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "white",
+                "fontFamily": "Lato-Light",
+                "fontSize": 16,
+                "marginTop": 5,
+              }
+            }
+          >
+            Save in PDF or print your paper wallet
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTSafeAreaView>
+</BVLinearGradient>
+`;

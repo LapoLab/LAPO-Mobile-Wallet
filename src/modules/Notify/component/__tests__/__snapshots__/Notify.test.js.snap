@@ -1,0 +1,282 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotifyWidget page renders snapshots transactopns empty 1`] = `
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "height": "100%",
+      "left": 0,
+      "position": "absolute",
+      "right": 0,
+      "top": 0,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "padding": 5,
+        "position": "absolute",
+        "right": 15,
+        "top": 50,
+        "zIndex": 10,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderRadius": 5,
+          "elevation": 4,
+          "maxHeight": 500,
+          "minHeight": 60,
+          "shadowColor": "rgb(0,0,0)",
+          "shadowOffset": Object {
+            "height": 4,
+            "width": 2,
+          },
+          "shadowOpacity": 0.34,
+          "width": 260,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Text>
+          no notifications
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`NotifyWidget page renders snapshots with transactopns 1`] = `
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "height": "100%",
+      "left": 0,
+      "position": "absolute",
+      "right": 0,
+      "top": 0,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "padding": 5,
+        "position": "absolute",
+        "right": 15,
+        "top": 50,
+        "zIndex": 10,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderRadius": 5,
+          "elevation": 4,
+          "maxHeight": 500,
+          "minHeight": 60,
+          "shadowColor": "rgb(0,0,0)",
+          "shadowOffset": Object {
+            "height": 4,
+            "width": 2,
+          },
+          "shadowOpacity": 0.34,
+          "width": 260,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "height": 35,
+              "padding": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontFamily": "Lato-Bold",
+                "fontSize": 14,
+              }
+            }
+          >
+            Clear all transactions
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "borderTopColor": "#E4E4E4",
+              "borderTopWidth": 1,
+            }
+          }
+        />
+      </View>
+      <RCTScrollView
+        contentContainerStyle={
+          Object {
+            "paddingBottom": 40,
+          }
+        }
+        data={
+          Array [
+            Object {
+              "address": "address",
+              "amount": 123,
+              "id": "id",
+              "mode": "out",
+              "time": 100,
+            },
+          ]
+        }
+        disableVirtualization={false}
+        getItem={[Function]}
+        getItemCount={[Function]}
+        horizontal={false}
+        initialNumToRender={10}
+        keyExtractor={[Function]}
+        maxToRenderPerBatch={10}
+        numColumns={1}
+        onContentSizeChange={[Function]}
+        onEndReachedThreshold={2}
+        onLayout={[Function]}
+        onMomentumScrollEnd={[Function]}
+        onScroll={[Function]}
+        onScrollBeginDrag={[Function]}
+        onScrollEndDrag={[Function]}
+        renderItem={[Function]}
+        scrollEventThrottle={50}
+        stickyHeaderIndices={Array []}
+        updateCellsBatchingPeriod={50}
+        viewabilityConfigCallbackPairs={Array []}
+        windowSize={21}
+      >
+        <View>
+          <View
+            onLayout={[Function]}
+            style={null}
+          >
+            <View
+              accessible={true}
+              isTVSelectable={true}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "height": 75,
+                    "padding": 10,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "fontFamily": "Lato-Bold",
+                      "fontSize": 18,
+                    }
+                  }
+                >
+                  Incoming transaction
+                </Text>
+                <Text
+                  style={
+                    Object {
+                      "fontFamily": "Lato-Light",
+                      "fontSize": 12,
+                      "marginTop": 3,
+                    }
+                  }
+                >
+                  + 
+                  0.000123
+                   
+                  LAX
+                </Text>
+                <Text
+                  style={
+                    Object {
+                      "fontFamily": "Lato-Light",
+                      "fontSize": 10,
+                      "marginTop": 2,
+                    }
+                  }
+                >
+                  address
+                </Text>
+              </View>
+              <View
+                style={
+                  Object {
+                    "borderTopColor": "#E4E4E4",
+                    "borderTopWidth": 1,
+                  }
+                }
+              />
+            </View>
+          </View>
+        </View>
+      </RCTScrollView>
+    </View>
+  </View>
+</View>
+`;

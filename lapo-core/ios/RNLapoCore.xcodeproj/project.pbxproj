@@ -1,0 +1,1477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F53262D218AB61E00A883A7 /* Lyra2.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F532625218AB61D00A883A7 /* Lyra2.c */; };
+		5F53262E218AB61E00A883A7 /* Sponge.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F532627218AB61D00A883A7 /* Sponge.c */; };
+		5F53262F218AB61E00A883A7 /* blake.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F532628218AB61D00A883A7 /* blake.c */; };
+		5F532630218AB61E00A883A7 /* uint256.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F53262A218AB61E00A883A7 /* uint256.c */; };
+		5F72486A2182FB4500A02E65 /* RNLapoCoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7248692182FB4400A02E65 /* RNLapoCoreManager.swift */; };
+		5FE9862F2189994300D61AB7 /* BRCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE9862E2189994300D61AB7 /* BRCore.swift */; };
+		5FF50E312185D68E000DC27B /* BRBech32.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF50CE52185D68C000DC27B /* BRBech32.c */; };
+		5FF50E322185D68E000DC27B /* BRSet.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF50CF12185D68C000DC27B /* BRSet.c */; };
+		5FF50E332185D68E000DC27B /* BRPaymentProtocol.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF50CF22185D68C000DC27B /* BRPaymentProtocol.c */; };
+		5FF50E342185D68E000DC27B /* BRAddress.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF50CF32185D68C000DC27B /* BRAddress.c */; };
+		5FF50E352185D68E000DC27B /* BRBIP32Sequence.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF50CF42185D68C000DC27B /* BRBIP32Sequence.c */; };
+		5FF50E362185D68E000DC27B /* BRWallet.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF50CF52185D68C000DC27B /* BRWallet.c */; };
+		5FF50E372185D68E000DC27B /* BRKeyECIES.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF50CF62185D68C000DC27B /* BRKeyECIES.c */; };
+		5FF50E382185D68E000DC27B /* BRBIP38Key.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF50CF72185D68C000DC27B /* BRBIP38Key.c */; };
+		5FF50E5C2185D68E000DC27B /* BRKey.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF50D3B2185D68C000DC27B /* BRKey.c */; };
+		5FF50E702185D68E000DC27B /* BRPeer.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF50DA12185D68D000DC27B /* BRPeer.c */; };
+		5FF50E712185D68E000DC27B /* BRMerkleBlock.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF50DA22185D68D000DC27B /* BRMerkleBlock.c */; };
+		5FF50E722185D68E000DC27B /* BRTransaction.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF50DA32185D68D000DC27B /* BRTransaction.c */; };
+		5FF50E732185D68E000DC27B /* BRCrypto.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF50DA42185D68D000DC27B /* BRCrypto.c */; };
+		5FF50E742185D68E000DC27B /* BRBIP39Mnemonic.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF50DA52185D68D000DC27B /* BRBIP39Mnemonic.c */; };
+		5FF50E752185D68E000DC27B /* BRBase58.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF50DAA2185D68D000DC27B /* BRBase58.c */; };
+		5FF50E762185D68E000DC27B /* BRBloomFilter.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF50DAC2185D68D000DC27B /* BRBloomFilter.c */; };
+		5FF50E782185D68E000DC27B /* BRBCashAddr.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF50DB22185D68D000DC27B /* BRBCashAddr.c */; };
+		5FF50E792185D68E000DC27B /* BRPeerManager.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF50DB52185D68D000DC27B /* BRPeerManager.c */; };
+		5FF50E7A2185D68E000DC27B /* BREthereumTransaction.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF50DB72185D68D000DC27B /* BREthereumTransaction.c */; };
+		5FF50E7B2185D68E000DC27B /* BREthereumLightNodeAnnounce.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF50DBD2185D68D000DC27B /* BREthereumLightNodeAnnounce.c */; };
+		5FF50E7C2185D68E000DC27B /* BREthereumBloomFilter.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF50DBE2185D68D000DC27B /* BREthereumBloomFilter.c */; };
+		5FF50E7D2185D68E000DC27B /* BREthereumNetwork.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF50DBF2185D68D000DC27B /* BREthereumNetwork.c */; };
+		5FF50E7E2185D68E000DC27B /* BRUtilMath.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF50DC32185D68D000DC27B /* BRUtilMath.c */; };
+		5FF50E7F2185D68E000DC27B /* BRUtilMathParse.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF50DC42185D68D000DC27B /* BRUtilMathParse.c */; };
+		5FF50E802185D68E000DC27B /* BRUtilHex.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF50DC62185D68D000DC27B /* BRUtilHex.c */; };
+		5FF50E812185D68E000DC27B /* BREthereumHash.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF50DC92185D68D000DC27B /* BREthereumHash.c */; };
+		5FF50E832185D68E000DC27B /* BREthereumContract.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF50DCB2185D68D000DC27B /* BREthereumContract.c */; };
+		5FF50E842185D68E000DC27B /* BREthereumTransactionReceipt.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF50DCC2185D68D000DC27B /* BREthereumTransactionReceipt.c */; };
+		5FF50E852185D68E000DC27B /* BREthereumWallet.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF50DCD2185D68D000DC27B /* BREthereumWallet.c */; };
+		5FF50E932185D68E000DC27B /* BRRlpCoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF50DF32185D68D000DC27B /* BRRlpCoder.c */; };
+		5FF50E942185D68E000DC27B /* BREthereumAccountState.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF50DF42185D68D000DC27B /* BREthereumAccountState.c */; };
+		5FF50E952185D68E000DC27B /* BREthereumEther.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF50DF52185D68D000DC27B /* BREthereumEther.c */; };
+		5FF50E962185D68E000DC27B /* BREthereumLog.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF50DF62185D68D000DC27B /* BREthereumLog.c */; };
+		5FF50E972185D68E000DC27B /* BREthereumAccount.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF50DF72185D68D000DC27B /* BREthereumAccount.c */; };
+		5FF50E982185D68E000DC27B /* BREthereumLightNodeListen.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF50DF92185D68D000DC27B /* BREthereumLightNodeListen.c */; };
+		5FF50E992185D68E000DC27B /* BREthereumGas.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF50DFA2185D68D000DC27B /* BREthereumGas.c */; };
+		5FF50E9B2185D68E000DC27B /* BREthereumHandshake.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF50E082185D68D000DC27B /* BREthereumHandshake.c */; };
+		5FF50E9C2185D68E000DC27B /* BREthereumNodeManager.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF50E0D2185D68D000DC27B /* BREthereumNodeManager.c */; };
+		5FF50E9D2185D68E000DC27B /* BREthereumLES.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF50E0E2185D68D000DC27B /* BREthereumLES.c */; };
+		5FF50E9F2185D68E000DC27B /* BREthereumNodeEventHandler.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF50E122185D68D000DC27B /* BREthereumNodeEventHandler.c */; };
+		5FF50EA02185D68E000DC27B /* BREthereumFrameCoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF50E132185D68D000DC27B /* BREthereumFrameCoder.c */; };
+		5FF50EA12185D68E000DC27B /* BREthereumNode.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF50E142185D68D000DC27B /* BREthereumNode.c */; };
+		5FF50EA22185D68E000DC27B /* BREthereumLESBase.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF50E152185D68D000DC27B /* BREthereumLESBase.c */; };
+		5FF50EA32185D68E000DC27B /* BREthereumLightNode.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF50E192185D68D000DC27B /* BREthereumLightNode.c */; };
+		5FF50EA42185D68E000DC27B /* BREthereumToken.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF50E1C2185D68D000DC27B /* BREthereumToken.c */; };
+		5FF50EA62185D68E000DC27B /* BREthereumBlock.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF50E1E2185D68D000DC27B /* BREthereumBlock.c */; };
+		5FF50EA72185D68E000DC27B /* BREthereum.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF50E232185D68D000DC27B /* BREthereum.c */; };
+		5FF50EA82185D68E000DC27B /* BREvent.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF50E252185D68D000DC27B /* BREvent.c */; };
+		5FF50EA92185D68E000DC27B /* BREventQueue.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF50E282185D68D000DC27B /* BREventQueue.c */; };
+		5FF50EAA2185D68E000DC27B /* BREthereumAmount.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF50E292185D68D000DC27B /* BREthereumAmount.c */; };
+		5FF50EF52185E0F2000DC27B /* RNLapoCore.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNLapoCore.m */; };
+		5FF50EF82185E0F7000DC27B /* RNLapoCore-Bridging-Header.h in Sources */ = {isa = PBXBuildFile; fileRef = 5F7248682182FB4400A02E65 /* RNLapoCore-Bridging-Header.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5FF509092185D4F0000DC27B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58B511D31A9E6C8500147676 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FF509002185D484000DC27B;
+			remoteInfo = BRCore;
+		};
+		5FF50E2D2185D68D000DC27B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FF50E012185D68D000DC27B /* ethereum.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3C5EC1EE2049A74B0096AD24;
+			remoteInfo = ethereum;
+		};
+		5FF50E2F2185D68D000DC27B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FF50E012185D68D000DC27B /* ethereum.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3C5EC1F72049A74C0096AD24;
+			remoteInfo = ethereumTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		58B511D91A9E6C8500147676 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FF509042185D484000DC27B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		134814201AA4EA6300B7C361 /* libRNLapoCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNLapoCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F532622218AB61D00A883A7 /* uint256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uint256.h; sourceTree = "<group>"; };
+		5F532625218AB61D00A883A7 /* Lyra2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Lyra2.c; sourceTree = "<group>"; };
+		5F532626218AB61D00A883A7 /* sph_blake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sph_blake.h; sourceTree = "<group>"; };
+		5F532627218AB61D00A883A7 /* Sponge.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Sponge.c; sourceTree = "<group>"; };
+		5F532628218AB61D00A883A7 /* blake.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = blake.c; sourceTree = "<group>"; };
+		5F532629218AB61D00A883A7 /* Sponge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sponge.h; sourceTree = "<group>"; };
+		5F53262A218AB61E00A883A7 /* uint256.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uint256.c; sourceTree = "<group>"; };
+		5F53262B218AB61E00A883A7 /* Lyra2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lyra2.h; sourceTree = "<group>"; };
+		5F53262C218AB61E00A883A7 /* sph_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sph_types.h; sourceTree = "<group>"; };
+		5F7248672182FB3900A02E65 /* RNLapoCore-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNLapoCore-Bridging-Header.h"; sourceTree = "<group>"; };
+		5F7248682182FB4400A02E65 /* RNLapoCore-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNLapoCore-Bridging-Header.h"; sourceTree = "<group>"; };
+		5F7248692182FB4400A02E65 /* RNLapoCoreManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNLapoCoreManager.swift; sourceTree = "<group>"; };
+		5FE9862E2189994300D61AB7 /* BRCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BRCore.swift; sourceTree = "<group>"; };
+		5FF509082185D484000DC27B /* libBRCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBRCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FF50CE42185D68C000DC27B /* BRBIP39Mnemonic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRBIP39Mnemonic.h; sourceTree = "<group>"; };
+		5FF50CE52185D68C000DC27B /* BRBech32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BRBech32.c; sourceTree = "<group>"; };
+		5FF50CE62185D68C000DC27B /* BRTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRTransaction.h; sourceTree = "<group>"; };
+		5FF50CE72185D68C000DC27B /* BRCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRCrypto.h; sourceTree = "<group>"; };
+		5FF50CE82185D68C000DC27B /* BRMerkleBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRMerkleBlock.h; sourceTree = "<group>"; };
+		5FF50CE92185D68C000DC27B /* BRPeer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRPeer.h; sourceTree = "<group>"; };
+		5FF50CEA2185D68C000DC27B /* BRArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRArray.h; sourceTree = "<group>"; };
+		5FF50CEB2185D68C000DC27B /* BRKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRKey.h; sourceTree = "<group>"; };
+		5FF50CEC2185D68C000DC27B /* BRInt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRInt.h; sourceTree = "<group>"; };
+		5FF50CED2185D68C000DC27B /* BRBloomFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRBloomFilter.h; sourceTree = "<group>"; };
+		5FF50CEE2185D68C000DC27B /* BRChainParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRChainParams.h; sourceTree = "<group>"; };
+		5FF50CEF2185D68C000DC27B /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		5FF50CF02185D68C000DC27B /* BRBase58.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRBase58.h; sourceTree = "<group>"; };
+		5FF50CF12185D68C000DC27B /* BRSet.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BRSet.c; sourceTree = "<group>"; };
+		5FF50CF22185D68C000DC27B /* BRPaymentProtocol.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BRPaymentProtocol.c; sourceTree = "<group>"; };
+		5FF50CF32185D68C000DC27B /* BRAddress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BRAddress.c; sourceTree = "<group>"; };
+		5FF50CF42185D68C000DC27B /* BRBIP32Sequence.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BRBIP32Sequence.c; sourceTree = "<group>"; };
+		5FF50CF52185D68C000DC27B /* BRWallet.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BRWallet.c; sourceTree = "<group>"; };
+		5FF50CF62185D68C000DC27B /* BRKeyECIES.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BRKeyECIES.c; sourceTree = "<group>"; };
+		5FF50CF72185D68C000DC27B /* BRBIP38Key.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BRBIP38Key.c; sourceTree = "<group>"; };
+		5FF50CF92185D68C000DC27B /* BRCoreJni.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRCoreJni.h; sourceTree = "<group>"; };
+		5FF50CFA2185D68C000DC27B /* com_breadwallet_core_BRCorePeer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = com_breadwallet_core_BRCorePeer.c; sourceTree = "<group>"; };
+		5FF50CFB2185D68C000DC27B /* com_breadwallet_core_BRCoreKey.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = com_breadwallet_core_BRCoreKey.c; sourceTree = "<group>"; };
+		5FF50CFC2185D68C000DC27B /* com_breadwallet_core_BRCoreWallet.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = com_breadwallet_core_BRCoreWallet.c; sourceTree = "<group>"; };
+		5FF50CFD2185D68C000DC27B /* com_breadwallet_core_BRCorePaymentProtocol.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = com_breadwallet_core_BRCorePaymentProtocol.c; sourceTree = "<group>"; };
+		5FF50CFE2185D68C000DC27B /* com_breadwallet_core_BRCorePeerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_breadwallet_core_BRCorePeerManager.h; sourceTree = "<group>"; };
+		5FF50CFF2185D68C000DC27B /* com_breadwallet_core_BRCoreMasterPubKey.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = com_breadwallet_core_BRCoreMasterPubKey.c; sourceTree = "<group>"; };
+		5FF50D002185D68C000DC27B /* com_breadwallet_core_BRCoreJniReference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_breadwallet_core_BRCoreJniReference.h; sourceTree = "<group>"; };
+		5FF50D012185D68C000DC27B /* com_breadwallet_core_BRCoreAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_breadwallet_core_BRCoreAddress.h; sourceTree = "<group>"; };
+		5FF50D022185D68C000DC27B /* com_breadwallet_core_BRCorePaymentProtocolInvoiceRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_breadwallet_core_BRCorePaymentProtocolInvoiceRequest.h; sourceTree = "<group>"; };
+		5FF50D032185D68C000DC27B /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		5FF50D042185D68C000DC27B /* com_breadwallet_core_BRCoreChainParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_breadwallet_core_BRCoreChainParams.h; sourceTree = "<group>"; };
+		5FF50D052185D68C000DC27B /* com_breadwallet_core_BRCorePaymentProtocolPaymentACK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_breadwallet_core_BRCorePaymentProtocolPaymentACK.h; sourceTree = "<group>"; };
+		5FF50D062185D68C000DC27B /* com_breadwallet_core_BRCoreMerkleBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_breadwallet_core_BRCoreMerkleBlock.h; sourceTree = "<group>"; };
+		5FF50D072185D68C000DC27B /* com_breadwallet_core_BRCorePaymentProtocolPayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_breadwallet_core_BRCorePaymentProtocolPayment.h; sourceTree = "<group>"; };
+		5FF50D082185D68C000DC27B /* com_breadwallet_core_BRCoreTransactionInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_breadwallet_core_BRCoreTransactionInput.h; sourceTree = "<group>"; };
+		5FF50D092185D68C000DC27B /* com_breadwallet_core_BRCoreTransactionOutput.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = com_breadwallet_core_BRCoreTransactionOutput.c; sourceTree = "<group>"; };
+		5FF50D0A2185D68C000DC27B /* com_breadwallet_core_BRCorePaymentProtocolMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_breadwallet_core_BRCorePaymentProtocolMessage.h; sourceTree = "<group>"; };
+		5FF50D0B2185D68C000DC27B /* com_breadwallet_core_BRCorePaymentProtocolACK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_breadwallet_core_BRCorePaymentProtocolACK.h; sourceTree = "<group>"; };
+		5FF50D0C2185D68C000DC27B /* com_breadwallet_core_BRCoreTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_breadwallet_core_BRCoreTransaction.h; sourceTree = "<group>"; };
+		5FF50D0D2185D68C000DC27B /* com_breadwallet_core_BRCorePeerManager.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = com_breadwallet_core_BRCorePeerManager.c; sourceTree = "<group>"; };
+		5FF50D0E2185D68C000DC27B /* com_breadwallet_core_BRCorePaymentProtocolEncryptedMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_breadwallet_core_BRCorePaymentProtocolEncryptedMessage.h; sourceTree = "<group>"; };
+		5FF50D0F2185D68C000DC27B /* com_breadwallet_core_BRCorePaymentProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_breadwallet_core_BRCorePaymentProtocol.h; sourceTree = "<group>"; };
+		5FF50D102185D68C000DC27B /* com_breadwallet_core_BRCoreWallet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_breadwallet_core_BRCoreWallet.h; sourceTree = "<group>"; };
+		5FF50D112185D68C000DC27B /* com_breadwallet_core_BRCoreKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_breadwallet_core_BRCoreKey.h; sourceTree = "<group>"; };
+		5FF50D122185D68C000DC27B /* Notes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Notes; sourceTree = "<group>"; };
+		5FF50D132185D68C000DC27B /* BRCoreJni.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BRCoreJni.c; sourceTree = "<group>"; };
+		5FF50D142185D68C000DC27B /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		5FF50D152185D68C000DC27B /* com_breadwallet_core_BRCorePeer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_breadwallet_core_BRCorePeer.h; sourceTree = "<group>"; };
+		5FF50D162185D68C000DC27B /* com_breadwallet_core_BRCorePaymentProtocolRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_breadwallet_core_BRCorePaymentProtocolRequest.h; sourceTree = "<group>"; };
+		5FF50D1B2185D68C000DC27B /* BRCoreMerkleBlock.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = BRCoreMerkleBlock.java; sourceTree = "<group>"; };
+		5FF50D1C2185D68C000DC27B /* BRCoreWalletManager.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = BRCoreWalletManager.java; sourceTree = "<group>"; };
+		5FF50D1D2185D68C000DC27B /* BRCorePaymentProtocolPayment.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = BRCorePaymentProtocolPayment.java; sourceTree = "<group>"; };
+		5FF50D1E2185D68C000DC27B /* BRCoreAddress.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = BRCoreAddress.java; sourceTree = "<group>"; };
+		5FF50D202185D68C000DC27B /* BRWalletManager.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = BRWalletManager.java; sourceTree = "<group>"; };
+		5FF50D212185D68C000DC27B /* BRCorePaymentProtocolMessage.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = BRCorePaymentProtocolMessage.java; sourceTree = "<group>"; };
+		5FF50D222185D68C000DC27B /* BRCoreKey.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = BRCoreKey.java; sourceTree = "<group>"; };
+		5FF50D232185D68C000DC27B /* BRCoreJniReference.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = BRCoreJniReference.java; sourceTree = "<group>"; };
+		5FF50D242185D68C000DC27B /* BRCoreChainParams.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = BRCoreChainParams.java; sourceTree = "<group>"; };
+		5FF50D252185D68C000DC27B /* BRCorePaymentProtocolRequest.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = BRCorePaymentProtocolRequest.java; sourceTree = "<group>"; };
+		5FF50D262185D68C000DC27B /* BRCorePaymentProtocolACK.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = BRCorePaymentProtocolACK.java; sourceTree = "<group>"; };
+		5FF50D272185D68C000DC27B /* BRCoreTransactionInput.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = BRCoreTransactionInput.java; sourceTree = "<group>"; };
+		5FF50D282185D68C000DC27B /* BRCorePaymentProtocolInvoiceRequest.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = BRCorePaymentProtocolInvoiceRequest.java; sourceTree = "<group>"; };
+		5FF50D292185D68C000DC27B /* BRCoreTransactionOutput.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = BRCoreTransactionOutput.java; sourceTree = "<group>"; };
+		5FF50D2A2185D68C000DC27B /* BRCorePeer.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = BRCorePeer.java; sourceTree = "<group>"; };
+		5FF50D2B2185D68C000DC27B /* BRCoreWallet.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = BRCoreWallet.java; sourceTree = "<group>"; };
+		5FF50D2C2185D68C000DC27B /* BRCorePaymentProtocolEncryptedMessage.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = BRCorePaymentProtocolEncryptedMessage.java; sourceTree = "<group>"; };
+		5FF50D2D2185D68C000DC27B /* BRCoreTransaction.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = BRCoreTransaction.java; sourceTree = "<group>"; };
+		5FF50D2E2185D68C000DC27B /* BRCorePeerManager.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = BRCorePeerManager.java; sourceTree = "<group>"; };
+		5FF50D2F2185D68C000DC27B /* BRCoreMasterPubKey.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = BRCoreMasterPubKey.java; sourceTree = "<group>"; };
+		5FF50D302185D68C000DC27B /* com_breadwallet_core_BRCoreJniReference.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = com_breadwallet_core_BRCoreJniReference.c; sourceTree = "<group>"; };
+		5FF50D312185D68C000DC27B /* com_breadwallet_core_BRCoreMasterPubKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_breadwallet_core_BRCoreMasterPubKey.h; sourceTree = "<group>"; };
+		5FF50D322185D68C000DC27B /* com_breadwallet_core_BRCoreChainParams.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = com_breadwallet_core_BRCoreChainParams.c; sourceTree = "<group>"; };
+		5FF50D332185D68C000DC27B /* com_breadwallet_core_BRCoreAddress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = com_breadwallet_core_BRCoreAddress.c; sourceTree = "<group>"; };
+		5FF50D342185D68C000DC27B /* com_breadwallet_core_BRCoreTransaction.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = com_breadwallet_core_BRCoreTransaction.c; sourceTree = "<group>"; };
+		5FF50D352185D68C000DC27B /* com_breadwallet_core_BRCoreTransactionOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_breadwallet_core_BRCoreTransactionOutput.h; sourceTree = "<group>"; };
+		5FF50D362185D68C000DC27B /* com_breadwallet_core_BRCoreTransactionInput.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = com_breadwallet_core_BRCoreTransactionInput.c; sourceTree = "<group>"; };
+		5FF50D372185D68C000DC27B /* com_breadwallet_core_BRCorePaymentProtocolDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_breadwallet_core_BRCorePaymentProtocolDetails.h; sourceTree = "<group>"; };
+		5FF50D382185D68C000DC27B /* com_breadwallet_core_BRCoreMerkleBlock.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = com_breadwallet_core_BRCoreMerkleBlock.c; sourceTree = "<group>"; };
+		5FF50D392185D68C000DC27B /* BRPeerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRPeerManager.h; sourceTree = "<group>"; };
+		5FF50D3A2185D68C000DC27B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5FF50D3B2185D68C000DC27B /* BRKey.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BRKey.c; sourceTree = "<group>"; };
+		5FF50D3F2185D68C000DC27B /* bitcoin_secp.m4 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bitcoin_secp.m4; sourceTree = "<group>"; };
+		5FF50D402185D68C000DC27B /* ax_prog_cc_for_build.m4 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ax_prog_cc_for_build.m4; sourceTree = "<group>"; };
+		5FF50D412185D68C000DC27B /* ax_jni_include_dir.m4 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ax_jni_include_dir.m4; sourceTree = "<group>"; };
+		5FF50D422185D68C000DC27B /* configure.ac */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = configure.ac; sourceTree = "<group>"; };
+		5FF50D442185D68C000DC27B /* secp256k1_ecdh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secp256k1_ecdh.h; sourceTree = "<group>"; };
+		5FF50D452185D68C000DC27B /* secp256k1_recovery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secp256k1_recovery.h; sourceTree = "<group>"; };
+		5FF50D462185D68C000DC27B /* secp256k1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secp256k1.h; sourceTree = "<group>"; };
+		5FF50D482185D68C000DC27B /* lax_der_parsing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lax_der_parsing.h; sourceTree = "<group>"; };
+		5FF50D492185D68C000DC27B /* lax_der_privatekey_parsing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lax_der_privatekey_parsing.c; sourceTree = "<group>"; };
+		5FF50D4A2185D68C000DC27B /* lax_der_parsing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lax_der_parsing.c; sourceTree = "<group>"; };
+		5FF50D4B2185D68C000DC27B /* lax_der_privatekey_parsing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lax_der_privatekey_parsing.h; sourceTree = "<group>"; };
+		5FF50D4C2185D68C000DC27B /* libsecp256k1.pc.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libsecp256k1.pc.in; sourceTree = "<group>"; };
+		5FF50D4D2185D68C000DC27B /* TODO */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
+		5FF50D4E2185D68C000DC27B /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		5FF50D4F2185D68C000DC27B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5FF50D502185D68C000DC27B /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		5FF50D522185D68C000DC27B /* weierstrass_prover.sage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = weierstrass_prover.sage; sourceTree = "<group>"; };
+		5FF50D532185D68C000DC27B /* secp256k1.sage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = secp256k1.sage; sourceTree = "<group>"; };
+		5FF50D542185D68C000DC27B /* group_prover.sage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = group_prover.sage; sourceTree = "<group>"; };
+		5FF50D552185D68C000DC27B /* autogen.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = autogen.sh; sourceTree = "<group>"; };
+		5FF50D572185D68C000DC27B /* scalar_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scalar_impl.h; sourceTree = "<group>"; };
+		5FF50D582185D68C000DC27B /* field_10x26_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = field_10x26_impl.h; sourceTree = "<group>"; };
+		5FF50D592185D68C000DC27B /* testrand_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testrand_impl.h; sourceTree = "<group>"; };
+		5FF50D5B2185D68C000DC27B /* field_10x26_arm.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = field_10x26_arm.s; sourceTree = "<group>"; };
+		5FF50D5C2185D68C000DC27B /* scratch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scratch.h; sourceTree = "<group>"; };
+		5FF50D5D2185D68C000DC27B /* ecmult_gen_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecmult_gen_impl.h; sourceTree = "<group>"; };
+		5FF50D5E2185D68C000DC27B /* field_10x26.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = field_10x26.h; sourceTree = "<group>"; };
+		5FF50D5F2185D68C000DC27B /* scalar_8x32_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scalar_8x32_impl.h; sourceTree = "<group>"; };
+		5FF50D602185D68C000DC27B /* field_5x52.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = field_5x52.h; sourceTree = "<group>"; };
+		5FF50D612185D68C000DC27B /* num_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = num_impl.h; sourceTree = "<group>"; };
+		5FF50D622185D68C000DC27B /* bench_recover.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bench_recover.c; sourceTree = "<group>"; };
+		5FF50D632185D68C000DC27B /* field.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = field.h; sourceTree = "<group>"; };
+		5FF50D642185D68C000DC27B /* bench.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bench.h; sourceTree = "<group>"; };
+		5FF50D652185D68C000DC27B /* field_5x52_asm_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = field_5x52_asm_impl.h; sourceTree = "<group>"; };
+		5FF50D662185D68C000DC27B /* field_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = field_impl.h; sourceTree = "<group>"; };
+		5FF50D672185D68C000DC27B /* scalar_4x64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scalar_4x64.h; sourceTree = "<group>"; };
+		5FF50D682185D68C000DC27B /* basic-config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "basic-config.h"; sourceTree = "<group>"; };
+		5FF50D692185D68C000DC27B /* num.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = num.h; sourceTree = "<group>"; };
+		5FF50D6A2185D68C000DC27B /* field_5x52_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = field_5x52_impl.h; sourceTree = "<group>"; };
+		5FF50D6B2185D68C000DC27B /* ecmult_const_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecmult_const_impl.h; sourceTree = "<group>"; };
+		5FF50D6C2185D68C000DC27B /* secp256k1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = secp256k1.c; sourceTree = "<group>"; };
+		5FF50D6D2185D68C000DC27B /* ecdsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecdsa.h; sourceTree = "<group>"; };
+		5FF50D6F2185D68C000DC27B /* org_bitcoin_NativeSecp256k1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = org_bitcoin_NativeSecp256k1.c; sourceTree = "<group>"; };
+		5FF50D722185D68C000DC27B /* NativeSecp256k1.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = NativeSecp256k1.java; sourceTree = "<group>"; };
+		5FF50D732185D68C000DC27B /* NativeSecp256k1Test.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = NativeSecp256k1Test.java; sourceTree = "<group>"; };
+		5FF50D742185D68C000DC27B /* Secp256k1Context.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Secp256k1Context.java; sourceTree = "<group>"; };
+		5FF50D752185D68D000DC27B /* NativeSecp256k1Util.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = NativeSecp256k1Util.java; sourceTree = "<group>"; };
+		5FF50D762185D68D000DC27B /* org_bitcoin_Secp256k1Context.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = org_bitcoin_Secp256k1Context.h; sourceTree = "<group>"; };
+		5FF50D772185D68D000DC27B /* org_bitcoin_NativeSecp256k1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = org_bitcoin_NativeSecp256k1.h; sourceTree = "<group>"; };
+		5FF50D782185D68D000DC27B /* org_bitcoin_Secp256k1Context.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = org_bitcoin_Secp256k1Context.c; sourceTree = "<group>"; };
+		5FF50D792185D68D000DC27B /* tests_exhaustive.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tests_exhaustive.c; sourceTree = "<group>"; };
+		5FF50D7A2185D68D000DC27B /* scalar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scalar.h; sourceTree = "<group>"; };
+		5FF50D7B2185D68D000DC27B /* ecdsa_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecdsa_impl.h; sourceTree = "<group>"; };
+		5FF50D7C2185D68D000DC27B /* ecmult_gen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecmult_gen.h; sourceTree = "<group>"; };
+		5FF50D7D2185D68D000DC27B /* scalar_low_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scalar_low_impl.h; sourceTree = "<group>"; };
+		5FF50D7E2185D68D000DC27B /* hash_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hash_impl.h; sourceTree = "<group>"; };
+		5FF50D7F2185D68D000DC27B /* ecmult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecmult.h; sourceTree = "<group>"; };
+		5FF50D802185D68D000DC27B /* scratch_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scratch_impl.h; sourceTree = "<group>"; };
+		5FF50D812185D68D000DC27B /* bench_sign.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bench_sign.c; sourceTree = "<group>"; };
+		5FF50D822185D68D000DC27B /* ecmult_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecmult_impl.h; sourceTree = "<group>"; };
+		5FF50D832185D68D000DC27B /* group.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = group.h; sourceTree = "<group>"; };
+		5FF50D842185D68D000DC27B /* bench_verify.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bench_verify.c; sourceTree = "<group>"; };
+		5FF50D852185D68D000DC27B /* tests.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tests.c; sourceTree = "<group>"; };
+		5FF50D862185D68D000DC27B /* gen_context.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gen_context.c; sourceTree = "<group>"; };
+		5FF50D872185D68D000DC27B /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		5FF50D882185D68D000DC27B /* field_5x52_int128_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = field_5x52_int128_impl.h; sourceTree = "<group>"; };
+		5FF50D892185D68D000DC27B /* scalar_4x64_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scalar_4x64_impl.h; sourceTree = "<group>"; };
+		5FF50D8A2185D68D000DC27B /* bench_ecdh.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bench_ecdh.c; sourceTree = "<group>"; };
+		5FF50D8B2185D68D000DC27B /* group_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = group_impl.h; sourceTree = "<group>"; };
+		5FF50D8C2185D68D000DC27B /* ecmult_const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecmult_const.h; sourceTree = "<group>"; };
+		5FF50D8D2185D68D000DC27B /* bench_internal.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bench_internal.c; sourceTree = "<group>"; };
+		5FF50D902185D68D000DC27B /* Makefile.am.include */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am.include; sourceTree = "<group>"; };
+		5FF50D912185D68D000DC27B /* tests_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tests_impl.h; sourceTree = "<group>"; };
+		5FF50D922185D68D000DC27B /* main_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main_impl.h; sourceTree = "<group>"; };
+		5FF50D942185D68D000DC27B /* Makefile.am.include */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am.include; sourceTree = "<group>"; };
+		5FF50D952185D68D000DC27B /* tests_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tests_impl.h; sourceTree = "<group>"; };
+		5FF50D962185D68D000DC27B /* main_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main_impl.h; sourceTree = "<group>"; };
+		5FF50D972185D68D000DC27B /* num_gmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = num_gmp.h; sourceTree = "<group>"; };
+		5FF50D982185D68D000DC27B /* hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hash.h; sourceTree = "<group>"; };
+		5FF50D992185D68D000DC27B /* eckey_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eckey_impl.h; sourceTree = "<group>"; };
+		5FF50D9A2185D68D000DC27B /* bench_ecmult.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bench_ecmult.c; sourceTree = "<group>"; };
+		5FF50D9B2185D68D000DC27B /* testrand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testrand.h; sourceTree = "<group>"; };
+		5FF50D9C2185D68D000DC27B /* num_gmp_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = num_gmp_impl.h; sourceTree = "<group>"; };
+		5FF50D9D2185D68D000DC27B /* scalar_8x32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scalar_8x32.h; sourceTree = "<group>"; };
+		5FF50D9E2185D68D000DC27B /* scalar_low.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scalar_low.h; sourceTree = "<group>"; };
+		5FF50D9F2185D68D000DC27B /* eckey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eckey.h; sourceTree = "<group>"; };
+		5FF50DA02185D68D000DC27B /* BRBIP39WordsEn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRBIP39WordsEn.h; sourceTree = "<group>"; };
+		5FF50DA12185D68D000DC27B /* BRPeer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BRPeer.c; sourceTree = "<group>"; };
+		5FF50DA22185D68D000DC27B /* BRMerkleBlock.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BRMerkleBlock.c; sourceTree = "<group>"; };
+		5FF50DA32185D68D000DC27B /* BRTransaction.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BRTransaction.c; sourceTree = "<group>"; };
+		5FF50DA42185D68D000DC27B /* BRCrypto.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BRCrypto.c; sourceTree = "<group>"; };
+		5FF50DA52185D68D000DC27B /* BRBIP39Mnemonic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BRBIP39Mnemonic.c; sourceTree = "<group>"; };
+		5FF50DA62185D68D000DC27B /* BRBech32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRBech32.h; sourceTree = "<group>"; };
+		5FF50DA72185D68D000DC27B /* BRBIP32Sequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRBIP32Sequence.h; sourceTree = "<group>"; };
+		5FF50DA82185D68D000DC27B /* BRAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRAddress.h; sourceTree = "<group>"; };
+		5FF50DA92185D68D000DC27B /* BRPaymentProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRPaymentProtocol.h; sourceTree = "<group>"; };
+		5FF50DAA2185D68D000DC27B /* BRBase58.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BRBase58.c; sourceTree = "<group>"; };
+		5FF50DAB2185D68D000DC27B /* BRSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRSet.h; sourceTree = "<group>"; };
+		5FF50DAC2185D68D000DC27B /* BRBloomFilter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BRBloomFilter.c; sourceTree = "<group>"; };
+		5FF50DAD2185D68D000DC27B /* test.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = test.c; sourceTree = "<group>"; };
+		5FF50DAE2185D68D000DC27B /* BRKeyECIES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRKeyECIES.h; sourceTree = "<group>"; };
+		5FF50DAF2185D68D000DC27B /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		5FF50DB12185D68D000DC27B /* BRBCashParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRBCashParams.h; sourceTree = "<group>"; };
+		5FF50DB22185D68D000DC27B /* BRBCashAddr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BRBCashAddr.c; sourceTree = "<group>"; };
+		5FF50DB32185D68D000DC27B /* BRBCashAddr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRBCashAddr.h; sourceTree = "<group>"; };
+		5FF50DB42185D68D000DC27B /* BRWallet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRWallet.h; sourceTree = "<group>"; };
+		5FF50DB52185D68D000DC27B /* BRPeerManager.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BRPeerManager.c; sourceTree = "<group>"; };
+		5FF50DB72185D68D000DC27B /* BREthereumTransaction.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BREthereumTransaction.c; sourceTree = "<group>"; };
+		5FF50DB82185D68D000DC27B /* BREthereumLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BREthereumLog.h; sourceTree = "<group>"; };
+		5FF50DB92185D68D000DC27B /* BREthereumEther.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BREthereumEther.h; sourceTree = "<group>"; };
+		5FF50DBA2185D68D000DC27B /* BREthereumAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BREthereumAccount.h; sourceTree = "<group>"; };
+		5FF50DBB2185D68D000DC27B /* BREthereumAccountState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BREthereumAccountState.h; sourceTree = "<group>"; };
+		5FF50DBC2185D68D000DC27B /* BREthereumToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BREthereumToken.h; sourceTree = "<group>"; };
+		5FF50DBD2185D68D000DC27B /* BREthereumLightNodeAnnounce.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BREthereumLightNodeAnnounce.c; sourceTree = "<group>"; };
+		5FF50DBE2185D68D000DC27B /* BREthereumBloomFilter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BREthereumBloomFilter.c; sourceTree = "<group>"; };
+		5FF50DBF2185D68D000DC27B /* BREthereumNetwork.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BREthereumNetwork.c; sourceTree = "<group>"; };
+		5FF50DC12185D68D000DC27B /* BRUtilMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRUtilMath.h; sourceTree = "<group>"; };
+		5FF50DC22185D68D000DC27B /* BRUtilHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRUtilHex.h; sourceTree = "<group>"; };
+		5FF50DC32185D68D000DC27B /* BRUtilMath.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BRUtilMath.c; sourceTree = "<group>"; };
+		5FF50DC42185D68D000DC27B /* BRUtilMathParse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BRUtilMathParse.c; sourceTree = "<group>"; };
+		5FF50DC52185D68D000DC27B /* BRUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRUtil.h; sourceTree = "<group>"; };
+		5FF50DC62185D68D000DC27B /* BRUtilHex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BRUtilHex.c; sourceTree = "<group>"; };
+		5FF50DC72185D68D000DC27B /* BREthereumLightNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BREthereumLightNode.h; sourceTree = "<group>"; };
+		5FF50DC82185D68D000DC27B /* BREthereumGas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BREthereumGas.h; sourceTree = "<group>"; };
+		5FF50DC92185D68D000DC27B /* BREthereumHash.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BREthereumHash.c; sourceTree = "<group>"; };
+		5FF50DCA2185D68D000DC27B /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		5FF50DCB2185D68D000DC27B /* BREthereumContract.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BREthereumContract.c; sourceTree = "<group>"; };
+		5FF50DCC2185D68D000DC27B /* BREthereumTransactionReceipt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BREthereumTransactionReceipt.c; sourceTree = "<group>"; };
+		5FF50DCD2185D68D000DC27B /* BREthereumWallet.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BREthereumWallet.c; sourceTree = "<group>"; };
+		5FF50DCE2185D68D000DC27B /* BREthereumPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BREthereumPrivate.h; sourceTree = "<group>"; };
+		5FF50DCF2185D68D000DC27B /* BREthereumBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BREthereumBlock.h; sourceTree = "<group>"; };
+		5FF50DD02185D68D000DC27B /* BREthereumAmount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BREthereumAmount.h; sourceTree = "<group>"; };
+		5FF50DD22185D68D000DC27B /* com_breadwallet_core_ethereum_BREthereumNetwork.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = com_breadwallet_core_ethereum_BREthereumNetwork.c; sourceTree = "<group>"; };
+		5FF50DD32185D68D000DC27B /* com_breadwallet_core_ethereum_BREthereumBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_breadwallet_core_ethereum_BREthereumBlock.h; sourceTree = "<group>"; };
+		5FF50DD42185D68D000DC27B /* com_breadwallet_core_ethereum_BREthereumLightNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_breadwallet_core_ethereum_BREthereumLightNode.h; sourceTree = "<group>"; };
+		5FF50DD52185D68D000DC27B /* com_breadwallet_core_ethereum_BREthereumAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_breadwallet_core_ethereum_BREthereumAccount.h; sourceTree = "<group>"; };
+		5FF50DD62185D68D000DC27B /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		5FF50DD72185D68D000DC27B /* com_breadwallet_core_ethereum_BREthereumToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_breadwallet_core_ethereum_BREthereumToken.h; sourceTree = "<group>"; };
+		5FF50DD82185D68D000DC27B /* com_breadwallet_core_ethereum_BREthereumAmount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_breadwallet_core_ethereum_BREthereumAmount.h; sourceTree = "<group>"; };
+		5FF50DD92185D68D000DC27B /* com_breadwallet_core_ethereum_BREthereumTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_breadwallet_core_ethereum_BREthereumTransaction.h; sourceTree = "<group>"; };
+		5FF50DDA2185D68D000DC27B /* Notes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Notes; sourceTree = "<group>"; };
+		5FF50DDB2185D68D000DC27B /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		5FF50DDC2185D68D000DC27B /* com_breadwallet_core_ethereum_BREthereumNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_breadwallet_core_ethereum_BREthereumNetwork.h; sourceTree = "<group>"; };
+		5FF50DDD2185D68D000DC27B /* com_breadwallet_core_ethereum_BREthereumLightNode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = com_breadwallet_core_ethereum_BREthereumLightNode.c; sourceTree = "<group>"; };
+		5FF50DE32185D68D000DC27B /* BREthereumWallet.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = BREthereumWallet.java; sourceTree = "<group>"; };
+		5FF50DE52185D68D000DC27B /* BREthereumLightNodeClientTest.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = BREthereumLightNodeClientTest.java; sourceTree = "<group>"; };
+		5FF50DE62185D68D000DC27B /* BREthereumTransaction.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = BREthereumTransaction.java; sourceTree = "<group>"; };
+		5FF50DE72185D68D000DC27B /* BREthereumLightNode.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = BREthereumLightNode.java; sourceTree = "<group>"; };
+		5FF50DE82185D68D000DC27B /* BREthereumAccount.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = BREthereumAccount.java; sourceTree = "<group>"; };
+		5FF50DE92185D68D000DC27B /* BREthereumNetwork.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = BREthereumNetwork.java; sourceTree = "<group>"; };
+		5FF50DEA2185D68D000DC27B /* BREthereumToken.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = BREthereumToken.java; sourceTree = "<group>"; };
+		5FF50DEB2185D68D000DC27B /* BREthereumBlock.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = BREthereumBlock.java; sourceTree = "<group>"; };
+		5FF50DEC2185D68D000DC27B /* BREthereumAmount.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = BREthereumAmount.java; sourceTree = "<group>"; };
+		5FF50DED2185D68D000DC27B /* com_breadwallet_core_ethereum_BREthereumToken.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = com_breadwallet_core_ethereum_BREthereumToken.c; sourceTree = "<group>"; };
+		5FF50DEE2185D68D000DC27B /* com_breadwallet_core_ethereum_BREthereumWallet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_breadwallet_core_ethereum_BREthereumWallet.h; sourceTree = "<group>"; };
+		5FF50DEF2185D68D000DC27B /* BREthereum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BREthereum.h; sourceTree = "<group>"; };
+		5FF50DF12185D68D000DC27B /* BRRlp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRRlp.h; sourceTree = "<group>"; };
+		5FF50DF22185D68D000DC27B /* BRRlpCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRRlpCoder.h; sourceTree = "<group>"; };
+		5FF50DF32185D68D000DC27B /* BRRlpCoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BRRlpCoder.c; sourceTree = "<group>"; };
+		5FF50DF42185D68D000DC27B /* BREthereumAccountState.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BREthereumAccountState.c; sourceTree = "<group>"; };
+		5FF50DF52185D68D000DC27B /* BREthereumEther.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BREthereumEther.c; sourceTree = "<group>"; };
+		5FF50DF62185D68D000DC27B /* BREthereumLog.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BREthereumLog.c; sourceTree = "<group>"; };
+		5FF50DF72185D68D000DC27B /* BREthereumAccount.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BREthereumAccount.c; sourceTree = "<group>"; };
+		5FF50DF82185D68D000DC27B /* BREthereumTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BREthereumTransaction.h; sourceTree = "<group>"; };
+		5FF50DF92185D68D000DC27B /* BREthereumLightNodeListen.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BREthereumLightNodeListen.c; sourceTree = "<group>"; };
+		5FF50DFA2185D68D000DC27B /* BREthereumGas.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BREthereumGas.c; sourceTree = "<group>"; };
+		5FF50DFC2185D68D000DC27B /* ethereum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ethereum.h; sourceTree = "<group>"; };
+		5FF50DFE2185D68D000DC27B /* ethereumTests-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ethereumTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		5FF50DFF2185D68D000DC27B /* ethereumTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ethereumTests.swift; sourceTree = "<group>"; };
+		5FF50E002185D68D000DC27B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FF50E012185D68D000DC27B /* ethereum.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = ethereum.xcodeproj; sourceTree = "<group>"; };
+		5FF50E042185D68D000DC27B /* Notes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Notes; sourceTree = "<group>"; };
+		5FF50E052185D68D000DC27B /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		5FF50E062185D68D000DC27B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FF50E082185D68D000DC27B /* BREthereumHandshake.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BREthereumHandshake.c; sourceTree = "<group>"; };
+		5FF50E092185D68D000DC27B /* BREthereumNodeEventHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BREthereumNodeEventHandler.h; sourceTree = "<group>"; };
+		5FF50E0A2185D68D000DC27B /* test-les.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "test-les.h"; sourceTree = "<group>"; };
+		5FF50E0B2185D68D000DC27B /* BREthereumNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BREthereumNode.h; sourceTree = "<group>"; };
+		5FF50E0C2185D68D000DC27B /* BREthereumFrameCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BREthereumFrameCoder.h; sourceTree = "<group>"; };
+		5FF50E0D2185D68D000DC27B /* BREthereumNodeManager.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BREthereumNodeManager.c; sourceTree = "<group>"; };
+		5FF50E0E2185D68D000DC27B /* BREthereumLES.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BREthereumLES.c; sourceTree = "<group>"; };
+		5FF50E0F2185D68D000DC27B /* BREthereumLESBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BREthereumLESBase.h; sourceTree = "<group>"; };
+		5FF50E102185D68D000DC27B /* BREthereumHandshake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BREthereumHandshake.h; sourceTree = "<group>"; };
+		5FF50E112185D68D000DC27B /* test-les.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "test-les.c"; sourceTree = "<group>"; };
+		5FF50E122185D68D000DC27B /* BREthereumNodeEventHandler.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BREthereumNodeEventHandler.c; sourceTree = "<group>"; };
+		5FF50E132185D68D000DC27B /* BREthereumFrameCoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BREthereumFrameCoder.c; sourceTree = "<group>"; };
+		5FF50E142185D68D000DC27B /* BREthereumNode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BREthereumNode.c; sourceTree = "<group>"; };
+		5FF50E152185D68D000DC27B /* BREthereumLESBase.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BREthereumLESBase.c; sourceTree = "<group>"; };
+		5FF50E162185D68D000DC27B /* BREthereumLES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BREthereumLES.h; sourceTree = "<group>"; };
+		5FF50E172185D68D000DC27B /* BREthereumNodeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BREthereumNodeManager.h; sourceTree = "<group>"; };
+		5FF50E182185D68D000DC27B /* BREthereumNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BREthereumNetwork.h; sourceTree = "<group>"; };
+		5FF50E192185D68D000DC27B /* BREthereumLightNode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BREthereumLightNode.c; sourceTree = "<group>"; };
+		5FF50E1A2185D68D000DC27B /* BREthereumBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BREthereumBase.h; sourceTree = "<group>"; };
+		5FF50E1B2185D68D000DC27B /* BREthereumBloomFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BREthereumBloomFilter.h; sourceTree = "<group>"; };
+		5FF50E1C2185D68D000DC27B /* BREthereumToken.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BREthereumToken.c; sourceTree = "<group>"; };
+		5FF50E1D2185D68D000DC27B /* test.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = test.c; sourceTree = "<group>"; };
+		5FF50E1E2185D68D000DC27B /* BREthereumBlock.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BREthereumBlock.c; sourceTree = "<group>"; };
+		5FF50E1F2185D68D000DC27B /* BREthereumLightNodePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BREthereumLightNodePrivate.h; sourceTree = "<group>"; };
+		5FF50E202185D68D000DC27B /* BREthereumTransactionReceipt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BREthereumTransactionReceipt.h; sourceTree = "<group>"; };
+		5FF50E212185D68D000DC27B /* BREthereumContract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BREthereumContract.h; sourceTree = "<group>"; };
+		5FF50E222185D68D000DC27B /* BREthereumWallet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BREthereumWallet.h; sourceTree = "<group>"; };
+		5FF50E232185D68D000DC27B /* BREthereum.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BREthereum.c; sourceTree = "<group>"; };
+		5FF50E252185D68D000DC27B /* BREvent.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BREvent.c; sourceTree = "<group>"; };
+		5FF50E262185D68D000DC27B /* BREventQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BREventQueue.h; sourceTree = "<group>"; };
+		5FF50E272185D68D000DC27B /* BREvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BREvent.h; sourceTree = "<group>"; };
+		5FF50E282185D68D000DC27B /* BREventQueue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BREventQueue.c; sourceTree = "<group>"; };
+		5FF50E292185D68D000DC27B /* BREthereumAmount.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BREthereumAmount.c; sourceTree = "<group>"; };
+		5FF50E2A2185D68D000DC27B /* BRBIP38Key.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRBIP38Key.h; sourceTree = "<group>"; };
+		B3E7B5891CC2AC0600A0062D /* RNLapoCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNLapoCore.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58B511D81A9E6C8500147676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FF509032185D484000DC27B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		134814211AA4EA7D00B7C361 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				134814201AA4EA6300B7C361 /* libRNLapoCore.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58B511D21A9E6C8500147676 = {
+			isa = PBXGroup;
+			children = (
+				5FE9862E2189994300D61AB7 /* BRCore.swift */,
+				5FF50CE22185D68C000DC27B /* Modules */,
+				5F7248692182FB4400A02E65 /* RNLapoCoreManager.swift */,
+				5F7248672182FB3900A02E65 /* RNLapoCore-Bridging-Header.h */,
+				B3E7B5891CC2AC0600A0062D /* RNLapoCore.m */,
+				134814211AA4EA7D00B7C361 /* Products */,
+				5F7248682182FB4400A02E65 /* RNLapoCore-Bridging-Header.h */,
+				5FF509082185D484000DC27B /* libBRCore.a */,
+			);
+			sourceTree = "<group>";
+		};
+		5FF50CE22185D68C000DC27B /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				5FF50CE32185D68C000DC27B /* breadwallet-core */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		5FF50CE32185D68C000DC27B /* breadwallet-core */ = {
+			isa = PBXGroup;
+			children = (
+				5F532628218AB61D00A883A7 /* blake.c */,
+				5F532625218AB61D00A883A7 /* Lyra2.c */,
+				5F53262B218AB61E00A883A7 /* Lyra2.h */,
+				5F532626218AB61D00A883A7 /* sph_blake.h */,
+				5F53262C218AB61E00A883A7 /* sph_types.h */,
+				5F532627218AB61D00A883A7 /* Sponge.c */,
+				5F532629218AB61D00A883A7 /* Sponge.h */,
+				5F53262A218AB61E00A883A7 /* uint256.c */,
+				5F532622218AB61D00A883A7 /* uint256.h */,
+				5FF50CE42185D68C000DC27B /* BRBIP39Mnemonic.h */,
+				5FF50CE52185D68C000DC27B /* BRBech32.c */,
+				5FF50CE62185D68C000DC27B /* BRTransaction.h */,
+				5FF50CE72185D68C000DC27B /* BRCrypto.h */,
+				5FF50CE82185D68C000DC27B /* BRMerkleBlock.h */,
+				5FF50CE92185D68C000DC27B /* BRPeer.h */,
+				5FF50CEA2185D68C000DC27B /* BRArray.h */,
+				5FF50CEB2185D68C000DC27B /* BRKey.h */,
+				5FF50CEC2185D68C000DC27B /* BRInt.h */,
+				5FF50CED2185D68C000DC27B /* BRBloomFilter.h */,
+				5FF50CEE2185D68C000DC27B /* BRChainParams.h */,
+				5FF50CEF2185D68C000DC27B /* LICENSE */,
+				5FF50CF02185D68C000DC27B /* BRBase58.h */,
+				5FF50CF12185D68C000DC27B /* BRSet.c */,
+				5FF50CF22185D68C000DC27B /* BRPaymentProtocol.c */,
+				5FF50CF32185D68C000DC27B /* BRAddress.c */,
+				5FF50CF42185D68C000DC27B /* BRBIP32Sequence.c */,
+				5FF50CF52185D68C000DC27B /* BRWallet.c */,
+				5FF50CF62185D68C000DC27B /* BRKeyECIES.c */,
+				5FF50CF72185D68C000DC27B /* BRBIP38Key.c */,
+				5FF50CF82185D68C000DC27B /* Java */,
+				5FF50D392185D68C000DC27B /* BRPeerManager.h */,
+				5FF50D3A2185D68C000DC27B /* README.md */,
+				5FF50D3B2185D68C000DC27B /* BRKey.c */,
+				5FF50D3C2185D68C000DC27B /* secp256k1 */,
+				5FF50DA02185D68D000DC27B /* BRBIP39WordsEn.h */,
+				5FF50DA12185D68D000DC27B /* BRPeer.c */,
+				5FF50DA22185D68D000DC27B /* BRMerkleBlock.c */,
+				5FF50DA32185D68D000DC27B /* BRTransaction.c */,
+				5FF50DA42185D68D000DC27B /* BRCrypto.c */,
+				5FF50DA52185D68D000DC27B /* BRBIP39Mnemonic.c */,
+				5FF50DA62185D68D000DC27B /* BRBech32.h */,
+				5FF50DA72185D68D000DC27B /* BRBIP32Sequence.h */,
+				5FF50DA82185D68D000DC27B /* BRAddress.h */,
+				5FF50DA92185D68D000DC27B /* BRPaymentProtocol.h */,
+				5FF50DAA2185D68D000DC27B /* BRBase58.c */,
+				5FF50DAB2185D68D000DC27B /* BRSet.h */,
+				5FF50DAC2185D68D000DC27B /* BRBloomFilter.c */,
+				5FF50DAD2185D68D000DC27B /* test.c */,
+				5FF50DAE2185D68D000DC27B /* BRKeyECIES.h */,
+				5FF50DAF2185D68D000DC27B /* module.modulemap */,
+				5FF50DB02185D68D000DC27B /* bcash */,
+				5FF50DB42185D68D000DC27B /* BRWallet.h */,
+				5FF50DB52185D68D000DC27B /* BRPeerManager.c */,
+				5FF50DB62185D68D000DC27B /* ethereum */,
+				5FF50E2A2185D68D000DC27B /* BRBIP38Key.h */,
+			);
+			path = "breadwallet-core";
+			sourceTree = "<group>";
+		};
+		5FF50CF82185D68C000DC27B /* Java */ = {
+			isa = PBXGroup;
+			children = (
+				5FF50CF92185D68C000DC27B /* BRCoreJni.h */,
+				5FF50CFA2185D68C000DC27B /* com_breadwallet_core_BRCorePeer.c */,
+				5FF50CFB2185D68C000DC27B /* com_breadwallet_core_BRCoreKey.c */,
+				5FF50CFC2185D68C000DC27B /* com_breadwallet_core_BRCoreWallet.c */,
+				5FF50CFD2185D68C000DC27B /* com_breadwallet_core_BRCorePaymentProtocol.c */,
+				5FF50CFE2185D68C000DC27B /* com_breadwallet_core_BRCorePeerManager.h */,
+				5FF50CFF2185D68C000DC27B /* com_breadwallet_core_BRCoreMasterPubKey.c */,
+				5FF50D002185D68C000DC27B /* com_breadwallet_core_BRCoreJniReference.h */,
+				5FF50D012185D68C000DC27B /* com_breadwallet_core_BRCoreAddress.h */,
+				5FF50D022185D68C000DC27B /* com_breadwallet_core_BRCorePaymentProtocolInvoiceRequest.h */,
+				5FF50D032185D68C000DC27B /* Makefile */,
+				5FF50D042185D68C000DC27B /* com_breadwallet_core_BRCoreChainParams.h */,
+				5FF50D052185D68C000DC27B /* com_breadwallet_core_BRCorePaymentProtocolPaymentACK.h */,
+				5FF50D062185D68C000DC27B /* com_breadwallet_core_BRCoreMerkleBlock.h */,
+				5FF50D072185D68C000DC27B /* com_breadwallet_core_BRCorePaymentProtocolPayment.h */,
+				5FF50D082185D68C000DC27B /* com_breadwallet_core_BRCoreTransactionInput.h */,
+				5FF50D092185D68C000DC27B /* com_breadwallet_core_BRCoreTransactionOutput.c */,
+				5FF50D0A2185D68C000DC27B /* com_breadwallet_core_BRCorePaymentProtocolMessage.h */,
+				5FF50D0B2185D68C000DC27B /* com_breadwallet_core_BRCorePaymentProtocolACK.h */,
+				5FF50D0C2185D68C000DC27B /* com_breadwallet_core_BRCoreTransaction.h */,
+				5FF50D0D2185D68C000DC27B /* com_breadwallet_core_BRCorePeerManager.c */,
+				5FF50D0E2185D68C000DC27B /* com_breadwallet_core_BRCorePaymentProtocolEncryptedMessage.h */,
+				5FF50D0F2185D68C000DC27B /* com_breadwallet_core_BRCorePaymentProtocol.h */,
+				5FF50D102185D68C000DC27B /* com_breadwallet_core_BRCoreWallet.h */,
+				5FF50D112185D68C000DC27B /* com_breadwallet_core_BRCoreKey.h */,
+				5FF50D122185D68C000DC27B /* Notes */,
+				5FF50D132185D68C000DC27B /* BRCoreJni.c */,
+				5FF50D142185D68C000DC27B /* .gitignore */,
+				5FF50D152185D68C000DC27B /* com_breadwallet_core_BRCorePeer.h */,
+				5FF50D162185D68C000DC27B /* com_breadwallet_core_BRCorePaymentProtocolRequest.h */,
+				5FF50D172185D68C000DC27B /* root */,
+				5FF50D302185D68C000DC27B /* com_breadwallet_core_BRCoreJniReference.c */,
+				5FF50D312185D68C000DC27B /* com_breadwallet_core_BRCoreMasterPubKey.h */,
+				5FF50D322185D68C000DC27B /* com_breadwallet_core_BRCoreChainParams.c */,
+				5FF50D332185D68C000DC27B /* com_breadwallet_core_BRCoreAddress.c */,
+				5FF50D342185D68C000DC27B /* com_breadwallet_core_BRCoreTransaction.c */,
+				5FF50D352185D68C000DC27B /* com_breadwallet_core_BRCoreTransactionOutput.h */,
+				5FF50D362185D68C000DC27B /* com_breadwallet_core_BRCoreTransactionInput.c */,
+				5FF50D372185D68C000DC27B /* com_breadwallet_core_BRCorePaymentProtocolDetails.h */,
+				5FF50D382185D68C000DC27B /* com_breadwallet_core_BRCoreMerkleBlock.c */,
+			);
+			path = Java;
+			sourceTree = "<group>";
+		};
+		5FF50D172185D68C000DC27B /* root */ = {
+			isa = PBXGroup;
+			children = (
+				5FF50D182185D68C000DC27B /* com */,
+			);
+			path = root;
+			sourceTree = "<group>";
+		};
+		5FF50D182185D68C000DC27B /* com */ = {
+			isa = PBXGroup;
+			children = (
+				5FF50D192185D68C000DC27B /* breadwallet */,
+			);
+			path = com;
+			sourceTree = "<group>";
+		};
+		5FF50D192185D68C000DC27B /* breadwallet */ = {
+			isa = PBXGroup;
+			children = (
+				5FF50D1A2185D68C000DC27B /* core */,
+			);
+			path = breadwallet;
+			sourceTree = "<group>";
+		};
+		5FF50D1A2185D68C000DC27B /* core */ = {
+			isa = PBXGroup;
+			children = (
+				5FF50D1B2185D68C000DC27B /* BRCoreMerkleBlock.java */,
+				5FF50D1C2185D68C000DC27B /* BRCoreWalletManager.java */,
+				5FF50D1D2185D68C000DC27B /* BRCorePaymentProtocolPayment.java */,
+				5FF50D1E2185D68C000DC27B /* BRCoreAddress.java */,
+				5FF50D1F2185D68C000DC27B /* test */,
+				5FF50D212185D68C000DC27B /* BRCorePaymentProtocolMessage.java */,
+				5FF50D222185D68C000DC27B /* BRCoreKey.java */,
+				5FF50D232185D68C000DC27B /* BRCoreJniReference.java */,
+				5FF50D242185D68C000DC27B /* BRCoreChainParams.java */,
+				5FF50D252185D68C000DC27B /* BRCorePaymentProtocolRequest.java */,
+				5FF50D262185D68C000DC27B /* BRCorePaymentProtocolACK.java */,
+				5FF50D272185D68C000DC27B /* BRCoreTransactionInput.java */,
+				5FF50D282185D68C000DC27B /* BRCorePaymentProtocolInvoiceRequest.java */,
+				5FF50D292185D68C000DC27B /* BRCoreTransactionOutput.java */,
+				5FF50D2A2185D68C000DC27B /* BRCorePeer.java */,
+				5FF50D2B2185D68C000DC27B /* BRCoreWallet.java */,
+				5FF50D2C2185D68C000DC27B /* BRCorePaymentProtocolEncryptedMessage.java */,
+				5FF50D2D2185D68C000DC27B /* BRCoreTransaction.java */,
+				5FF50D2E2185D68C000DC27B /* BRCorePeerManager.java */,
+				5FF50D2F2185D68C000DC27B /* BRCoreMasterPubKey.java */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		5FF50D1F2185D68C000DC27B /* test */ = {
+			isa = PBXGroup;
+			children = (
+				5FF50D202185D68C000DC27B /* BRWalletManager.java */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		5FF50D3C2185D68C000DC27B /* secp256k1 */ = {
+			isa = PBXGroup;
+			children = (
+				5FF50D3D2185D68C000DC27B /* build-aux */,
+				5FF50D422185D68C000DC27B /* configure.ac */,
+				5FF50D432185D68C000DC27B /* include */,
+				5FF50D472185D68C000DC27B /* contrib */,
+				5FF50D4C2185D68C000DC27B /* libsecp256k1.pc.in */,
+				5FF50D4D2185D68C000DC27B /* TODO */,
+				5FF50D4E2185D68C000DC27B /* Makefile.am */,
+				5FF50D4F2185D68C000DC27B /* README.md */,
+				5FF50D502185D68C000DC27B /* COPYING */,
+				5FF50D512185D68C000DC27B /* sage */,
+				5FF50D552185D68C000DC27B /* autogen.sh */,
+				5FF50D562185D68C000DC27B /* src */,
+			);
+			path = secp256k1;
+			sourceTree = "<group>";
+		};
+		5FF50D3D2185D68C000DC27B /* build-aux */ = {
+			isa = PBXGroup;
+			children = (
+				5FF50D3E2185D68C000DC27B /* m4 */,
+			);
+			path = "build-aux";
+			sourceTree = "<group>";
+		};
+		5FF50D3E2185D68C000DC27B /* m4 */ = {
+			isa = PBXGroup;
+			children = (
+				5FF50D3F2185D68C000DC27B /* bitcoin_secp.m4 */,
+				5FF50D402185D68C000DC27B /* ax_prog_cc_for_build.m4 */,
+				5FF50D412185D68C000DC27B /* ax_jni_include_dir.m4 */,
+			);
+			path = m4;
+			sourceTree = "<group>";
+		};
+		5FF50D432185D68C000DC27B /* include */ = {
+			isa = PBXGroup;
+			children = (
+				5FF50D442185D68C000DC27B /* secp256k1_ecdh.h */,
+				5FF50D452185D68C000DC27B /* secp256k1_recovery.h */,
+				5FF50D462185D68C000DC27B /* secp256k1.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		5FF50D472185D68C000DC27B /* contrib */ = {
+			isa = PBXGroup;
+			children = (
+				5FF50D482185D68C000DC27B /* lax_der_parsing.h */,
+				5FF50D492185D68C000DC27B /* lax_der_privatekey_parsing.c */,
+				5FF50D4A2185D68C000DC27B /* lax_der_parsing.c */,
+				5FF50D4B2185D68C000DC27B /* lax_der_privatekey_parsing.h */,
+			);
+			path = contrib;
+			sourceTree = "<group>";
+		};
+		5FF50D512185D68C000DC27B /* sage */ = {
+			isa = PBXGroup;
+			children = (
+				5FF50D522185D68C000DC27B /* weierstrass_prover.sage */,
+				5FF50D532185D68C000DC27B /* secp256k1.sage */,
+				5FF50D542185D68C000DC27B /* group_prover.sage */,
+			);
+			path = sage;
+			sourceTree = "<group>";
+		};
+		5FF50D562185D68C000DC27B /* src */ = {
+			isa = PBXGroup;
+			children = (
+				5FF50D572185D68C000DC27B /* scalar_impl.h */,
+				5FF50D582185D68C000DC27B /* field_10x26_impl.h */,
+				5FF50D592185D68C000DC27B /* testrand_impl.h */,
+				5FF50D5A2185D68C000DC27B /* asm */,
+				5FF50D5C2185D68C000DC27B /* scratch.h */,
+				5FF50D5D2185D68C000DC27B /* ecmult_gen_impl.h */,
+				5FF50D5E2185D68C000DC27B /* field_10x26.h */,
+				5FF50D5F2185D68C000DC27B /* scalar_8x32_impl.h */,
+				5FF50D602185D68C000DC27B /* field_5x52.h */,
+				5FF50D612185D68C000DC27B /* num_impl.h */,
+				5FF50D622185D68C000DC27B /* bench_recover.c */,
+				5FF50D632185D68C000DC27B /* field.h */,
+				5FF50D642185D68C000DC27B /* bench.h */,
+				5FF50D652185D68C000DC27B /* field_5x52_asm_impl.h */,
+				5FF50D662185D68C000DC27B /* field_impl.h */,
+				5FF50D672185D68C000DC27B /* scalar_4x64.h */,
+				5FF50D682185D68C000DC27B /* basic-config.h */,
+				5FF50D692185D68C000DC27B /* num.h */,
+				5FF50D6A2185D68C000DC27B /* field_5x52_impl.h */,
+				5FF50D6B2185D68C000DC27B /* ecmult_const_impl.h */,
+				5FF50D6C2185D68C000DC27B /* secp256k1.c */,
+				5FF50D6D2185D68C000DC27B /* ecdsa.h */,
+				5FF50D6E2185D68C000DC27B /* java */,
+				5FF50D792185D68D000DC27B /* tests_exhaustive.c */,
+				5FF50D7A2185D68D000DC27B /* scalar.h */,
+				5FF50D7B2185D68D000DC27B /* ecdsa_impl.h */,
+				5FF50D7C2185D68D000DC27B /* ecmult_gen.h */,
+				5FF50D7D2185D68D000DC27B /* scalar_low_impl.h */,
+				5FF50D7E2185D68D000DC27B /* hash_impl.h */,
+				5FF50D7F2185D68D000DC27B /* ecmult.h */,
+				5FF50D802185D68D000DC27B /* scratch_impl.h */,
+				5FF50D812185D68D000DC27B /* bench_sign.c */,
+				5FF50D822185D68D000DC27B /* ecmult_impl.h */,
+				5FF50D832185D68D000DC27B /* group.h */,
+				5FF50D842185D68D000DC27B /* bench_verify.c */,
+				5FF50D852185D68D000DC27B /* tests.c */,
+				5FF50D862185D68D000DC27B /* gen_context.c */,
+				5FF50D872185D68D000DC27B /* util.h */,
+				5FF50D882185D68D000DC27B /* field_5x52_int128_impl.h */,
+				5FF50D892185D68D000DC27B /* scalar_4x64_impl.h */,
+				5FF50D8A2185D68D000DC27B /* bench_ecdh.c */,
+				5FF50D8B2185D68D000DC27B /* group_impl.h */,
+				5FF50D8C2185D68D000DC27B /* ecmult_const.h */,
+				5FF50D8D2185D68D000DC27B /* bench_internal.c */,
+				5FF50D8E2185D68D000DC27B /* modules */,
+				5FF50D972185D68D000DC27B /* num_gmp.h */,
+				5FF50D982185D68D000DC27B /* hash.h */,
+				5FF50D992185D68D000DC27B /* eckey_impl.h */,
+				5FF50D9A2185D68D000DC27B /* bench_ecmult.c */,
+				5FF50D9B2185D68D000DC27B /* testrand.h */,
+				5FF50D9C2185D68D000DC27B /* num_gmp_impl.h */,
+				5FF50D9D2185D68D000DC27B /* scalar_8x32.h */,
+				5FF50D9E2185D68D000DC27B /* scalar_low.h */,
+				5FF50D9F2185D68D000DC27B /* eckey.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		5FF50D5A2185D68C000DC27B /* asm */ = {
+			isa = PBXGroup;
+			children = (
+				5FF50D5B2185D68C000DC27B /* field_10x26_arm.s */,
+			);
+			path = asm;
+			sourceTree = "<group>";
+		};
+		5FF50D6E2185D68C000DC27B /* java */ = {
+			isa = PBXGroup;
+			children = (
+				5FF50D6F2185D68C000DC27B /* org_bitcoin_NativeSecp256k1.c */,
+				5FF50D702185D68C000DC27B /* org */,
+				5FF50D762185D68D000DC27B /* org_bitcoin_Secp256k1Context.h */,
+				5FF50D772185D68D000DC27B /* org_bitcoin_NativeSecp256k1.h */,
+				5FF50D782185D68D000DC27B /* org_bitcoin_Secp256k1Context.c */,
+			);
+			path = java;
+			sourceTree = "<group>";
+		};
+		5FF50D702185D68C000DC27B /* org */ = {
+			isa = PBXGroup;
+			children = (
+				5FF50D712185D68C000DC27B /* bitcoin */,
+			);
+			path = org;
+			sourceTree = "<group>";
+		};
+		5FF50D712185D68C000DC27B /* bitcoin */ = {
+			isa = PBXGroup;
+			children = (
+				5FF50D722185D68C000DC27B /* NativeSecp256k1.java */,
+				5FF50D732185D68C000DC27B /* NativeSecp256k1Test.java */,
+				5FF50D742185D68C000DC27B /* Secp256k1Context.java */,
+				5FF50D752185D68D000DC27B /* NativeSecp256k1Util.java */,
+			);
+			path = bitcoin;
+			sourceTree = "<group>";
+		};
+		5FF50D8E2185D68D000DC27B /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				5FF50D8F2185D68D000DC27B /* recovery */,
+				5FF50D932185D68D000DC27B /* ecdh */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		5FF50D8F2185D68D000DC27B /* recovery */ = {
+			isa = PBXGroup;
+			children = (
+				5FF50D902185D68D000DC27B /* Makefile.am.include */,
+				5FF50D912185D68D000DC27B /* tests_impl.h */,
+				5FF50D922185D68D000DC27B /* main_impl.h */,
+			);
+			path = recovery;
+			sourceTree = "<group>";
+		};
+		5FF50D932185D68D000DC27B /* ecdh */ = {
+			isa = PBXGroup;
+			children = (
+				5FF50D942185D68D000DC27B /* Makefile.am.include */,
+				5FF50D952185D68D000DC27B /* tests_impl.h */,
+				5FF50D962185D68D000DC27B /* main_impl.h */,
+			);
+			path = ecdh;
+			sourceTree = "<group>";
+		};
+		5FF50DB02185D68D000DC27B /* bcash */ = {
+			isa = PBXGroup;
+			children = (
+				5FF50DB12185D68D000DC27B /* BRBCashParams.h */,
+				5FF50DB22185D68D000DC27B /* BRBCashAddr.c */,
+				5FF50DB32185D68D000DC27B /* BRBCashAddr.h */,
+			);
+			path = bcash;
+			sourceTree = "<group>";
+		};
+		5FF50DB62185D68D000DC27B /* ethereum */ = {
+			isa = PBXGroup;
+			children = (
+				5FF50DB72185D68D000DC27B /* BREthereumTransaction.c */,
+				5FF50DB82185D68D000DC27B /* BREthereumLog.h */,
+				5FF50DB92185D68D000DC27B /* BREthereumEther.h */,
+				5FF50DBA2185D68D000DC27B /* BREthereumAccount.h */,
+				5FF50DBB2185D68D000DC27B /* BREthereumAccountState.h */,
+				5FF50DBC2185D68D000DC27B /* BREthereumToken.h */,
+				5FF50DBD2185D68D000DC27B /* BREthereumLightNodeAnnounce.c */,
+				5FF50DBE2185D68D000DC27B /* BREthereumBloomFilter.c */,
+				5FF50DBF2185D68D000DC27B /* BREthereumNetwork.c */,
+				5FF50DC02185D68D000DC27B /* util */,
+				5FF50DC72185D68D000DC27B /* BREthereumLightNode.h */,
+				5FF50DC82185D68D000DC27B /* BREthereumGas.h */,
+				5FF50DC92185D68D000DC27B /* BREthereumHash.c */,
+				5FF50DCA2185D68D000DC27B /* Makefile */,
+				5FF50DCB2185D68D000DC27B /* BREthereumContract.c */,
+				5FF50DCC2185D68D000DC27B /* BREthereumTransactionReceipt.c */,
+				5FF50DCD2185D68D000DC27B /* BREthereumWallet.c */,
+				5FF50DCE2185D68D000DC27B /* BREthereumPrivate.h */,
+				5FF50DCF2185D68D000DC27B /* BREthereumBlock.h */,
+				5FF50DD02185D68D000DC27B /* BREthereumAmount.h */,
+				5FF50DD12185D68D000DC27B /* Java */,
+				5FF50DEF2185D68D000DC27B /* BREthereum.h */,
+				5FF50DF02185D68D000DC27B /* rlp */,
+				5FF50DF42185D68D000DC27B /* BREthereumAccountState.c */,
+				5FF50DF52185D68D000DC27B /* BREthereumEther.c */,
+				5FF50DF62185D68D000DC27B /* BREthereumLog.c */,
+				5FF50DF72185D68D000DC27B /* BREthereumAccount.c */,
+				5FF50DF82185D68D000DC27B /* BREthereumTransaction.h */,
+				5FF50DF92185D68D000DC27B /* BREthereumLightNodeListen.c */,
+				5FF50DFA2185D68D000DC27B /* BREthereumGas.c */,
+				5FF50DFB2185D68D000DC27B /* Swift */,
+				5FF50E072185D68D000DC27B /* les */,
+				5FF50E182185D68D000DC27B /* BREthereumNetwork.h */,
+				5FF50E192185D68D000DC27B /* BREthereumLightNode.c */,
+				5FF50E1A2185D68D000DC27B /* BREthereumBase.h */,
+				5FF50E1B2185D68D000DC27B /* BREthereumBloomFilter.h */,
+				5FF50E1C2185D68D000DC27B /* BREthereumToken.c */,
+				5FF50E1D2185D68D000DC27B /* test.c */,
+				5FF50E1E2185D68D000DC27B /* BREthereumBlock.c */,
+				5FF50E1F2185D68D000DC27B /* BREthereumLightNodePrivate.h */,
+				5FF50E202185D68D000DC27B /* BREthereumTransactionReceipt.h */,
+				5FF50E212185D68D000DC27B /* BREthereumContract.h */,
+				5FF50E222185D68D000DC27B /* BREthereumWallet.h */,
+				5FF50E232185D68D000DC27B /* BREthereum.c */,
+				5FF50E242185D68D000DC27B /* event */,
+				5FF50E292185D68D000DC27B /* BREthereumAmount.c */,
+			);
+			path = ethereum;
+			sourceTree = "<group>";
+		};
+		5FF50DC02185D68D000DC27B /* util */ = {
+			isa = PBXGroup;
+			children = (
+				5FF50DC12185D68D000DC27B /* BRUtilMath.h */,
+				5FF50DC22185D68D000DC27B /* BRUtilHex.h */,
+				5FF50DC32185D68D000DC27B /* BRUtilMath.c */,
+				5FF50DC42185D68D000DC27B /* BRUtilMathParse.c */,
+				5FF50DC52185D68D000DC27B /* BRUtil.h */,
+				5FF50DC62185D68D000DC27B /* BRUtilHex.c */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		5FF50DD12185D68D000DC27B /* Java */ = {
+			isa = PBXGroup;
+			children = (
+				5FF50DD22185D68D000DC27B /* com_breadwallet_core_ethereum_BREthereumNetwork.c */,
+				5FF50DD32185D68D000DC27B /* com_breadwallet_core_ethereum_BREthereumBlock.h */,
+				5FF50DD42185D68D000DC27B /* com_breadwallet_core_ethereum_BREthereumLightNode.h */,
+				5FF50DD52185D68D000DC27B /* com_breadwallet_core_ethereum_BREthereumAccount.h */,
+				5FF50DD62185D68D000DC27B /* Makefile */,
+				5FF50DD72185D68D000DC27B /* com_breadwallet_core_ethereum_BREthereumToken.h */,
+				5FF50DD82185D68D000DC27B /* com_breadwallet_core_ethereum_BREthereumAmount.h */,
+				5FF50DD92185D68D000DC27B /* com_breadwallet_core_ethereum_BREthereumTransaction.h */,
+				5FF50DDA2185D68D000DC27B /* Notes */,
+				5FF50DDB2185D68D000DC27B /* .gitignore */,
+				5FF50DDC2185D68D000DC27B /* com_breadwallet_core_ethereum_BREthereumNetwork.h */,
+				5FF50DDD2185D68D000DC27B /* com_breadwallet_core_ethereum_BREthereumLightNode.c */,
+				5FF50DDE2185D68D000DC27B /* root */,
+				5FF50DED2185D68D000DC27B /* com_breadwallet_core_ethereum_BREthereumToken.c */,
+				5FF50DEE2185D68D000DC27B /* com_breadwallet_core_ethereum_BREthereumWallet.h */,
+			);
+			path = Java;
+			sourceTree = "<group>";
+		};
+		5FF50DDE2185D68D000DC27B /* root */ = {
+			isa = PBXGroup;
+			children = (
+				5FF50DDF2185D68D000DC27B /* com */,
+			);
+			path = root;
+			sourceTree = "<group>";
+		};
+		5FF50DDF2185D68D000DC27B /* com */ = {
+			isa = PBXGroup;
+			children = (
+				5FF50DE02185D68D000DC27B /* breadwallet */,
+			);
+			path = com;
+			sourceTree = "<group>";
+		};
+		5FF50DE02185D68D000DC27B /* breadwallet */ = {
+			isa = PBXGroup;
+			children = (
+				5FF50DE12185D68D000DC27B /* core */,
+			);
+			path = breadwallet;
+			sourceTree = "<group>";
+		};
+		5FF50DE12185D68D000DC27B /* core */ = {
+			isa = PBXGroup;
+			children = (
+				5FF50DE22185D68D000DC27B /* ethereum */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		5FF50DE22185D68D000DC27B /* ethereum */ = {
+			isa = PBXGroup;
+			children = (
+				5FF50DE32185D68D000DC27B /* BREthereumWallet.java */,
+				5FF50DE42185D68D000DC27B /* test */,
+				5FF50DE62185D68D000DC27B /* BREthereumTransaction.java */,
+				5FF50DE72185D68D000DC27B /* BREthereumLightNode.java */,
+				5FF50DE82185D68D000DC27B /* BREthereumAccount.java */,
+				5FF50DE92185D68D000DC27B /* BREthereumNetwork.java */,
+				5FF50DEA2185D68D000DC27B /* BREthereumToken.java */,
+				5FF50DEB2185D68D000DC27B /* BREthereumBlock.java */,
+				5FF50DEC2185D68D000DC27B /* BREthereumAmount.java */,
+			);
+			path = ethereum;
+			sourceTree = "<group>";
+		};
+		5FF50DE42185D68D000DC27B /* test */ = {
+			isa = PBXGroup;
+			children = (
+				5FF50DE52185D68D000DC27B /* BREthereumLightNodeClientTest.java */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		5FF50DF02185D68D000DC27B /* rlp */ = {
+			isa = PBXGroup;
+			children = (
+				5FF50DF12185D68D000DC27B /* BRRlp.h */,
+				5FF50DF22185D68D000DC27B /* BRRlpCoder.h */,
+				5FF50DF32185D68D000DC27B /* BRRlpCoder.c */,
+			);
+			path = rlp;
+			sourceTree = "<group>";
+		};
+		5FF50DFB2185D68D000DC27B /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				5FF50DFC2185D68D000DC27B /* ethereum.h */,
+				5FF50DFD2185D68D000DC27B /* ethereumTests */,
+				5FF50E012185D68D000DC27B /* ethereum.xcodeproj */,
+				5FF50E042185D68D000DC27B /* Notes */,
+				5FF50E052185D68D000DC27B /* .gitignore */,
+				5FF50E062185D68D000DC27B /* Info.plist */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		5FF50DFD2185D68D000DC27B /* ethereumTests */ = {
+			isa = PBXGroup;
+			children = (
+				5FF50DFE2185D68D000DC27B /* ethereumTests-Bridging-Header.h */,
+				5FF50DFF2185D68D000DC27B /* ethereumTests.swift */,
+				5FF50E002185D68D000DC27B /* Info.plist */,
+			);
+			path = ethereumTests;
+			sourceTree = "<group>";
+		};
+		5FF50E022185D68D000DC27B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FF50E2E2185D68D000DC27B /* ethereum.framework */,
+				5FF50E302185D68D000DC27B /* ethereumTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FF50E072185D68D000DC27B /* les */ = {
+			isa = PBXGroup;
+			children = (
+				5FF50E082185D68D000DC27B /* BREthereumHandshake.c */,
+				5FF50E092185D68D000DC27B /* BREthereumNodeEventHandler.h */,
+				5FF50E0A2185D68D000DC27B /* test-les.h */,
+				5FF50E0B2185D68D000DC27B /* BREthereumNode.h */,
+				5FF50E0C2185D68D000DC27B /* BREthereumFrameCoder.h */,
+				5FF50E0D2185D68D000DC27B /* BREthereumNodeManager.c */,
+				5FF50E0E2185D68D000DC27B /* BREthereumLES.c */,
+				5FF50E0F2185D68D000DC27B /* BREthereumLESBase.h */,
+				5FF50E102185D68D000DC27B /* BREthereumHandshake.h */,
+				5FF50E112185D68D000DC27B /* test-les.c */,
+				5FF50E122185D68D000DC27B /* BREthereumNodeEventHandler.c */,
+				5FF50E132185D68D000DC27B /* BREthereumFrameCoder.c */,
+				5FF50E142185D68D000DC27B /* BREthereumNode.c */,
+				5FF50E152185D68D000DC27B /* BREthereumLESBase.c */,
+				5FF50E162185D68D000DC27B /* BREthereumLES.h */,
+				5FF50E172185D68D000DC27B /* BREthereumNodeManager.h */,
+			);
+			path = les;
+			sourceTree = "<group>";
+		};
+		5FF50E242185D68D000DC27B /* event */ = {
+			isa = PBXGroup;
+			children = (
+				5FF50E252185D68D000DC27B /* BREvent.c */,
+				5FF50E262185D68D000DC27B /* BREventQueue.h */,
+				5FF50E272185D68D000DC27B /* BREvent.h */,
+				5FF50E282185D68D000DC27B /* BREventQueue.c */,
+			);
+			path = event;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58B511DA1A9E6C8500147676 /* RNLapoCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNLapoCore" */;
+			buildPhases = (
+				58B511D71A9E6C8500147676 /* Sources */,
+				58B511D81A9E6C8500147676 /* Frameworks */,
+				58B511D91A9E6C8500147676 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FF5090A2185D4F0000DC27B /* PBXTargetDependency */,
+			);
+			name = RNLapoCore;
+			productName = RCTDataManager;
+			productReference = 134814201AA4EA6300B7C361 /* libRNLapoCore.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5FF509002185D484000DC27B /* BRCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FF509052185D484000DC27B /* Build configuration list for PBXNativeTarget "BRCore" */;
+			buildPhases = (
+				5FF509012185D484000DC27B /* Sources */,
+				5FF509032185D484000DC27B /* Frameworks */,
+				5FF509042185D484000DC27B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BRCore;
+			productName = RCTDataManager;
+			productReference = 5FF509082185D484000DC27B /* libBRCore.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58B511D31A9E6C8500147676 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					58B511DA1A9E6C8500147676 = {
+						CreatedOnToolsVersion = 6.1.1;
+						LastSwiftMigration = 1000;
+					};
+				};
+			};
+			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNLapoCore" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 58B511D21A9E6C8500147676;
+			productRefGroup = 58B511D21A9E6C8500147676;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5FF50E022185D68D000DC27B /* Products */;
+					ProjectRef = 5FF50E012185D68D000DC27B /* ethereum.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				58B511DA1A9E6C8500147676 /* RNLapoCore */,
+				5FF509002185D484000DC27B /* BRCore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		5FF50E2E2185D68D000DC27B /* ethereum.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ethereum.framework;
+			remoteRef = 5FF50E2D2185D68D000DC27B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5FF50E302185D68D000DC27B /* ethereumTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ethereumTests.xctest;
+			remoteRef = 5FF50E2F2185D68D000DC27B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58B511D71A9E6C8500147676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FE9862F2189994300D61AB7 /* BRCore.swift in Sources */,
+				5FF50EF82185E0F7000DC27B /* RNLapoCore-Bridging-Header.h in Sources */,
+				5FF50EF52185E0F2000DC27B /* RNLapoCore.m in Sources */,
+				5F72486A2182FB4500A02E65 /* RNLapoCoreManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FF509012185D484000DC27B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FF50E932185D68E000DC27B /* BRRlpCoder.c in Sources */,
+				5FF50EA02185D68E000DC27B /* BREthereumFrameCoder.c in Sources */,
+				5FF50E722185D68E000DC27B /* BRTransaction.c in Sources */,
+				5FF50E942185D68E000DC27B /* BREthereumAccountState.c in Sources */,
+				5FF50E7F2185D68E000DC27B /* BRUtilMathParse.c in Sources */,
+				5FF50E752185D68E000DC27B /* BRBase58.c in Sources */,
+				5F53262D218AB61E00A883A7 /* Lyra2.c in Sources */,
+				5FF50E382185D68E000DC27B /* BRBIP38Key.c in Sources */,
+				5FF50E792185D68E000DC27B /* BRPeerManager.c in Sources */,
+				5FF50E812185D68E000DC27B /* BREthereumHash.c in Sources */,
+				5FF50EA12185D68E000DC27B /* BREthereumNode.c in Sources */,
+				5FF50E332185D68E000DC27B /* BRPaymentProtocol.c in Sources */,
+				5FF50E982185D68E000DC27B /* BREthereumLightNodeListen.c in Sources */,
+				5FF50E372185D68E000DC27B /* BRKeyECIES.c in Sources */,
+				5FF50E782185D68E000DC27B /* BRBCashAddr.c in Sources */,
+				5FF50E852185D68E000DC27B /* BREthereumWallet.c in Sources */,
+				5F53262F218AB61E00A883A7 /* blake.c in Sources */,
+				5FF50E322185D68E000DC27B /* BRSet.c in Sources */,
+				5F53262E218AB61E00A883A7 /* Sponge.c in Sources */,
+				5FF50E762185D68E000DC27B /* BRBloomFilter.c in Sources */,
+				5FF50E7B2185D68E000DC27B /* BREthereumLightNodeAnnounce.c in Sources */,
+				5FF50E962185D68E000DC27B /* BREthereumLog.c in Sources */,
+				5FF50E9B2185D68E000DC27B /* BREthereumHandshake.c in Sources */,
+				5FF50E9F2185D68E000DC27B /* BREthereumNodeEventHandler.c in Sources */,
+				5FF50E7D2185D68E000DC27B /* BREthereumNetwork.c in Sources */,
+				5FF50E362185D68E000DC27B /* BRWallet.c in Sources */,
+				5FF50EA22185D68E000DC27B /* BREthereumLESBase.c in Sources */,
+				5FF50E9C2185D68E000DC27B /* BREthereumNodeManager.c in Sources */,
+				5FF50E9D2185D68E000DC27B /* BREthereumLES.c in Sources */,
+				5FF50EA42185D68E000DC27B /* BREthereumToken.c in Sources */,
+				5FF50E7E2185D68E000DC27B /* BRUtilMath.c in Sources */,
+				5FF50EA62185D68E000DC27B /* BREthereumBlock.c in Sources */,
+				5FF50EAA2185D68E000DC27B /* BREthereumAmount.c in Sources */,
+				5FF50E7A2185D68E000DC27B /* BREthereumTransaction.c in Sources */,
+				5FF50EA92185D68E000DC27B /* BREventQueue.c in Sources */,
+				5FF50E352185D68E000DC27B /* BRBIP32Sequence.c in Sources */,
+				5FF50E712185D68E000DC27B /* BRMerkleBlock.c in Sources */,
+				5FF50E842185D68E000DC27B /* BREthereumTransactionReceipt.c in Sources */,
+				5FF50E992185D68E000DC27B /* BREthereumGas.c in Sources */,
+				5FF50E342185D68E000DC27B /* BRAddress.c in Sources */,
+				5FF50E7C2185D68E000DC27B /* BREthereumBloomFilter.c in Sources */,
+				5FF50E832185D68E000DC27B /* BREthereumContract.c in Sources */,
+				5FF50E802185D68E000DC27B /* BRUtilHex.c in Sources */,
+				5FF50E5C2185D68E000DC27B /* BRKey.c in Sources */,
+				5FF50EA32185D68E000DC27B /* BREthereumLightNode.c in Sources */,
+				5FF50E702185D68E000DC27B /* BRPeer.c in Sources */,
+				5FF50E952185D68E000DC27B /* BREthereumEther.c in Sources */,
+				5FF50EA72185D68E000DC27B /* BREthereum.c in Sources */,
+				5FF50E312185D68E000DC27B /* BRBech32.c in Sources */,
+				5FF50EA82185D68E000DC27B /* BREvent.c in Sources */,
+				5FF50E972185D68E000DC27B /* BREthereumAccount.c in Sources */,
+				5F532630218AB61E00A883A7 /* uint256.c in Sources */,
+				5FF50E732185D68E000DC27B /* BRCrypto.c in Sources */,
+				5FF50E742185D68E000DC27B /* BRBIP39Mnemonic.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FF5090A2185D4F0000DC27B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FF509002185D484000DC27B /* BRCore */;
+			targetProxy = 5FF509092185D4F0000DC27B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		58B511ED1A9E6C8500147676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				NEW_SETTING = "";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Modules/breadwallet-core/**";
+			};
+			name = Debug;
+		};
+		58B511EE1A9E6C8500147676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				NEW_SETTING = "";
+				SDKROOT = iphoneos;
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Modules/breadwallet-core/**";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58B511F01A9E6C8500147676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+					"/Users/develexedev/dev/integral/lapoExample/node_modules/react-native/React/**",
+				);
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RNLapoCore;
+				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Modules/breadwallet-core/** /Users/develexedev/dev/integral/lapoExample/node_modules/react-native/React/**";
+				SWIFT_OBJC_BRIDGING_HEADER = "RNLapoCore-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				USER_HEADER_SEARCH_PATHS = "/Users/develexedev/dev/integral/lapoExample/node_modules/react-native/React/**";
+			};
+			name = Debug;
+		};
+		58B511F11A9E6C8500147676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+					"/Users/develexedev/dev/integral/lapoExample/node_modules/react-native/React/**",
+				);
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RNLapoCore;
+				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Modules/breadwallet-core/** /Users/develexedev/dev/integral/lapoExample/node_modules/react-native/React/**";
+				SWIFT_OBJC_BRIDGING_HEADER = "RNLapoCore-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				USER_HEADER_SEARCH_PATHS = "/Users/develexedev/dev/integral/lapoExample/node_modules/react-native/React/**";
+			};
+			name = Release;
+		};
+		5FF509062185D484000DC27B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				DEFINES_MODULE = YES;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"${SRCROOT}/Modules/breadwallet-core",
+					"${SRCROOT}/Modules/breadwallet-core/secp256k1",
+					"/Users/develexedev/dev/integral/lapoExample/node_modules/react-native/React/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "/Users/develexedev/dev/integral/lapoExample/node_modules/react-native/React/**";
+				MODULEMAP_FILE = "${SRC_ROOT}/Modules/breadwallet-core/module.modulemap";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/breadwallet-core/** $(SDK_DIR)/usr/include $(SRCROOT)/Modules $(SRCROOT)/breadwallet/src/Platform";
+				SWIFT_OBJC_BRIDGING_HEADER = "RNLapoCore-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FF509072185D484000DC27B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				DEFINES_MODULE = YES;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"${SRCROOT}/Modules/breadwallet-core",
+					"${SRCROOT}/Modules/breadwallet-core/secp256k1",
+					"/Users/develexedev/dev/integral/lapoExample/node_modules/react-native/React/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "/Users/develexedev/dev/integral/lapoExample/node_modules/react-native/React/**";
+				MODULEMAP_FILE = "${SRC_ROOT}/Modules/breadwallet-core/module.modulemap";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/breadwallet-core/** $(SDK_DIR)/usr/include $(SRCROOT)/Modules $(SRCROOT)/breadwallet/src/Platform";
+				SWIFT_OBJC_BRIDGING_HEADER = "RNLapoCore-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNLapoCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B511ED1A9E6C8500147676 /* Debug */,
+				58B511EE1A9E6C8500147676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNLapoCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B511F01A9E6C8500147676 /* Debug */,
+				58B511F11A9E6C8500147676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FF509052185D484000DC27B /* Build configuration list for PBXNativeTarget "BRCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FF509062185D484000DC27B /* Debug */,
+				5FF509072185D484000DC27B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58B511D31A9E6C8500147676 /* Project object */;
+}

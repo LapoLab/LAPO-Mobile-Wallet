@@ -1,0 +1,820 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PinsVerify page renders snapshots 1`] = `
+<BVLinearGradient
+  colors={
+    Array [
+      -12483651,
+      -16172276,
+    ]
+  }
+  endPoint={
+    Object {
+      "x": 1.2,
+      "y": 1.2,
+    }
+  }
+  locations={
+    Array [
+      0,
+      1,
+    ]
+  }
+  startPoint={
+    Object {
+      "x": -0.1,
+      "y": -0.1,
+    }
+  }
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RCTSafeAreaView
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 30,
+          "justifyContent": "flex-start",
+          "marginTop": 20,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "alignItems": "center",
+            "color": "white",
+            "flex": 1,
+            "fontFamily": "Lato-Regular",
+            "fontSize": 18,
+            "textAlign": "center",
+          }
+        }
+      >
+        Unlock your wallet
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "marginTop": 80,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "flexDirection": "column",
+            "paddingBottom": 10,
+            "paddingHorizontal": "10%",
+            "paddingdVertical": 0,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "height": 40,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "space-around",
+                "paddingVertical": 10,
+                "width": 180,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "borderColor": "#4183BD",
+                  "borderRadius": 6,
+                  "borderWidth": 1,
+                  "height": 12,
+                  "width": 12,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "borderColor": "#4183BD",
+                  "borderRadius": 6,
+                  "borderWidth": 1,
+                  "height": 12,
+                  "width": 12,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "borderColor": "#4183BD",
+                  "borderRadius": 6,
+                  "borderWidth": 1,
+                  "height": 12,
+                  "width": 12,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "borderColor": "#4183BD",
+                  "borderRadius": 6,
+                  "borderWidth": 1,
+                  "height": 12,
+                  "width": 12,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "borderColor": "#4183BD",
+                  "borderRadius": 6,
+                  "borderWidth": 1,
+                  "height": 12,
+                  "width": 12,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "borderColor": "#4183BD",
+                  "borderRadius": 6,
+                  "borderWidth": 1,
+                  "height": 12,
+                  "width": 12,
+                }
+              }
+            />
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "row",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <View
+              accessible={true}
+              isTVSelectable={true}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "rgba(93,112,241, 0.2)",
+                  "borderRadius": 48,
+                  "height": 96,
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 96,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#4183BD",
+                    "borderRadius": 40,
+                    "height": 80,
+                    "justifyContent": "center",
+                    "width": 80,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "white",
+                      "fontFamily": "Lato-Bold",
+                      "fontSize": 20,
+                    }
+                  }
+                >
+                  1
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <View
+              accessible={true}
+              isTVSelectable={true}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "rgba(93,112,241, 0.2)",
+                  "borderRadius": 48,
+                  "height": 96,
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 96,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#4183BD",
+                    "borderRadius": 40,
+                    "height": 80,
+                    "justifyContent": "center",
+                    "width": 80,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "white",
+                      "fontFamily": "Lato-Bold",
+                      "fontSize": 20,
+                    }
+                  }
+                >
+                  2
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <View
+              accessible={true}
+              isTVSelectable={true}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "rgba(93,112,241, 0.2)",
+                  "borderRadius": 48,
+                  "height": 96,
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 96,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#4183BD",
+                    "borderRadius": 40,
+                    "height": 80,
+                    "justifyContent": "center",
+                    "width": 80,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "white",
+                      "fontFamily": "Lato-Bold",
+                      "fontSize": 20,
+                    }
+                  }
+                >
+                  3
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "row",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <View
+              accessible={true}
+              isTVSelectable={true}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "rgba(93,112,241, 0.2)",
+                  "borderRadius": 48,
+                  "height": 96,
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 96,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#4183BD",
+                    "borderRadius": 40,
+                    "height": 80,
+                    "justifyContent": "center",
+                    "width": 80,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "white",
+                      "fontFamily": "Lato-Bold",
+                      "fontSize": 20,
+                    }
+                  }
+                >
+                  4
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <View
+              accessible={true}
+              isTVSelectable={true}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "rgba(93,112,241, 0.2)",
+                  "borderRadius": 48,
+                  "height": 96,
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 96,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#4183BD",
+                    "borderRadius": 40,
+                    "height": 80,
+                    "justifyContent": "center",
+                    "width": 80,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "white",
+                      "fontFamily": "Lato-Bold",
+                      "fontSize": 20,
+                    }
+                  }
+                >
+                  5
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <View
+              accessible={true}
+              isTVSelectable={true}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "rgba(93,112,241, 0.2)",
+                  "borderRadius": 48,
+                  "height": 96,
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 96,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#4183BD",
+                    "borderRadius": 40,
+                    "height": 80,
+                    "justifyContent": "center",
+                    "width": 80,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "white",
+                      "fontFamily": "Lato-Bold",
+                      "fontSize": 20,
+                    }
+                  }
+                >
+                  6
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "row",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <View
+              accessible={true}
+              isTVSelectable={true}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "rgba(93,112,241, 0.2)",
+                  "borderRadius": 48,
+                  "height": 96,
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 96,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#4183BD",
+                    "borderRadius": 40,
+                    "height": 80,
+                    "justifyContent": "center",
+                    "width": 80,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "white",
+                      "fontFamily": "Lato-Bold",
+                      "fontSize": 20,
+                    }
+                  }
+                >
+                  7
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <View
+              accessible={true}
+              isTVSelectable={true}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "rgba(93,112,241, 0.2)",
+                  "borderRadius": 48,
+                  "height": 96,
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 96,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#4183BD",
+                    "borderRadius": 40,
+                    "height": 80,
+                    "justifyContent": "center",
+                    "width": 80,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "white",
+                      "fontFamily": "Lato-Bold",
+                      "fontSize": 20,
+                    }
+                  }
+                >
+                  8
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <View
+              accessible={true}
+              isTVSelectable={true}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "rgba(93,112,241, 0.2)",
+                  "borderRadius": 48,
+                  "height": 96,
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 96,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#4183BD",
+                    "borderRadius": 40,
+                    "height": 80,
+                    "justifyContent": "center",
+                    "width": 80,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "white",
+                      "fontFamily": "Lato-Bold",
+                      "fontSize": 20,
+                    }
+                  }
+                >
+                  9
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "row",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+                "paddingVertical": 20,
+                "textAlign": "center",
+                "width": 150,
+              }
+            }
+          />
+          <View>
+            <View
+              accessible={true}
+              isTVSelectable={true}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "rgba(93,112,241, 0.2)",
+                  "borderRadius": 48,
+                  "height": 96,
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 96,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#4183BD",
+                    "borderRadius": 40,
+                    "height": 80,
+                    "justifyContent": "center",
+                    "width": 80,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "white",
+                      "fontFamily": "Lato-Bold",
+                      "fontSize": 20,
+                    }
+                  }
+                >
+                  0
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View>
+            <View
+              accessible={true}
+              isTVSelectable={true}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "paddingVertical": 20,
+                  "textAlign": "center",
+                  "width": 150,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#D5D9F3",
+                    "fontFamily": "Lato-Regular",
+                    "fontSize": 14,
+                    "marginRight": 40,
+                  }
+                }
+              >
+                DELETE
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTSafeAreaView>
+</BVLinearGradient>
+`;

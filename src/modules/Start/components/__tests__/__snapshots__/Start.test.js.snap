@@ -1,0 +1,202 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Start page renders snapshots 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "testUri": "../../../src/assets/backgoundStart.png",
+      }
+    }
+    style={
+      Array [
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        Object {
+          "height": undefined,
+          "width": undefined,
+        },
+        undefined,
+      ]
+    }
+  />
+  <RCTSafeAreaView
+    style={
+      Object {
+        "alignItems": "stretch",
+        "flex": 1,
+        "flexDirection": "column",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 2,
+          "paddingTop": 60,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/logo-medium-full.png",
+          }
+        }
+        style={
+          Object {
+            "height": 180,
+            "resizeMode": "contain",
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 2,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#4183BD",
+            "borderColor": "#b0cae0",
+            "borderRadius": 74,
+            "borderWidth": 8,
+            "height": 64,
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": "80%",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "white",
+              "fontFamily": "Lato-Bold",
+              "fontSize": 14,
+            }
+          }
+        >
+          CREATE A NEW WALLET
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#90929A",
+            "borderColor": "#e9e9eb",
+            "borderRadius": 74,
+            "borderWidth": 8,
+            "height": 64,
+            "justifyContent": "center",
+            "marginHorizontal": 25,
+            "marginTop": 21,
+            "opacity": 1,
+            "width": "80%",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "white",
+              "fontFamily": "Lato-Bold",
+              "fontSize": 14,
+            }
+          }
+        >
+          RECOVER AN EXISTING WALLET
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "padding": 20,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "rgba(0,0,0,0.50)",
+            "fontFamily": "Lato-Light",
+            "fontSize": 14,
+            "lineHeight": 12,
+            "padding": 2,
+            "paddingBottom": 5,
+            "textAlign": "center",
+          }
+        }
+      >
+        Need any help?
+      </Text>
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#5D70F1",
+              "fontFamily": "Lato-Regular",
+              "fontSize": 14,
+            }
+          }
+        >
+          FAQ
+        </Text>
+      </View>
+    </View>
+  </RCTSafeAreaView>
+</View>
+`;

@@ -1,0 +1,263 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ZipUtilities"
+provides-nominal:
+- "3Zip0A9UtilitiesC"
+- "3Zip0A9UtilitiesC17ProcessedFilePathV"
+provides-member:
+- ["3Zip0A9UtilitiesC", ""]
+- ["3Zip0A9UtilitiesC17ProcessedFilePathV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- "AssignmentPrecedence"
+- "BooleanLiteralType"
+- "CastingPrecedence"
+- "FileManager"
+- !private "NSString"
+- !private "ObjCBool"
+- "String"
+- "URL"
+- "ZipUtilities"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "init"]
+- !private ["s13ArrayProtocolP", "append"]
+- !private ["s13ArrayProtocolP", "init"]
+- !private ["SK", "append"]
+- !private ["SK", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "appendingPathComponent"]
+- ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "enumerator"]
+- !private ["s7CVarArgP", "fileExists"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "nextObject"]
+- !private ["Sl", "append"]
+- !private ["Sl", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "appendingPathComponent"]
+- ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "enumerator"]
+- !private ["s28CustomDebugStringConvertibleP", "fileExists"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "lastPathComponent"]
+- !private ["s28CustomDebugStringConvertibleP", "nextObject"]
+- !private ["s28CustomDebugStringConvertibleP", "path"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "appendingPathComponent"]
+- !private ["s29CustomPlaygroundQuickLookableP", "lastPathComponent"]
+- !private ["s29CustomPlaygroundQuickLookableP", "path"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "boolValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "appendingPathComponent"]
+- !private ["s23CustomStringConvertibleP", "boolValue"]
+- ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "enumerator"]
+- !private ["s23CustomStringConvertibleP", "fileExists"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "lastPathComponent"]
+- !private ["s23CustomStringConvertibleP", "nextObject"]
+- !private ["s23CustomStringConvertibleP", "path"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "append"]
+- !private ["Se", "appendingPathComponent"]
+- !private ["Se", "init"]
+- !private ["Se", "lastPathComponent"]
+- !private ["Se", "path"]
+- !private ["So21NSDirectoryEnumeratorC", "nextObject"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "append"]
+- !private ["SE", "appendingPathComponent"]
+- !private ["SE", "init"]
+- !private ["SE", "lastPathComponent"]
+- !private ["SE", "path"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "append"]
+- !private ["SQ", "appendingPathComponent"]
+- ["SQ", "default"]
+- !private ["SQ", "enumerator"]
+- !private ["SQ", "fileExists"]
+- !private ["SQ", "init"]
+- !private ["SQ", "lastPathComponent"]
+- !private ["SQ", "nextObject"]
+- !private ["SQ", "path"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "boolValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "appendingPathComponent"]
+- !private ["s26ExpressibleByStringLiteralP", "appendingPathComponent"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "appendingPathComponent"]
+- ["So13NSFileManagerC", "default"]
+- !private ["So13NSFileManagerC", "enumerator"]
+- !private ["So13NSFileManagerC", "fileExists"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "append"]
+- !private ["SH", "appendingPathComponent"]
+- ["SH", "default"]
+- !private ["SH", "enumerator"]
+- !private ["SH", "fileExists"]
+- !private ["SH", "init"]
+- !private ["SH", "lastPathComponent"]
+- !private ["SH", "nextObject"]
+- !private ["SH", "path"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["SM", "append"]
+- !private ["SM", "init"]
+- !private ["So8NSCodingP", "appendingPathComponent"]
+- !private ["So9NSCopyingP", "appendingPathComponent"]
+- !private ["So12NSEnumeratorC", "nextObject"]
+- !private ["So17NSFastEnumerationP", "nextObject"]
+- !private ["So21NSItemProviderReadingP", "appendingPathComponent"]
+- !private ["So21NSItemProviderWritingP", "appendingPathComponent"]
+- !private ["So16NSMutableCopyingP", "appendingPathComponent"]
+- !private ["So8NSObjectC", "appendingPathComponent"]
+- ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "enumerator"]
+- !private ["So8NSObjectC", "fileExists"]
+- !private ["So8NSObjectC", "nextObject"]
+- !private ["So8NSObjectP", "appendingPathComponent"]
+- ["So8NSObjectP", "default"]
+- !private ["So8NSObjectP", "enumerator"]
+- !private ["So8NSObjectP", "fileExists"]
+- !private ["So8NSObjectP", "nextObject"]
+- !private ["So14NSSecureCodingP", "appendingPathComponent"]
+- !private ["So8NSStringC", "appendingPathComponent"]
+- !private ["10ObjectiveC8ObjCBoolV", "boolValue"]
+- ["3Zip0A9UtilitiesC17ProcessedFilePathV", "String"]
+- ["3Zip0A9UtilitiesC17ProcessedFilePathV", "URL"]
+- ["3Zip0A9UtilitiesC17ProcessedFilePathV", "fileName"]
+- ["3Zip0A9UtilitiesC17ProcessedFilePathV", "filePath"]
+- ["3Zip0A9UtilitiesC17ProcessedFilePathV", "filePathURL"]
+- ["3Zip0A9UtilitiesC17ProcessedFilePathV", "init"]
+- !private ["Sk", "append"]
+- !private ["Sk", "init"]
+- !private ["Sm", "append"]
+- !private ["Sm", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "appendingPathComponent"]
+- !private ["10Foundation20ReferenceConvertibleP", "lastPathComponent"]
+- !private ["10Foundation20ReferenceConvertibleP", "path"]
+- !private ["ST", "append"]
+- !private ["ST", "init"]
+- !private ["ST", "nextObject"]
+- !private ["10Foundation3URLV", "appendingPathComponent"]
+- !private ["10Foundation3URLV", "lastPathComponent"]
+- !private ["10Foundation3URLV", "path"]
+- ["3Zip0A9UtilitiesC", "FileManager"]
+- !private ["3Zip0A9UtilitiesC", "NSString"]
+- !private ["3Zip0A9UtilitiesC", "ObjCBool"]
+- ["3Zip0A9UtilitiesC", "ProcessedFilePath"]
+- ["3Zip0A9UtilitiesC", "String"]
+- ["3Zip0A9UtilitiesC", "URL"]
+- ["3Zip0A9UtilitiesC", "expandDirectoryFilePath"]
+- ["3Zip0A9UtilitiesC", "fileManager"]
+- ["3Zip0A9UtilitiesC", "includeRootDirectory"]
+- ["3Zip0A9UtilitiesC", "init"]
+- ["3Zip0A9UtilitiesC", "processZipPaths"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "appendingPathComponent"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "lastPathComponent"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "path"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "appendingPathComponent"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "appendingPathComponent"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "enumerator"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fileExists"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "nextObject"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "appendingPathComponent"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "lastPathComponent"]
+- !private ["s21_ObjectiveCBridgeableP", "path"]
+depends-nominal:
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "SK"
+- !private "Sb"
+- "s7CVarArgP"
+- !private "Sl"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "So21NSDirectoryEnumeratorC"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "So13NSFileManagerC"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "SM"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So12NSEnumeratorC"
+- !private "So17NSFastEnumerationP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "10ObjectiveC8ObjCBoolV"
+- "3Zip0A9UtilitiesC17ProcessedFilePathV"
+- !private "Sk"
+- !private "Sm"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "ST"
+- !private "10Foundation3URLV"
+- "3Zip0A9UtilitiesC"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/develexedev/dev/integral/Lapo/ios/Pods/Target Support Files/Zip/Zip-umbrella.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/Pods/Zip/Zip/Zip.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Zip.build/unextended-module.modulemap"
+- "/Users/develexedev/dev/integral/Lapo/ios/Pods/Zip/Zip/minizip/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "01433617dbce3edd87f38fd49f1f59bb"

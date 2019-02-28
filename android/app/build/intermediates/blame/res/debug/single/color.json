@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "/Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/Users/develexedev/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/632213ddf4cda71fd9cc5099a7ce1892/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
+        "source": "/Users/develexedev/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/632213ddf4cda71fd9cc5099a7ce1892/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
+        "source": "/Users/develexedev/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/632213ddf4cda71fd9cc5099a7ce1892/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
+        "source": "/Users/develexedev/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/632213ddf4cda71fd9cc5099a7ce1892/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/Users/develexedev/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/632213ddf4cda71fd9cc5099a7ce1892/res/color/abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
+        "source": "/Users/develexedev/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/632213ddf4cda71fd9cc5099a7ce1892/res/color/abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "/Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
+        "source": "/Users/develexedev/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/632213ddf4cda71fd9cc5099a7ce1892/res/color/abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/632e217cdfa4304a7076bc0cbea8b026/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_tint.xml",
+        "source": "/Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/632e217cdfa4304a7076bc0cbea8b026/res/color/common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "/Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/Users/develexedev/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/632213ddf4cda71fd9cc5099a7ce1892/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_light.xml",
+        "source": "/Users/develexedev/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/632213ddf4cda71fd9cc5099a7ce1892/res/color/abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "/Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/build/intermediates/res/merged/debug/color/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/develexedev/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/632213ddf4cda71fd9cc5099a7ce1892/res/color/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/build/intermediates/res/merged/debug/color/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/develexedev/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/632213ddf4cda71fd9cc5099a7ce1892/res/color/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
+        "source": "/Users/develexedev/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/632213ddf4cda71fd9cc5099a7ce1892/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/Users/develexedev/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/632213ddf4cda71fd9cc5099a7ce1892/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
+        "source": "/Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/632e217cdfa4304a7076bc0cbea8b026/res/color/common_google_signin_btn_text_light.xml"
+    }
+]

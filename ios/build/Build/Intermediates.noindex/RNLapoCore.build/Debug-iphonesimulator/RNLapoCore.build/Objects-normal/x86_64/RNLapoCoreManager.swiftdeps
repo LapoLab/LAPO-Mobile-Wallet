@@ -1,0 +1,376 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ListernerWallet"
+- "RNLapoCore"
+provides-nominal:
+- "10RNLapoCore15ListernerWalletC"
+- "10RNLapoCoreAAC"
+provides-member:
+- ["10RNLapoCore15ListernerWalletC", ""]
+- ["10RNLapoCoreAAC", ""]
+provides-dynamic-lookup:
+- "createWallet"
+- "getBalance"
+- "getReceiveAddress"
+- "getTransactions"
+- "incBalanceWallet"
+- "lapoName"
+- "newTransaction"
+- "setLastTransactions"
+depends-top-level:
+- !private "=="
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "BRBIP32MasterPubKey"
+- !private "BRBIP39DeriveKey"
+- !private "BRMasterPubKey"
+- "BRTxRef"
+- "BRWallet"
+- "BRWalletListener"
+- "Bool"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "ListernerWallet"
+- !private "MemoryLayout"
+- "NSObject"
+- "RCTResponseSenderBlock"
+- "RNLapoCore"
+- "String"
+- "StringLiteralType"
+- "UInt256"
+- "UInt32"
+- !private "UInt512"
+- "UInt64"
+- !private "print"
+depends-member:
+- !private ["So14BRMasterPubKeya", "init"]
+- !private ["10RNLapoCore8BRWalletC", "balance"]
+- !private ["10RNLapoCore8BRWalletC", "createTransaction"]
+- !private ["10RNLapoCore8BRWalletC", "init"]
+- !private ["10RNLapoCore8BRWalletC", "receiveAddress"]
+- !private ["10RNLapoCore8BRWalletC", "signTransaction"]
+- !private ["10RNLapoCore8BRWalletC", "transactions"]
+- ["10RNLapoCore16BRWalletListenerP", ""]
+- ["10RNLapoCore16BRWalletListenerP", "balanceChanged"]
+- ["10RNLapoCore16BRWalletListenerP", "init"]
+- !private ["10RNLapoCore16BRWalletListenerP", "print"]
+- ["10RNLapoCore16BRWalletListenerP", "txAdded"]
+- ["10RNLapoCore16BRWalletListenerP", "txDeleted"]
+- ["10RNLapoCore16BRWalletListenerP", "txUpdated"]
+- ["SK", "init"]
+- ["SK", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "BRBIP32MasterPubKey"]
+- !private ["s7CVarArgP", "BRBIP39DeriveKey"]
+- !private ["s7CVarArgP", "BRMasterPubKey"]
+- !private ["s7CVarArgP", "BRWallet"]
+- ["s7CVarArgP", "ListernerWallet"]
+- !private ["s7CVarArgP", "MemoryLayout"]
+- !private ["s7CVarArgP", "UInt512"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "listernWallet"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "seedPhrase"]
+- !private ["s7CVarArgP", "wallet"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- ["SL", "init"]
+- ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "BRBIP32MasterPubKey"]
+- !private ["s28CustomDebugStringConvertibleP", "BRBIP39DeriveKey"]
+- !private ["s28CustomDebugStringConvertibleP", "BRMasterPubKey"]
+- !private ["s28CustomDebugStringConvertibleP", "BRWallet"]
+- ["s28CustomDebugStringConvertibleP", "ListernerWallet"]
+- !private ["s28CustomDebugStringConvertibleP", "MemoryLayout"]
+- !private ["s28CustomDebugStringConvertibleP", "UInt512"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "listernWallet"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "seedPhrase"]
+- !private ["s28CustomDebugStringConvertibleP", "wallet"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "BRBIP32MasterPubKey"]
+- !private ["s23CustomStringConvertibleP", "BRBIP39DeriveKey"]
+- !private ["s23CustomStringConvertibleP", "BRMasterPubKey"]
+- !private ["s23CustomStringConvertibleP", "BRWallet"]
+- ["s23CustomStringConvertibleP", "ListernerWallet"]
+- !private ["s23CustomStringConvertibleP", "MemoryLayout"]
+- !private ["s23CustomStringConvertibleP", "UInt512"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "listernWallet"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "seedPhrase"]
+- !private ["s23CustomStringConvertibleP", "wallet"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- ["Se", "init"]
+- ["Se", "init"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- ["SE", "init"]
+- ["SE", "init"]
+- !private ["SQ", "BRBIP32MasterPubKey"]
+- !private ["SQ", "BRBIP39DeriveKey"]
+- !private ["SQ", "BRMasterPubKey"]
+- !private ["SQ", "BRWallet"]
+- ["SQ", "ListernerWallet"]
+- !private ["SQ", "MemoryLayout"]
+- !private ["SQ", "UInt512"]
+- ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- !private ["SQ", "listernWallet"]
+- !private ["SQ", "print"]
+- !private ["SQ", "seedPhrase"]
+- !private ["SQ", "wallet"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "BRBIP32MasterPubKey"]
+- !private ["SH", "BRBIP39DeriveKey"]
+- !private ["SH", "BRMasterPubKey"]
+- !private ["SH", "BRWallet"]
+- ["SH", "ListernerWallet"]
+- !private ["SH", "MemoryLayout"]
+- !private ["SH", "UInt512"]
+- ["SH", ""]
+- !private ["SH", "_getBuiltinLogicValue"]
+- ["SH", "init"]
+- ["SH", "init"]
+- !private ["SH", "listernWallet"]
+- !private ["SH", "print"]
+- !private ["SH", "seedPhrase"]
+- !private ["SH", "wallet"]
+- ["10RNLapoCore15ListernerWalletC", "BRTxRef"]
+- ["10RNLapoCore15ListernerWalletC", "Bool"]
+- ["10RNLapoCore15ListernerWalletC", "UInt256"]
+- ["10RNLapoCore15ListernerWalletC", "UInt32"]
+- ["10RNLapoCore15ListernerWalletC", "UInt64"]
+- ["10RNLapoCore15ListernerWalletC", "balanceChanged"]
+- ["10RNLapoCore15ListernerWalletC", "deinit"]
+- ["10RNLapoCore15ListernerWalletC", "init"]
+- !private ["10RNLapoCore15ListernerWalletC", "print"]
+- ["10RNLapoCore15ListernerWalletC", "txAdded"]
+- ["10RNLapoCore15ListernerWalletC", "txDeleted"]
+- ["10RNLapoCore15ListernerWalletC", "txUpdated"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s12MemoryLayoutO", "size"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["So8NSObjectC", "BRBIP32MasterPubKey"]
+- !private ["So8NSObjectC", "BRBIP39DeriveKey"]
+- !private ["So8NSObjectC", "BRMasterPubKey"]
+- ["So8NSObjectC", "BRWallet"]
+- ["So8NSObjectC", "ListernerWallet"]
+- !private ["So8NSObjectC", "MemoryLayout"]
+- ["So8NSObjectC", "RCTResponseSenderBlock"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "UInt512"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "createWallet"]
+- ["So8NSObjectC", "getBalance"]
+- ["So8NSObjectC", "getReceiveAddress"]
+- ["So8NSObjectC", "getTransactions"]
+- ["So8NSObjectC", "incBalanceWallet"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "lapoName"]
+- ["So8NSObjectC", "listernWallet"]
+- ["So8NSObjectC", "newTransaction"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "seedPhrase"]
+- ["So8NSObjectC", "setLastTransactions"]
+- ["So8NSObjectC", "wallet"]
+- !private ["So8NSObjectP", "BRBIP32MasterPubKey"]
+- !private ["So8NSObjectP", "BRBIP39DeriveKey"]
+- !private ["So8NSObjectP", "BRMasterPubKey"]
+- !private ["So8NSObjectP", "BRWallet"]
+- ["So8NSObjectP", "ListernerWallet"]
+- !private ["So8NSObjectP", "MemoryLayout"]
+- !private ["So8NSObjectP", "UInt512"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "listernWallet"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "seedPhrase"]
+- !private ["So8NSObjectP", "wallet"]
+- !private ["10RNLapoCoreAAC", "BRBIP32MasterPubKey"]
+- !private ["10RNLapoCoreAAC", "BRBIP39DeriveKey"]
+- !private ["10RNLapoCoreAAC", "BRMasterPubKey"]
+- ["10RNLapoCoreAAC", "BRWallet"]
+- ["10RNLapoCoreAAC", "ListernerWallet"]
+- !private ["10RNLapoCoreAAC", "MemoryLayout"]
+- ["10RNLapoCoreAAC", "RCTResponseSenderBlock"]
+- ["10RNLapoCoreAAC", "String"]
+- !private ["10RNLapoCoreAAC", "UInt512"]
+- ["10RNLapoCoreAAC", "createWallet"]
+- ["10RNLapoCoreAAC", "getBalance"]
+- ["10RNLapoCoreAAC", "getReceiveAddress"]
+- ["10RNLapoCoreAAC", "getTransactions"]
+- ["10RNLapoCoreAAC", "incBalanceWallet"]
+- ["10RNLapoCoreAAC", "init"]
+- ["10RNLapoCoreAAC", "lapoName"]
+- !private ["10RNLapoCoreAAC", "listernWallet"]
+- ["10RNLapoCoreAAC", "newTransaction"]
+- !private ["10RNLapoCoreAAC", "print"]
+- ["10RNLapoCoreAAC", "seedPhrase"]
+- ["10RNLapoCoreAAC", "setLastTransactions"]
+- ["10RNLapoCoreAAC", "wallet"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- ["ST", "init"]
+- ["ST", "init"]
+- ["SS", "init"]
+- ["SS", "init"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["So7UInt512a", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "BRBIP32MasterPubKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "BRBIP39DeriveKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "BRMasterPubKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "BRWallet"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "ListernerWallet"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MemoryLayout"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UInt512"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "listernWallet"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "seedPhrase"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "wallet"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "So14BRMasterPubKeya"
+- !private "10RNLapoCore8BRWalletC"
+- "10RNLapoCore16BRWalletListenerP"
+- "SK"
+- !private "Sb"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "10RNLapoCore15ListernerWalletC"
+- "s25LosslessStringConvertibleP"
+- !private "s12MemoryLayoutO"
+- "s10MirrorPathP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "10RNLapoCoreAAC"
+- "Sm"
+- "ST"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "So7UInt512a"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h"
+- "/Users/develexedev/dev/integral/Lapo/node_modules/lapo-core/ios/RNLapoCore-Bridging-Header.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTViewManager.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventDispatcher.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Debug-iphonesimulator/include/React/UIView+React.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h"
+- "/Users/develexedev/dev/integral/Lapo/node_modules/lapo-core/ios/Modules/breadwallet-core/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "48a11919e4297e0b024043f84d76e283"

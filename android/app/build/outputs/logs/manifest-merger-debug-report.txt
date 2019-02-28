@@ -1,0 +1,577 @@
+-- Merging decision tree log ---
+permission#com.lapo.permission.C2D_MESSAGE
+INJECTED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:21:5-23:47
+MERGED from [:react-native-notifications] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:5-14:47
+	android:protectionLevel
+		ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:23:9-44
+	android:name
+		INJECTED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:22:9-63
+uses-permission#com.lapo.permission.C2D_MESSAGE
+INJECTED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:24:5-79
+MERGED from [:react-native-notifications] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:16:5-79
+	android:name
+		INJECTED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:24:22-76
+provider#android.support.v4.content.FileProvider
+INJECTED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:50:9-60:20
+	android:grantUriPermissions
+		ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:53:13-47
+	android:authorities
+		INJECTED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:52:13-60
+	android:exported
+		ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:55:13-37
+	tools:replace
+		ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:54:13-48
+	android:name
+		ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:51:13-67
+manifest
+ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:1:1-70:12
+INJECTED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:1:1-70:12
+INJECTED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:1:1-70:12
+INJECTED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:1:1-70:12
+MERGED from [:react-native-splash-screen] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-splash-screen/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-14:12
+MERGED from [:react-native-select-contact] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-select-contact/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-10:12
+MERGED from [:react-native-keep-awake] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-keep-awake/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-notifications] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-65:12
+MERGED from [:react-native-camera] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-camera/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.android.gms:play-services-vision:15.0.2] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-vision-15.0.2.aar/76e25ff7ae3bec989f211a504a0db28d/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.2] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-15.0.2.aar/d8b462f295178bd2bddea44b808307c5/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-15.0.1.aar/98689e8542b6d5c02c3c4a73379a12e7/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-flags-15.0.1.aar/d201576781bcb988286ece19fc6e7f96/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-phenotype-15.0.1.aar/de9858f0c2c41d087c9357d6b89b9f37/AndroidManifest.xml:17:1-24:12
+MERGED from [:react-native-device-info] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-device-info/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-22:12
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-gcm-16.1.0.aar/0451057ef857f64f85dce05c2a941174/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-iid-16.0.1.aar/b5f53c1b5b4105976e95fc77df51581d/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/5949906c9140579036803c7b3aad818b/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/632e217cdfa4304a7076bc0cbea8b026/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/0c85716d93eddc829973fc2d1b269166/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/3e0a07bfd054848731e0cffe73123747/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.1.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/07720cbd8fed682964702b6b0706ad43/AndroidManifest.xml:17:1-22:12
+MERGED from [:react-native-fabric] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-fabric/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.2] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.2.aar/617f02b92dcafbbf2a447442f0b4eb92/AndroidManifest.xml:2:1-19:12
+MERGED from [:react-native-gesture-handler] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-gesture-handler/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-image-picker] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-23:12
+MERGED from [:react-native-share] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-share/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-svg] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-svg/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-pdf-lib] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-pdf-lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-linear-gradient] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-linear-gradient/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:lapo-core] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/lapo-core/android/build/intermediates/manifests/full/brd/debug/AndroidManifest.xml:2:1-31:12
+MERGED from [com.facebook.react:react-native:0.56.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/react-native-0.56.1.aar/6c41ae41610b4c8b63fdf8391c5e037b/AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/632213ddf4cda71fd9cc5099a7ce1892/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/377d70745355e742f076ef4c12415688/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/f2e4b46308d72e36914a02df32171994/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/bca55758318bbb5279a53f0b3464cccf/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/4a0ab91b009bf19dccf7786f0e659ffd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/392b5252037cc2744a3e5cd6ba2bacd6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/3961d4a828a746cdd7760ea8afb4612d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/23331e8fe11037a127b3b92ded55724a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.2] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.2.aar/8b42f68650639056621af9dfd9bf6ced/AndroidManifest.xml:45:1-56:12
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/9c5e7d7871532cbb9fa8e8c66424199e/AndroidManifest.xml:2:1-13:12
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/cf7e4039fa8b038a23b46038e7c50df8/AndroidManifest.xml:2:1-13:12
+MERGED from [io.fabric.sdk.android:fabric:1.4.2] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/fabric-1.4.2.aar/f7fada9d7cad302a7256ca19130c5ff5/AndroidManifest.xml:22:1-33:12
+MERGED from [com.tom_roush:pdfbox-android:1.8.9.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/pdfbox-android-1.8.9.1.aar/1e2031603ff731d0caadfff6ceb8b64e/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:exifinterface:27.1.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.1.aar/9b9dba7ea847160be2dcc9921c33a769/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/071249dfc761bc6347f78e9aebf26ed2/AndroidManifest.xml:10:1-18:12
+MERGED from [com.facebook.fresco:fresco:1.9.0] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/fresco-1.9.0.aar/2311a0f32ed23054bd5bd4908130ca50/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.9.0] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.9.0.aar/a958de4b37c7721e9079c8481ae9f06c/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:1.9.0] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/drawee-1.9.0.aar/93919b205e9fdd9222d1722bdf4d3ced/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.9.0] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.9.0.aar/942c8122dc4c5335c5fc5e3841cb6b70/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.9.0] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.9.0.aar/6864edc79b905cb022af067c31ee8b53/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.3.0] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/soloader-0.3.0.aar/e70ed0fa5246b3698082031a98d3e6c0/AndroidManifest.xml:2:1-13:12
+MERGED from [org.webkit:android-jsc:r174650] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/38395078876816a55bcc69f753c5d890/AndroidManifest.xml:1:1-3:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/cad7f6fa24dfc2419470971e4fa0d5ca/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/4db9fdd38768c559e896cef3979c9239/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/5323e117c00fd10bd49d5923d5ab9ffb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fbcore:1.9.0] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/fbcore-1.9.0.aar/bb8699628bf07c92f3f70b83a6a60c37/AndroidManifest.xml:2:1-9:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/1343f2f2d7757126b5a7828bf7b28534/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:1:1-70:12
+INJECTED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:1:1-70:12
+INJECTED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:1:1-70:12
+	package
+		ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:2:5-23
+		INJECTED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:1:1-70:12
+		INJECTED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:1:70-116
+	android:versionCode
+		INJECTED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:1:1-70:12
+		INJECTED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-gcm-16.1.0.aar/0451057ef857f64f85dce05c2a941174/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-gcm-16.1.0.aar/0451057ef857f64f85dce05c2a941174/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-iid-16.0.1.aar/b5f53c1b5b4105976e95fc77df51581d/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-iid-16.0.1.aar/b5f53c1b5b4105976e95fc77df51581d/AndroidManifest.xml:24:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.2] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.2.aar/617f02b92dcafbbf2a447442f0b4eb92/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.2] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.2.aar/617f02b92dcafbbf2a447442f0b4eb92/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.2] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.2.aar/8b42f68650639056621af9dfd9bf6ced/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.2] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.2.aar/8b42f68650639056621af9dfd9bf6ced/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/9c5e7d7871532cbb9fa8e8c66424199e/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/9c5e7d7871532cbb9fa8e8c66424199e/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/cf7e4039fa8b038a23b46038e7c50df8/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/cf7e4039fa8b038a23b46038e7c50df8/AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.2] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/fabric-1.4.2.aar/f7fada9d7cad302a7256ca19130c5ff5/AndroidManifest.xml:29:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.2] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/fabric-1.4.2.aar/f7fada9d7cad302a7256ca19130c5ff5/AndroidManifest.xml:29:5-67
+	android:name
+		ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:5:5-77
+MERGED from [com.facebook.react:react-native:0.56.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/react-native-0.56.1.aar/6c41ae41610b4c8b63fdf8391c5e037b/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.56.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/react-native-0.56.1.aar/6c41ae41610b4c8b63fdf8391c5e037b/AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:5:22-75
+uses-permission#android.permission.CAMERA
+ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:6:5-65
+MERGED from [:react-native-camera] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-camera/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:9:5-65
+MERGED from [:react-native-camera] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-camera/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:9:5-65
+	android:name
+		ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:6:22-62
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:8:5-68
+	android:name
+		ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:8:22-65
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:9:5-81
+MERGED from [:react-native-share] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-share/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-81
+MERGED from [:react-native-share] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-share/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-81
+MERGED from [:lapo-core] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/lapo-core/android/build/intermediates/manifests/full/brd/debug/AndroidManifest.xml:11:5-81
+MERGED from [:lapo-core] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/lapo-core/android/build/intermediates/manifests/full/brd/debug/AndroidManifest.xml:11:5-81
+MERGED from [:lapo-core] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/lapo-core/android/build/intermediates/manifests/full/brd/debug/AndroidManifest.xml:14:5-81
+MERGED from [:lapo-core] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/lapo-core/android/build/intermediates/manifests/full/brd/debug/AndroidManifest.xml:14:5-81
+MERGED from [com.tom_roush:pdfbox-android:1.8.9.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/pdfbox-android-1.8.9.1.aar/1e2031603ff731d0caadfff6ceb8b64e/AndroidManifest.xml:11:5-81
+MERGED from [com.tom_roush:pdfbox-android:1.8.9.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/pdfbox-android-1.8.9.1.aar/1e2031603ff731d0caadfff6ceb8b64e/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:9:22-78
+uses-permission#android.permission.WRITE_INTERNAL_STORAGE
+ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:10:5-81
+MERGED from [:lapo-core] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/lapo-core/android/build/intermediates/manifests/full/brd/debug/AndroidManifest.xml:12:5-81
+MERGED from [:lapo-core] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/lapo-core/android/build/intermediates/manifests/full/brd/debug/AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:10:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:11:5-80
+MERGED from [:lapo-core] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/lapo-core/android/build/intermediates/manifests/full/brd/debug/AndroidManifest.xml:13:5-80
+MERGED from [:lapo-core] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/lapo-core/android/build/intermediates/manifests/full/brd/debug/AndroidManifest.xml:13:5-80
+	android:name
+		ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:11:22-77
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:12:22-76
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:13:5-74
+	android:name
+		ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:13:22-71
+uses-permission#android.permission.SEND_SMS
+ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:14:5-67
+	android:name
+		ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:14:22-64
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:15:5-79
+	android:name
+		ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:15:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:16:22-78
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:17:5-72
+	android:name
+		ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:17:22-69
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:18:5-73
+	android:name
+		ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:18:22-70
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:27:5-66
+MERGED from [:react-native-notifications] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:19:5-21:38
+MERGED from [:react-native-notifications] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:19:5-21:38
+	android:maxSdkVersion
+		ADDED from [:react-native-notifications] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:21:9-35
+	android:name
+		ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:27:22-63
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:28:5-80
+	android:name
+		ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:28:22-78
+application
+ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:30:5-68:19
+MERGED from [:react-native-splash-screen] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-splash-screen/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-12:19
+MERGED from [:react-native-splash-screen] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-splash-screen/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-12:19
+MERGED from [:react-native-notifications] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:23:5-63:19
+MERGED from [:react-native-notifications] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:23:5-63:19
+MERGED from [com.google.android.gms:play-services-vision:15.0.2] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-vision-15.0.2.aar/76e25ff7ae3bec989f211a504a0db28d/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:15.0.2] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-vision-15.0.2.aar/76e25ff7ae3bec989f211a504a0db28d/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.2] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-15.0.2.aar/d8b462f295178bd2bddea44b808307c5/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.2] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-15.0.2.aar/d8b462f295178bd2bddea44b808307c5/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-15.0.1.aar/98689e8542b6d5c02c3c4a73379a12e7/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-15.0.1.aar/98689e8542b6d5c02c3c4a73379a12e7/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-phenotype-15.0.1.aar/de9858f0c2c41d087c9357d6b89b9f37/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-phenotype-15.0.1.aar/de9858f0c2c41d087c9357d6b89b9f37/AndroidManifest.xml:22:5-20
+MERGED from [:react-native-device-info] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-device-info/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-20:19
+MERGED from [:react-native-device-info] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-device-info/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-20:19
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-gcm-16.1.0.aar/0451057ef857f64f85dce05c2a941174/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-gcm-16.1.0.aar/0451057ef857f64f85dce05c2a941174/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-iid-16.0.1.aar/b5f53c1b5b4105976e95fc77df51581d/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-iid-16.0.1.aar/b5f53c1b5b4105976e95fc77df51581d/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/5949906c9140579036803c7b3aad818b/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/5949906c9140579036803c7b3aad818b/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/632e217cdfa4304a7076bc0cbea8b026/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/632e217cdfa4304a7076bc0cbea8b026/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/0c85716d93eddc829973fc2d1b269166/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/0c85716d93eddc829973fc2d1b269166/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/3e0a07bfd054848731e0cffe73123747/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/3e0a07bfd054848731e0cffe73123747/AndroidManifest.xml:22:5-26:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.2] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.2.aar/617f02b92dcafbbf2a447442f0b4eb92/AndroidManifest.xml:11:5-17:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.2] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.2.aar/617f02b92dcafbbf2a447442f0b4eb92/AndroidManifest.xml:11:5-17:19
+MERGED from [:react-native-image-picker] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-21:19
+MERGED from [:react-native-image-picker] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-21:19
+MERGED from [:lapo-core] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/lapo-core/android/build/intermediates/manifests/full/brd/debug/AndroidManifest.xml:20:5-29:19
+MERGED from [:lapo-core] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/lapo-core/android/build/intermediates/manifests/full/brd/debug/AndroidManifest.xml:20:5-29:19
+MERGED from [com.facebook.react:react-native:0.56.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/react-native-0.56.1.aar/6c41ae41610b4c8b63fdf8391c5e037b/AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.56.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/react-native-0.56.1.aar/6c41ae41610b4c8b63fdf8391c5e037b/AndroidManifest.xml:13:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.2] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.2.aar/8b42f68650639056621af9dfd9bf6ced/AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.2] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.2.aar/8b42f68650639056621af9dfd9bf6ced/AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/9c5e7d7871532cbb9fa8e8c66424199e/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/9c5e7d7871532cbb9fa8e8c66424199e/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/cf7e4039fa8b038a23b46038e7c50df8/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/cf7e4039fa8b038a23b46038e7c50df8/AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.2] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/fabric-1.4.2.aar/f7fada9d7cad302a7256ca19130c5ff5/AndroidManifest.xml:31:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.2] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/fabric-1.4.2.aar/f7fada9d7cad302a7256ca19130c5ff5/AndroidManifest.xml:31:5-20
+MERGED from [com.facebook.soloader:soloader:0.3.0] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/soloader-0.3.0.aar/e70ed0fa5246b3698082031a98d3e6c0/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.3.0] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/soloader-0.3.0.aar/e70ed0fa5246b3698082031a98d3e6c0/AndroidManifest.xml:11:5-20
+MERGED from [org.webkit:android-jsc:r174650] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/38395078876816a55bcc69f753c5d890/AndroidManifest.xml:2:3-17
+MERGED from [org.webkit:android-jsc:r174650] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/38395078876816a55bcc69f753c5d890/AndroidManifest.xml:2:3-17
+	android:label
+		ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:32:7-39
+	android:icon
+		ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:33:7-41
+	android:allowBackup
+		ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:34:7-34
+	android:theme
+		ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:35:7-38
+	android:name
+		ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:31:7-38
+activity#com.lapo.MainActivity
+ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:36:7-47:18
+	android:screenOrientation
+		ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:40:9-45
+	android:label
+		ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:38:9-41
+	android:windowSoftInputMode
+		ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:41:9-51
+	android:configChanges
+		ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:39:9-79
+	android:name
+		ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:37:9-37
+intent-filter#action:name:android.intent.action.DOWNLOAD_COMPLETE+action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:42:9-46:25
+action#android.intent.action.MAIN
+ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:43:13-65
+	android:name
+		ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:43:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:44:13-73
+	android:name
+		ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:44:23-70
+action#android.intent.action.DOWNLOAD_COMPLETE
+ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:45:6-70
+	android:name
+		ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:45:14-68
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:48:7-84
+	android:name
+		ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:48:17-81
+meta-data#com.google.firebase.messaging.default_notification_icon
+ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:63:9-136
+	android:resource
+		ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:63:91-133
+	android:name
+		ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:63:20-90
+meta-data#io.fabric.ApiKey
+ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:64:9-67:11
+	android:value
+		ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:66:17-73
+	android:name
+		ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:65:17-48
+uses-sdk
+INJECTED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-splash-screen] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-splash-screen/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-splash-screen] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-splash-screen/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-select-contact] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-select-contact/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:6:5-8:41
+MERGED from [:react-native-select-contact] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-select-contact/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:6:5-8:41
+MERGED from [:react-native-keep-awake] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-keep-awake/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-keep-awake] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-keep-awake/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-notifications] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-notifications] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-camera] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-camera/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-camera] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-camera/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-vision:15.0.2] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-vision-15.0.2.aar/76e25ff7ae3bec989f211a504a0db28d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:15.0.2] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-vision-15.0.2.aar/76e25ff7ae3bec989f211a504a0db28d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.2] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-15.0.2.aar/d8b462f295178bd2bddea44b808307c5/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.2] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-15.0.2.aar/d8b462f295178bd2bddea44b808307c5/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-15.0.1.aar/98689e8542b6d5c02c3c4a73379a12e7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-15.0.1.aar/98689e8542b6d5c02c3c4a73379a12e7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-flags-15.0.1.aar/d201576781bcb988286ece19fc6e7f96/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-flags-15.0.1.aar/d201576781bcb988286ece19fc6e7f96/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-phenotype-15.0.1.aar/de9858f0c2c41d087c9357d6b89b9f37/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-phenotype-15.0.1.aar/de9858f0c2c41d087c9357d6b89b9f37/AndroidManifest.xml:20:5-44
+MERGED from [:react-native-device-info] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-device-info/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-device-info] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-device-info/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-gcm-16.1.0.aar/0451057ef857f64f85dce05c2a941174/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-gcm-16.1.0.aar/0451057ef857f64f85dce05c2a941174/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-iid-16.0.1.aar/b5f53c1b5b4105976e95fc77df51581d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-iid-16.0.1.aar/b5f53c1b5b4105976e95fc77df51581d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/5949906c9140579036803c7b3aad818b/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/5949906c9140579036803c7b3aad818b/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/632e217cdfa4304a7076bc0cbea8b026/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/632e217cdfa4304a7076bc0cbea8b026/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/0c85716d93eddc829973fc2d1b269166/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/0c85716d93eddc829973fc2d1b269166/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/3e0a07bfd054848731e0cffe73123747/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/3e0a07bfd054848731e0cffe73123747/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/07720cbd8fed682964702b6b0706ad43/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/07720cbd8fed682964702b6b0706ad43/AndroidManifest.xml:20:5-44
+MERGED from [:react-native-fabric] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-fabric/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-fabric] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-fabric/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.2] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.2.aar/617f02b92dcafbbf2a447442f0b4eb92/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.2] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.2.aar/617f02b92dcafbbf2a447442f0b4eb92/AndroidManifest.xml:7:5-43
+MERGED from [:react-native-gesture-handler] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-gesture-handler/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-gesture-handler/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-image-picker] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-image-picker] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-share] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-share/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-share] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-share/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-svg] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-svg/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-svg] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-svg/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-pdf-lib] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-pdf-lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-pdf-lib] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-pdf-lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-linear-gradient] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-linear-gradient/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-linear-gradient] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-linear-gradient/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:lapo-core] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/lapo-core/android/build/intermediates/manifests/full/brd/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:lapo-core] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/lapo-core/android/build/intermediates/manifests/full/brd/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.56.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/react-native-0.56.1.aar/6c41ae41610b4c8b63fdf8391c5e037b/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.56.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/react-native-0.56.1.aar/6c41ae41610b4c8b63fdf8391c5e037b/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/632213ddf4cda71fd9cc5099a7ce1892/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/632213ddf4cda71fd9cc5099a7ce1892/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/377d70745355e742f076ef4c12415688/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/377d70745355e742f076ef4c12415688/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/f2e4b46308d72e36914a02df32171994/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/f2e4b46308d72e36914a02df32171994/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/bca55758318bbb5279a53f0b3464cccf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/bca55758318bbb5279a53f0b3464cccf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/4a0ab91b009bf19dccf7786f0e659ffd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/4a0ab91b009bf19dccf7786f0e659ffd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/392b5252037cc2744a3e5cd6ba2bacd6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/392b5252037cc2744a3e5cd6ba2bacd6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/3961d4a828a746cdd7760ea8afb4612d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/3961d4a828a746cdd7760ea8afb4612d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/23331e8fe11037a127b3b92ded55724a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/23331e8fe11037a127b3b92ded55724a/AndroidManifest.xml:20:5-44
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.2] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.2.aar/8b42f68650639056621af9dfd9bf6ced/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.2] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.2.aar/8b42f68650639056621af9dfd9bf6ced/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/9c5e7d7871532cbb9fa8e8c66424199e/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/9c5e7d7871532cbb9fa8e8c66424199e/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/cf7e4039fa8b038a23b46038e7c50df8/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/cf7e4039fa8b038a23b46038e7c50df8/AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.2] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/fabric-1.4.2.aar/f7fada9d7cad302a7256ca19130c5ff5/AndroidManifest.xml:27:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.2] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/fabric-1.4.2.aar/f7fada9d7cad302a7256ca19130c5ff5/AndroidManifest.xml:27:5-43
+MERGED from [com.tom_roush:pdfbox-android:1.8.9.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/pdfbox-android-1.8.9.1.aar/1e2031603ff731d0caadfff6ceb8b64e/AndroidManifest.xml:7:5-9:41
+MERGED from [com.tom_roush:pdfbox-android:1.8.9.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/pdfbox-android-1.8.9.1.aar/1e2031603ff731d0caadfff6ceb8b64e/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:exifinterface:27.1.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.1.aar/9b9dba7ea847160be2dcc9921c33a769/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.1.aar/9b9dba7ea847160be2dcc9921c33a769/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/071249dfc761bc6347f78e9aebf26ed2/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/071249dfc761bc6347f78e9aebf26ed2/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fresco:fresco:1.9.0] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/fresco-1.9.0.aar/2311a0f32ed23054bd5bd4908130ca50/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.9.0] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/fresco-1.9.0.aar/2311a0f32ed23054bd5bd4908130ca50/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.9.0] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.9.0.aar/a958de4b37c7721e9079c8481ae9f06c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.9.0] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.9.0.aar/a958de4b37c7721e9079c8481ae9f06c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.9.0] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/drawee-1.9.0.aar/93919b205e9fdd9222d1722bdf4d3ced/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.9.0] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/drawee-1.9.0.aar/93919b205e9fdd9222d1722bdf4d3ced/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.9.0] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.9.0.aar/942c8122dc4c5335c5fc5e3841cb6b70/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.9.0] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.9.0.aar/942c8122dc4c5335c5fc5e3841cb6b70/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.9.0] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.9.0.aar/6864edc79b905cb022af067c31ee8b53/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.9.0] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.9.0.aar/6864edc79b905cb022af067c31ee8b53/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.3.0] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/soloader-0.3.0.aar/e70ed0fa5246b3698082031a98d3e6c0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.3.0] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/soloader-0.3.0.aar/e70ed0fa5246b3698082031a98d3e6c0/AndroidManifest.xml:7:5-9:41
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/cad7f6fa24dfc2419470971e4fa0d5ca/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/cad7f6fa24dfc2419470971e4fa0d5ca/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/4db9fdd38768c559e896cef3979c9239/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/4db9fdd38768c559e896cef3979c9239/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/5323e117c00fd10bd49d5923d5ab9ffb/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/5323e117c00fd10bd49d5923d5ab9ffb/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fbcore:1.9.0] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/fbcore-1.9.0.aar/bb8699628bf07c92f3f70b83a6a60c37/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.9.0] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/fbcore-1.9.0.aar/bb8699628bf07c92f3f70b83a6a60c37/AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.core:runtime:1.1.0] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/1343f2f2d7757126b5a7828bf7b28534/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/1343f2f2d7757126b5a7828bf7b28534/AndroidManifest.xml:20:5-44
+INJECTED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:56:13-59:53
+	android:resource
+		ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:59:17-50
+	tools:replace
+		ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:57:17-49
+	android:name
+		ADDED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:58:17-67
+permission#${applicationId}.permission.C2D_MESSAGE
+MERGED from [:react-native-notifications] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:5-14:47
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+MERGED from [:react-native-notifications] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:16:5-79
+service#com.wix.reactnativenotifications.core.ProxyService
+ADDED from [:react-native-notifications] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:26:9-86
+	android:name
+		ADDED from [:react-native-notifications] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:26:18-83
+receiver#com.google.android.gms.gcm.GcmReceiver
+ADDED from [:react-native-notifications] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:33:9-43:20
+	android:exported
+		ADDED from [:react-native-notifications] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [:react-native-notifications] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:36:13-73
+	android:name
+		ADDED from [:react-native-notifications] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:34:13-66
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+action:name:com.google.android.c2dm.intent.REGISTRATION+category:name:${applicationId}
+ADDED from [:react-native-notifications] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:37:13-42:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+action:name:com.google.android.c2dm.intent.REGISTRATION+category:name:com.lapo
+ADDED from [:react-native-notifications] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:37:13-42:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [:react-native-notifications] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:38:17-81
+	android:name
+		ADDED from [:react-native-notifications] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:38:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from [:react-native-notifications] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:39:17-86
+	android:name
+		ADDED from [:react-native-notifications] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:39:25-83
+category#${applicationId}
+ADDED from [:react-native-notifications] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:41:17-61
+	android:name
+		ADDED from [:react-native-notifications] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:41:27-58
+category#com.lapo
+ADDED from [:react-native-notifications] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:41:17-61
+	android:name
+		ADDED from [:react-native-notifications] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:41:27-58
+service#com.wix.reactnativenotifications.gcm.GcmMessageHandlerService
+ADDED from [:react-native-notifications] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:45:9-51:19
+	android:exported
+		ADDED from [:react-native-notifications] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [:react-native-notifications] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:46:13-89
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [:react-native-notifications] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:48:13-50:29
+service#com.wix.reactnativenotifications.gcm.GcmInstanceIdListenerService
+ADDED from [:react-native-notifications] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:53:9-59:19
+	android:exported
+		ADDED from [:react-native-notifications] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:55:13-37
+	android:name
+		ADDED from [:react-native-notifications] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:54:13-93
+intent-filter#action:name:com.google.android.gms.iid.InstanceID
+ADDED from [:react-native-notifications] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:56:13-58:29
+action#com.google.android.gms.iid.InstanceID
+ADDED from [:react-native-notifications] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:57:17-80
+	android:name
+		ADDED from [:react-native-notifications] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:57:25-77
+service#com.wix.reactnativenotifications.gcm.GcmInstanceIdRefreshHandlerService
+ADDED from [:react-native-notifications] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:60:9-62:40
+	android:exported
+		ADDED from [:react-native-notifications] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:62:13-37
+	android:name
+		ADDED from [:react-native-notifications] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:61:13-99
+uses-feature#android.hardware.camera
+ADDED from [:react-native-camera] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-camera/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-13:36
+	android:required
+		ADDED from [:react-native-camera] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-camera/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:9-33
+	android:name
+		ADDED from [:react-native-camera] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-camera/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:9-47
+uses-feature#android.hardware.camera.autofocus
+ADDED from [:react-native-camera] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-camera/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:5-16:36
+	android:required
+		ADDED from [:react-native-camera] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-camera/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:16:9-33
+	android:name
+		ADDED from [:react-native-camera] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-camera/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:9-57
+receiver#com.learnium.RNDeviceInfo.RNDeviceReceiver
+ADDED from [:react-native-device-info] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-device-info/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:9-19:20
+	android:enabled
+		ADDED from [:react-native-device-info] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-device-info/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:13-35
+	android:exported
+		ADDED from [:react-native-device-info] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-device-info/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:13-36
+	android:name
+		ADDED from [:react-native-device-info] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-device-info/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:13-70
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [:react-native-device-info] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-device-info/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:16:13-18:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [:react-native-device-info] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-device-info/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:17:17-79
+	android:name
+		ADDED from [:react-native-device-info] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-device-info/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:17:25-76
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-gcm-16.1.0.aar/0451057ef857f64f85dce05c2a941174/AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-iid-16.0.1.aar/b5f53c1b5b4105976e95fc77df51581d/AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-iid-16.0.1.aar/b5f53c1b5b4105976e95fc77df51581d/AndroidManifest.xml:23:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-gcm-16.1.0.aar/0451057ef857f64f85dce05c2a941174/AndroidManifest.xml:23:22-79
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/632e217cdfa4304a7076bc0cbea8b026/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/632e217cdfa4304a7076bc0cbea8b026/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/632e217cdfa4304a7076bc0cbea8b026/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/632e217cdfa4304a7076bc0cbea8b026/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/3e0a07bfd054848731e0cffe73123747/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/3e0a07bfd054848731e0cffe73123747/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/3e0a07bfd054848731e0cffe73123747/AndroidManifest.xml:24:13-58
+provider#com.crashlytics.android.CrashlyticsInitProvider
+ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.2] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.2.aar/617f02b92dcafbbf2a447442f0b4eb92/AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.2] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.2.aar/617f02b92dcafbbf2a447442f0b4eb92/AndroidManifest.xml:14:13-75
+	android:exported
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.2] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.2.aar/617f02b92dcafbbf2a447442f0b4eb92/AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.2] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.2.aar/617f02b92dcafbbf2a447442f0b4eb92/AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.2] /Users/develexedev/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.2.aar/617f02b92dcafbbf2a447442f0b4eb92/AndroidManifest.xml:13:13-75
+provider#com.imagepicker.FileProvider
+ADDED from [:react-native-image-picker] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:9-20:20
+	android:grantUriPermissions
+		ADDED from [:react-native-image-picker] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:16:13-47
+	android:authorities
+		ADDED from [:react-native-image-picker] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:13-60
+	android:exported
+		ADDED from [:react-native-image-picker] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [:react-native-image-picker] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:13-56
+service#com.reactlibrary.HelloService
+ADDED from [:lapo-core] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/lapo-core/android/build/intermediates/manifests/full/brd/debug/AndroidManifest.xml:23:9-25:40
+	android:exported
+		ADDED from [:lapo-core] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/lapo-core/android/build/intermediates/manifests/full/brd/debug/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [:lapo-core] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/lapo-core/android/build/intermediates/manifests/full/brd/debug/AndroidManifest.xml:24:13-57
+service#com.reactlibrary.ProxyService
+ADDED from [:lapo-core] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/lapo-core/android/build/intermediates/manifests/full/brd/debug/AndroidManifest.xml:26:9-28:40
+	android:exported
+		ADDED from [:lapo-core] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/lapo-core/android/build/intermediates/manifests/full/brd/debug/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [:lapo-core] /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/node_modules/lapo-core/android/build/intermediates/manifests/full/brd/debug/AndroidManifest.xml:27:13-57
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/AndroidManifest.xml:1:1-70:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4

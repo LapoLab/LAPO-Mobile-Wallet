@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "b7a9573439ccc70355aee47a71a52d17"
+build_time: [1543206958, 621610000]
+inputs:
+  "/Users/develexedev/dev/integral/Lapo/ios/BRCore.swift": [1542961219, 0]
+  "/Users/develexedev/dev/integral/Lapo/ios/RNLapo.swift": [1542979824, 0]
+  "/Users/develexedev/dev/integral/Lapo/ios/File.swift": [1542876504, 0]

@@ -1,0 +1,259 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "count"
+provides-nominal:
+provides-member:
+- ["6SQLite14ExpressionTypeP", ""]
+- ["6SQLite14ExpressionTypeP", "distinct"]
+- ["6SQLite14ExpressionTypeP", "count"]
+- ["6SQLite14ExpressionTypeP", "distinct"]
+- ["6SQLite14ExpressionTypeP", "count"]
+- ["6SQLite14ExpressionTypeP", "max"]
+- ["6SQLite14ExpressionTypeP", "min"]
+- ["6SQLite14ExpressionTypeP", "max"]
+- ["6SQLite14ExpressionTypeP", "min"]
+- ["6SQLite14ExpressionTypeP", "average"]
+- ["6SQLite14ExpressionTypeP", "sum"]
+- ["6SQLite14ExpressionTypeP", "total"]
+- ["6SQLite14ExpressionTypeP", "average"]
+- ["6SQLite14ExpressionTypeP", "sum"]
+- ["6SQLite14ExpressionTypeP", "total"]
+- ["6SQLite14ExpressionTypeP", "count"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Comparable"
+- "Double"
+- "Expression"
+- "ExpressionType"
+- "Int"
+- "Number"
+- "Star"
+- !private "StringLiteralType"
+- "Value"
+- "_OptionalType"
+- "count"
+- !private "wrap"
+depends-member:
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "wrap"]
+- !private ["6SQLite7BindingP", "init"]
+- !private ["6SQLite7BindingP", "init"]
+- !private ["6SQLite7BindingP", "wrap"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "wrap"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "wrap"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "wrap"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "wrap"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "wrap"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "wrap"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "wrap"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "wrap"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "wrap"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "wrap"]
+- ["6SQLite11ExpressibleP", "Comparable"]
+- ["6SQLite11ExpressibleP", "Double"]
+- ["6SQLite11ExpressibleP", "Expression"]
+- ["6SQLite11ExpressibleP", "Int"]
+- ["6SQLite11ExpressibleP", "Number"]
+- ["6SQLite11ExpressibleP", "Star"]
+- ["6SQLite11ExpressibleP", "UnderlyingType"]
+- ["6SQLite11ExpressibleP", "Value"]
+- ["6SQLite11ExpressibleP", "_OptionalType"]
+- !private ["6SQLite11ExpressibleP", "bindings"]
+- !private ["6SQLite11ExpressibleP", "count"]
+- !private ["6SQLite11ExpressibleP", "init"]
+- !private ["6SQLite11ExpressibleP", "init"]
+- !private ["6SQLite11ExpressibleP", "template"]
+- !private ["6SQLite11ExpressibleP", "wrap"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "wrap"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "wrap"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "wrap"]
+- !private ["6SQLite10ExpressionV", "count"]
+- !private ["6SQLite10ExpressionV", "deinit"]
+- !private ["6SQLite10ExpressionV", "init"]
+- ["6SQLite14ExpressionTypeP", "Comparable"]
+- ["6SQLite14ExpressionTypeP", "Double"]
+- ["6SQLite14ExpressionTypeP", "Expression"]
+- ["6SQLite14ExpressionTypeP", "Int"]
+- ["6SQLite14ExpressionTypeP", "Number"]
+- ["6SQLite14ExpressionTypeP", "Star"]
+- ["6SQLite14ExpressionTypeP", "UnderlyingType"]
+- ["6SQLite14ExpressionTypeP", "Value"]
+- ["6SQLite14ExpressionTypeP", "_OptionalType"]
+- ["6SQLite14ExpressionTypeP", "average"]
+- !private ["6SQLite14ExpressionTypeP", "bindings"]
+- ["6SQLite14ExpressionTypeP", "count"]
+- ["6SQLite14ExpressionTypeP", "distinct"]
+- !private ["6SQLite14ExpressionTypeP", "init"]
+- ["6SQLite14ExpressionTypeP", "max"]
+- ["6SQLite14ExpressionTypeP", "min"]
+- ["6SQLite14ExpressionTypeP", "sum"]
+- !private ["6SQLite14ExpressionTypeP", "template"]
+- ["6SQLite14ExpressionTypeP", "total"]
+- !private ["6SQLite14ExpressionTypeP", "wrap"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "wrap"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "wrap"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "wrap"]
+- !private ["So8NSCodingP", "wrap"]
+- !private ["So9NSCopyingP", "wrap"]
+- !private ["So21NSItemProviderReadingP", "wrap"]
+- !private ["So21NSItemProviderWritingP", "wrap"]
+- !private ["So16NSMutableCopyingP", "wrap"]
+- !private ["So8NSObjectC", "wrap"]
+- !private ["So8NSObjectP", "wrap"]
+- !private ["So14NSSecureCodingP", "wrap"]
+- !private ["So8NSStringC", "wrap"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "wrap"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "wrap"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "wrap"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "wrap"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "wrap"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "wrap"]
+- !private ["6SQLite5ValueP", "init"]
+- !private ["6SQLite5ValueP", "init"]
+- !private ["6SQLite5ValueP", "wrap"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "wrap"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "wrap"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "wrap"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "wrap"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "wrap"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "wrap"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "wrap"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "wrap"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "wrap"]
+depends-nominal:
+- !private "SK"
+- !private "6SQLite7BindingP"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- "6SQLite11ExpressibleP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "6SQLite10ExpressionV"
+- "6SQLite14ExpressionTypeP"
+- !private "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sm"
+- !private "ST"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "6SQLite5ValueP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/develexedev/dev/integral/Lapo/ios/Pods/Target Support Files/SQLite.swift/SQLite.swift-umbrella.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/Pods/SQLite.swift/Sources/SQLite/SQLite.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/Pods/SQLite.swift/Sources/SQLiteObjc/include/SQLite-Bridging.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SQLite.swift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "268602aa2ce3668133b0ecd9d9a4f258"

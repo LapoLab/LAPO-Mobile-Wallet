@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Lapo.iml" filepath="$PROJECT_DIR$/Lapo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/lapo-core/android/lapo-core.iml" filepath="$PROJECT_DIR$/../node_modules/lapo-core/android/lapo-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-camera/android/react-native-camera.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-camera/android/react-native-camera.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-camera/android/react-native-camera~1.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-camera/android/react-native-camera~1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-contacts/android/react-native-contacts.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-contacts/android/react-native-contacts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-device-info/android/react-native-device-info.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-device-info/android/react-native-device-info.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-device-info/android/react-native-device-info~1.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-device-info/android/react-native-device-info~1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-fabric/android/react-native-fabric.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-fabric/android/react-native-fabric.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-fabric/android/react-native-fabric~1.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-fabric/android/react-native-fabric~1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-gesture-handler/android/react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-gesture-handler/android/react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-gesture-handler/android/react-native-gesture-handler~1.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-gesture-handler/android/react-native-gesture-handler~1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-image-picker/android/react-native-image-picker.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-image-picker/android/react-native-image-picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-image-picker/android/react-native-image-picker~1.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-image-picker/android/react-native-image-picker~1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-keep-awake/android/react-native-keep-awake.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-keep-awake/android/react-native-keep-awake.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-keep-awake/android/react-native-keep-awake~1.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-keep-awake/android/react-native-keep-awake~1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-linear-gradient/android/react-native-linear-gradient.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-linear-gradient/android/react-native-linear-gradient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-linear-gradient/android/react-native-linear-gradient~1.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-linear-gradient/android/react-native-linear-gradient~1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-notifications/android/react-native-notifications.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-notifications/android/react-native-notifications.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-notifications/android/react-native-notifications~1.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-notifications/android/react-native-notifications~1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-pdf-lib/android/react-native-pdf-lib.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-pdf-lib/android/react-native-pdf-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-pdf-lib/android/react-native-pdf-lib~1.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-pdf-lib/android/react-native-pdf-lib~1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-select-contact/android/app/react-native-select-contact.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-select-contact/android/app/react-native-select-contact.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-share/android/react-native-share.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-share/android/react-native-share.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-splash-screen/android/react-native-splash-screen.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-splash-screen/android/react-native-splash-screen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-splash-screen/android/react-native-splash-screen~1.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-splash-screen/android/react-native-splash-screen~1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-svg/android/react-native-svg.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-svg/android/react-native-svg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-svg/android/react-native-svg~1.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-svg/android/react-native-svg~1.iml" />
+    </modules>
+  </component>
+</project>

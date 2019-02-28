@@ -1,0 +1,435 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile page renders snapshots 1`] = `
+<BVLinearGradient
+  colors={
+    Array [
+      -12483651,
+      -16172276,
+    ]
+  }
+  endPoint={
+    Object {
+      "x": 1.2,
+      "y": 1.2,
+    }
+  }
+  locations={
+    Array [
+      0.04,
+      0.96,
+    ]
+  }
+  startPoint={
+    Object {
+      "x": -0.1,
+      "y": -0.1,
+    }
+  }
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RCTSafeAreaView
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 30,
+          "justifyContent": "flex-start",
+          "marginTop": 20,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/back.png",
+            }
+          }
+          style={
+            Object {
+              "flex": 1,
+              "marginLeft": 12,
+              "resizeMode": "contain",
+              "width": 12,
+            }
+          }
+        />
+      </View>
+      <Text
+        style={
+          Object {
+            "alignItems": "center",
+            "color": "white",
+            "flex": 1,
+            "fontFamily": "Lato-Bold",
+            "fontSize": 18,
+            "marginRight": 24,
+            "textAlign": "center",
+          }
+        }
+      >
+        Your profile
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 2,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <View
+        style={Object {}}
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "white",
+              "borderRadius": 50,
+              "borderWidth": 1,
+              "height": 100,
+              "width": 100,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "",
+              }
+            }
+            style={
+              Object {
+                "borderRadius": 50,
+                "height": 100,
+                "resizeMode": "cover",
+                "width": 100,
+              }
+            }
+          />
+        </View>
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "left": 80,
+              "opacity": 1,
+              "position": "absolute",
+              "top": "65%",
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../src/assets/fotoAparat.png",
+              }
+            }
+            style={
+              Object {
+                "resizeMode": "contain",
+                "width": 25,
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "flex-start",
+          "flexDirection": "column",
+          "height": 60,
+          "justifyContent": "center",
+          "paddingHorizontal": 35,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "fontFamily": "Lato-Bold",
+            "fontSize": 20,
+            "marginVertical": 10,
+          }
+        }
+      >
+        Name
+      </Text>
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "flexDirection": "row",
+            "minHeight": 30,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          autoCapitalize="words"
+          onChangeText={[Function]}
+          style={
+            Object {
+              "color": "white",
+              "flex": 8,
+              "fontFamily": "Lato-Regular",
+              "fontSize": 16,
+              "minHeight": 30,
+              "padding": 0,
+            }
+          }
+          textContentType="username"
+          underlineColorAndroid="transparent"
+          value=""
+        />
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+              "opacity": 1,
+              "width": 20,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../src/assets/iconEdit.png",
+              }
+            }
+            style={
+              Object {
+                "resizeMode": "contain",
+                "width": 20,
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "borderTopColor": "#C9C9C9",
+          "borderTopWidth": 1,
+          "marginVertical": 20,
+          "width": "100%",
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "flex-start",
+          "flexDirection": "column",
+          "height": 60,
+          "justifyContent": "center",
+          "paddingHorizontal": 35,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "fontFamily": "Lato-Bold",
+            "fontSize": 20,
+            "marginVertical": 10,
+          }
+        }
+      >
+        Your passcode
+      </Text>
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "flexDirection": "row",
+            "minHeight": 30,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          autoCorrect={false}
+          keyboardType="number-pad"
+          maxLength={6}
+          onChangeText={[Function]}
+          returnKeyType="done"
+          secureTextEntry={true}
+          style={
+            Object {
+              "color": "white",
+              "flex": 8,
+              "fontFamily": "Lato-Regular",
+              "fontSize": 16,
+              "minHeight": 30,
+              "padding": 0,
+            }
+          }
+          textContentType="password"
+          underlineColorAndroid="transparent"
+        />
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+              "opacity": 1,
+              "width": 20,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../src/assets/iconEdit.png",
+              }
+            }
+            style={
+              Object {
+                "resizeMode": "contain",
+                "width": 20,
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "borderTopColor": "#C9C9C9",
+          "borderTopWidth": 1,
+          "marginVertical": 20,
+          "width": "100%",
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "flex": 2,
+          "fontFamily": "Lato-Regular",
+          "fontSize": 18,
+          "paddingHorizontal": 40,
+        }
+      }
+    >
+      Please note: all this information are stored ONLY in your cellphone. We are not storing any of your personal data and/or picture.
+    </Text>
+    <View
+      style={
+        Object {
+          "flex": 2,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "justifyContent": "center",
+          }
+        }
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#4183BD",
+              "borderColor": "rgb(42, 101, 117)",
+              "borderRadius": 74,
+              "borderWidth": 8,
+              "height": 64,
+              "justifyContent": "center",
+              "marginHorizontal": 25,
+              "opacity": 1,
+              "width": "80%",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "white",
+                "fontFamily": "Lato-Regular",
+                "fontSize": 18,
+              }
+            }
+          >
+            SAVE PROFILE
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTSafeAreaView>
+</BVLinearGradient>
+`;

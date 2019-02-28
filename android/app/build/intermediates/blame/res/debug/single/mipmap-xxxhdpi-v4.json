@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/backgound.png",
+        "source": "/Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/res/mipmap-xxxhdpi/backgound.png"
+    },
+    {
+        "merged": "/Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/ic_launcher_round.png",
+        "source": "/Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/ic_launcher.png",
+        "source": "/Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/ic_notification.png",
+        "source": "/Users/develexedev/dev/integral/LAPO-Mobile-Wallet/android/app/src/main/res/mipmap-xxxhdpi/ic_notification.png"
+    }
+]

@@ -1,0 +1,1061 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BRTxRef"
+- "BRBlockRef"
+- "secureAllocator"
+- "BRWalletListener"
+- "BRWallet"
+- "BRPeerManagerError"
+- "BRPeerManagerListener"
+- "BRPeerManager"
+- "=="
+provides-nominal:
+- "So9BRAddressa"
+- "4Lapo16BRWalletListenerP"
+- "4Lapo8BRWalletC"
+- "4Lapo18BRPeerManagerErrorO"
+- "4Lapo21BRPeerManagerListenerP"
+- "4Lapo13BRPeerManagerC"
+- "So7UInt256a"
+provides-member:
+- ["So9BRAddressa", ""]
+- ["So5BRKeya", ""]
+- ["So9BRTxInputa", ""]
+- ["So10BRTxOutputa", ""]
+- ["4Lapo16BRWalletListenerP", ""]
+- ["4Lapo8BRWalletC", ""]
+- ["4Lapo18BRPeerManagerErrorO", ""]
+- ["4Lapo21BRPeerManagerListenerP", ""]
+- ["4Lapo13BRPeerManagerC", ""]
+- ["So7UInt256a", ""]
+- ["So5BRKeya", "init"]
+- ["So5BRKeya", "init"]
+- ["So5BRKeya", "init"]
+- ["So5BRKeya", "init"]
+- ["So5BRKeya", "init"]
+- ["So5BRKeya", "privKey"]
+- ["So5BRKeya", "bip38Key"]
+- ["So5BRKeya", "pubKey"]
+- ["So5BRKeya", "publicKey"]
+- ["So5BRKeya", "address"]
+- ["So5BRKeya", "sign"]
+- ["So5BRKeya", "verify"]
+- ["So5BRKeya", "clean"]
+- ["So5BRKeya", "compactSign"]
+- ["So9BRTxInputa", "swiftAddress"]
+- ["So9BRTxInputa", "swiftScript"]
+- ["So9BRTxInputa", "swiftSignature"]
+- ["So10BRTxOutputa", "init"]
+- ["So10BRTxOutputa", "swiftAddress"]
+- ["So10BRTxOutputa", "swiftScript"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "+"
+- !private "-"
+- !private "..."
+- !private "<"
+- !private "<="
+- "=="
+- !private ">"
+- "Array"
+- "AssignmentPrecedence"
+- "BRAddress"
+- !private "BRAddressEq"
+- !private "BRAddressFromScriptPubKey"
+- !private "BRAddressFromScriptSig"
+- !private "BRAddressHash"
+- !private "BRAddressHash160"
+- !private "BRAddressScriptPubKey"
+- "BRBCashCheckpoints"
+- "BRBCashDNSSeeds"
+- "BRBCashParams"
+- "BRBCashTestNetCheckpoints"
+- "BRBCashTestNetDNSSeeds"
+- "BRBCashTestNetParams"
+- "BRBCashTestNetVerifyDifficulty"
+- "BRBCashVerifyDifficulty"
+- "BRBlockRef"
+- "BRKey"
+- !private "BRKeyAddress"
+- !private "BRKeyBIP38Key"
+- !private "BRKeyClean"
+- !private "BRKeyCompactSign"
+- !private "BRKeyPrivKey"
+- !private "BRKeyPubKey"
+- !private "BRKeyRecoverPubKey"
+- !private "BRKeySetBIP38Key"
+- !private "BRKeySetPrivKey"
+- !private "BRKeySetPubKey"
+- !private "BRKeySetSecret"
+- !private "BRKeySign"
+- !private "BRKeyVerify"
+- "BRMainNetCheckpoints"
+- "BRMainNetDNSSeeds"
+- "BRMainNetParams"
+- "BRMainNetVerifyDifficulty"
+- "BRMasterPubKey"
+- "BRMerkleBlock"
+- "BRPeer"
+- "BRPeerManager"
+- !private "BRPeerManagerConnect"
+- !private "BRPeerManagerConnectStatus"
+- !private "BRPeerManagerDisconnect"
+- !private "BRPeerManagerDownloadPeerName"
+- "BRPeerManagerError"
+- !private "BRPeerManagerEstimatedBlockHeight"
+- !private "BRPeerManagerFree"
+- !private "BRPeerManagerLastBlockHeight"
+- !private "BRPeerManagerLastBlockTimestamp"
+- "BRPeerManagerListener"
+- !private "BRPeerManagerNew"
+- !private "BRPeerManagerPeerCount"
+- !private "BRPeerManagerPublishTx"
+- !private "BRPeerManagerRelayCount"
+- !private "BRPeerManagerRescan"
+- !private "BRPeerManagerRescanFromBlockNumber"
+- !private "BRPeerManagerRescanFromLastHardcodedCheckpoint"
+- !private "BRPeerManagerSetCallbacks"
+- !private "BRPeerManagerSetFixedPeer"
+- !private "BRPeerManagerSyncProgress"
+- "BRPeerStatus"
+- "BRTestNetCheckpoints"
+- "BRTestNetParams"
+- "BRTestNetVerifyDifficulty"
+- "BRTransaction"
+- "BRTxInput"
+- !private "BRTxInputSetAddress"
+- !private "BRTxInputSetScript"
+- !private "BRTxInputSetSignature"
+- "BRTxOutput"
+- !private "BRTxOutputSetAddress"
+- !private "BRTxOutputSetScript"
+- "BRTxRef"
+- "BRWallet"
+- !private "BRWalletAddressIsUsed"
+- !private "BRWalletAllAddrs"
+- !private "BRWalletAmountReceivedFromTx"
+- !private "BRWalletAmountSentByTx"
+- !private "BRWalletBalance"
+- !private "BRWalletBalanceAfterTx"
+- !private "BRWalletContainsAddress"
+- !private "BRWalletCreateTransaction"
+- !private "BRWalletCreateTxForOutputs"
+- !private "BRWalletFeeForTx"
+- !private "BRWalletFeeForTxAmount"
+- !private "BRWalletFeeForTxSize"
+- !private "BRWalletFeePerKb"
+- !private "BRWalletFree"
+- "BRWalletListener"
+- !private "BRWalletMaxOutputAmount"
+- !private "BRWalletMinOutputAmount"
+- !private "BRWalletNew"
+- !private "BRWalletReceiveAddress"
+- !private "BRWalletSetCallbacks"
+- !private "BRWalletSetFeePerKb"
+- !private "BRWalletSignTransaction"
+- !private "BRWalletTotalSent"
+- !private "BRWalletTransactionIsPending"
+- !private "BRWalletTransactionIsValid"
+- !private "BRWalletTransactionIsVerified"
+- !private "BRWalletTransactions"
+- "Bool"
+- "BooleanLiteralType"
+- !private "CChar"
+- "CFAllocator"
+- "CFAllocatorContext"
+- "CFAllocatorCreate"
+- "CFAllocatorGetContext"
+- !private "CFData"
+- !private "CFDataCreateMutable"
+- "CFIndex"
+- "CFOptionFlags"
+- !private "CFString"
+- !private "CFStringBuiltInEncodings"
+- !private "CFStringCreateFromExternalRepresentation"
+- !private "CFStringCreateMutableCopy"
+- !private "CFStringNormalize"
+- "CastingPrecedence"
+- "CustomStringConvertible"
+- "Data"
+- "Double"
+- "Error"
+- "FloatLiteralType"
+- "Hashable"
+- "Int"
+- "Int32"
+- "IntegerLiteralType"
+- !private "MemoryLayout"
+- !private "NSTimeIntervalSince1970"
+- "OpaquePointer"
+- "String"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
+- "TimeInterval"
+- !private "UINT64_MAX"
+- !private "UInt128"
+- !private "UInt16"
+- "UInt160"
+- "UInt256"
+- "UInt32"
+- "UInt512"
+- "UInt64"
+- "UInt8"
+- !private "Unmanaged"
+- !private "UnsafeBufferPointer"
+- "UnsafeMutablePointer"
+- "UnsafeMutableRawPointer"
+- "UnsafePointer"
+- !private "UnsafeRawPointer"
+- !private "autoreleasepool"
+- !private "free"
+- "kCFAllocatorDefault"
+- !private "malloc"
+- !private "memcpy"
+- !private "memset"
+- "secureAllocate"
+- "secureAllocator"
+- "secureDeallocate"
+- "secureReallocate"
+- !private "strerror"
+depends-member:
+- !private ["Sa", "count"]
+- !private ["Sa", "init"]
+- !private ["Sa", "map"]
+- !private ["Sa", "removeSubrange"]
+- !private ["s13ArrayProtocolP", "count"]
+- !private ["s13ArrayProtocolP", "init"]
+- !private ["s13ArrayProtocolP", "map"]
+- !private ["s13ArrayProtocolP", "removeSubrange"]
+- ["So9BRAddressa", "=="]
+- ["So9BRAddressa", "BRAddress"]
+- !private ["So9BRAddressa", "BRAddressEq"]
+- !private ["So9BRAddressa", "BRAddressFromScriptPubKey"]
+- !private ["So9BRAddressa", "BRAddressFromScriptSig"]
+- !private ["So9BRAddressa", "BRAddressHash"]
+- !private ["So9BRAddressa", "BRAddressHash160"]
+- !private ["So9BRAddressa", "BRAddressScriptPubKey"]
+- ["So9BRAddressa", "Bool"]
+- !private ["So9BRAddressa", "CChar"]
+- ["So9BRAddressa", "Int"]
+- !private ["So9BRAddressa", "MemoryLayout"]
+- ["So9BRAddressa", "String"]
+- ["So9BRAddressa", "UInt160"]
+- ["So9BRAddressa", "UInt8"]
+- !private ["So9BRAddressa", "UnsafeMutableRawPointer"]
+- !private ["So9BRAddressa", "UnsafeRawPointer"]
+- ["So9BRAddressa", "deinit"]
+- ["So9BRAddressa", "description"]
+- ["So9BRAddressa", "hash"]
+- ["So9BRAddressa", "hash160"]
+- ["So9BRAddressa", "hashValue"]
+- ["So9BRAddressa", "init"]
+- !private ["So9BRAddressa", "s"]
+- ["So9BRAddressa", "scriptPubKey"]
+- !private ["So5BRKeya", "BRAddress"]
+- !private ["So5BRKeya", "BRKeyAddress"]
+- !private ["So5BRKeya", "BRKeyBIP38Key"]
+- !private ["So5BRKeya", "BRKeyClean"]
+- !private ["So5BRKeya", "BRKeyCompactSign"]
+- !private ["So5BRKeya", "BRKeyPrivKey"]
+- !private ["So5BRKeya", "BRKeyPubKey"]
+- !private ["So5BRKeya", "BRKeyRecoverPubKey"]
+- !private ["So5BRKeya", "BRKeySetBIP38Key"]
+- !private ["So5BRKeya", "BRKeySetPrivKey"]
+- !private ["So5BRKeya", "BRKeySetPubKey"]
+- !private ["So5BRKeya", "BRKeySetSecret"]
+- !private ["So5BRKeya", "BRKeySign"]
+- !private ["So5BRKeya", "BRKeyVerify"]
+- ["So5BRKeya", "Bool"]
+- !private ["So5BRKeya", "CChar"]
+- !private ["So5BRKeya", "CFData"]
+- !private ["So5BRKeya", "CFDataCreateMutable"]
+- !private ["So5BRKeya", "CFString"]
+- !private ["So5BRKeya", "CFStringBuiltInEncodings"]
+- !private ["So5BRKeya", "CFStringCreateFromExternalRepresentation"]
+- !private ["So5BRKeya", "CFStringCreateMutableCopy"]
+- !private ["So5BRKeya", "CFStringNormalize"]
+- ["So5BRKeya", "Data"]
+- !private ["So5BRKeya", "MemoryLayout"]
+- ["So5BRKeya", "String"]
+- ["So5BRKeya", "UInt256"]
+- ["So5BRKeya", "UInt8"]
+- !private ["So5BRKeya", "UnsafeMutablePointer"]
+- ["So5BRKeya", "UnsafePointer"]
+- ["So5BRKeya", "address"]
+- !private ["So5BRKeya", "autoreleasepool"]
+- ["So5BRKeya", "bip38Key"]
+- ["So5BRKeya", "clean"]
+- ["So5BRKeya", "compactSign"]
+- ["So5BRKeya", "init"]
+- ["So5BRKeya", "privKey"]
+- ["So5BRKeya", "pubKey"]
+- ["So5BRKeya", "publicKey"]
+- !private ["So5BRKeya", "secureAllocator"]
+- ["So5BRKeya", "sign"]
+- ["So5BRKeya", "verify"]
+- ["4Lapo13BRPeerManagerC", "BRBCashCheckpoints"]
+- ["4Lapo13BRPeerManagerC", "BRBCashDNSSeeds"]
+- ["4Lapo13BRPeerManagerC", "BRBCashParams"]
+- ["4Lapo13BRPeerManagerC", "BRBCashTestNetCheckpoints"]
+- ["4Lapo13BRPeerManagerC", "BRBCashTestNetDNSSeeds"]
+- ["4Lapo13BRPeerManagerC", "BRBCashTestNetParams"]
+- ["4Lapo13BRPeerManagerC", "BRBCashTestNetVerifyDifficulty"]
+- ["4Lapo13BRPeerManagerC", "BRBCashVerifyDifficulty"]
+- ["4Lapo13BRPeerManagerC", "BRBlockRef"]
+- ["4Lapo13BRPeerManagerC", "BRMainNetCheckpoints"]
+- ["4Lapo13BRPeerManagerC", "BRMainNetDNSSeeds"]
+- ["4Lapo13BRPeerManagerC", "BRMainNetParams"]
+- ["4Lapo13BRPeerManagerC", "BRMainNetVerifyDifficulty"]
+- ["4Lapo13BRPeerManagerC", "BRPeer"]
+- !private ["4Lapo13BRPeerManagerC", "BRPeerManager"]
+- !private ["4Lapo13BRPeerManagerC", "BRPeerManagerConnect"]
+- !private ["4Lapo13BRPeerManagerC", "BRPeerManagerConnectStatus"]
+- !private ["4Lapo13BRPeerManagerC", "BRPeerManagerDisconnect"]
+- !private ["4Lapo13BRPeerManagerC", "BRPeerManagerDownloadPeerName"]
+- ["4Lapo13BRPeerManagerC", "BRPeerManagerError"]
+- !private ["4Lapo13BRPeerManagerC", "BRPeerManagerEstimatedBlockHeight"]
+- !private ["4Lapo13BRPeerManagerC", "BRPeerManagerFree"]
+- !private ["4Lapo13BRPeerManagerC", "BRPeerManagerLastBlockHeight"]
+- !private ["4Lapo13BRPeerManagerC", "BRPeerManagerLastBlockTimestamp"]
+- ["4Lapo13BRPeerManagerC", "BRPeerManagerListener"]
+- !private ["4Lapo13BRPeerManagerC", "BRPeerManagerNew"]
+- !private ["4Lapo13BRPeerManagerC", "BRPeerManagerPeerCount"]
+- !private ["4Lapo13BRPeerManagerC", "BRPeerManagerPublishTx"]
+- !private ["4Lapo13BRPeerManagerC", "BRPeerManagerRelayCount"]
+- !private ["4Lapo13BRPeerManagerC", "BRPeerManagerRescan"]
+- !private ["4Lapo13BRPeerManagerC", "BRPeerManagerRescanFromBlockNumber"]
+- !private ["4Lapo13BRPeerManagerC", "BRPeerManagerRescanFromLastHardcodedCheckpoint"]
+- !private ["4Lapo13BRPeerManagerC", "BRPeerManagerSetCallbacks"]
+- !private ["4Lapo13BRPeerManagerC", "BRPeerManagerSetFixedPeer"]
+- !private ["4Lapo13BRPeerManagerC", "BRPeerManagerSyncProgress"]
+- ["4Lapo13BRPeerManagerC", "BRPeerStatus"]
+- ["4Lapo13BRPeerManagerC", "BRTestNetCheckpoints"]
+- ["4Lapo13BRPeerManagerC", "BRTestNetParams"]
+- ["4Lapo13BRPeerManagerC", "BRTestNetVerifyDifficulty"]
+- ["4Lapo13BRPeerManagerC", "BRTxRef"]
+- ["4Lapo13BRPeerManagerC", "BRWallet"]
+- ["4Lapo13BRPeerManagerC", "Bool"]
+- !private ["4Lapo13BRPeerManagerC", "CompletionWrapper"]
+- ["4Lapo13BRPeerManagerC", "Double"]
+- ["4Lapo13BRPeerManagerC", "Int"]
+- !private ["4Lapo13BRPeerManagerC", "Int32"]
+- !private ["4Lapo13BRPeerManagerC", "NSTimeIntervalSince1970"]
+- ["4Lapo13BRPeerManagerC", "OpaquePointer"]
+- ["4Lapo13BRPeerManagerC", "String"]
+- ["4Lapo13BRPeerManagerC", "TimeInterval"]
+- !private ["4Lapo13BRPeerManagerC", "UInt128"]
+- !private ["4Lapo13BRPeerManagerC", "UInt16"]
+- ["4Lapo13BRPeerManagerC", "UInt256"]
+- ["4Lapo13BRPeerManagerC", "UInt32"]
+- !private ["4Lapo13BRPeerManagerC", "Unmanaged"]
+- !private ["4Lapo13BRPeerManagerC", "UnsafeBufferPointer"]
+- ["4Lapo13BRPeerManagerC", "a"]
+- ["4Lapo13BRPeerManagerC", "b"]
+- ["4Lapo13BRPeerManagerC", "bcashParams"]
+- ["4Lapo13BRPeerManagerC", "bcashTestNetParams"]
+- ["4Lapo13BRPeerManagerC", "c"]
+- ["4Lapo13BRPeerManagerC", "cPtr"]
+- ["4Lapo13BRPeerManagerC", "clearCallbacks"]
+- ["4Lapo13BRPeerManagerC", "connect"]
+- ["4Lapo13BRPeerManagerC", "connectionStatus"]
+- ["4Lapo13BRPeerManagerC", "d"]
+- ["4Lapo13BRPeerManagerC", "deinit"]
+- ["4Lapo13BRPeerManagerC", "disconnect"]
+- ["4Lapo13BRPeerManagerC", "downloadPeerName"]
+- ["4Lapo13BRPeerManagerC", "e"]
+- ["4Lapo13BRPeerManagerC", "estimatedBlockHeight"]
+- ["4Lapo13BRPeerManagerC", "f"]
+- ["4Lapo13BRPeerManagerC", "g"]
+- ["4Lapo13BRPeerManagerC", "h"]
+- ["4Lapo13BRPeerManagerC", "i"]
+- ["4Lapo13BRPeerManagerC", "init"]
+- ["4Lapo13BRPeerManagerC", "k"]
+- ["4Lapo13BRPeerManagerC", "l"]
+- ["4Lapo13BRPeerManagerC", "lastBlockHeight"]
+- ["4Lapo13BRPeerManagerC", "lastBlockTimestamp"]
+- ["4Lapo13BRPeerManagerC", "listener"]
+- ["4Lapo13BRPeerManagerC", "mainNetParams"]
+- ["4Lapo13BRPeerManagerC", "peerCount"]
+- ["4Lapo13BRPeerManagerC", "publishTx"]
+- ["4Lapo13BRPeerManagerC", "relayCount"]
+- ["4Lapo13BRPeerManagerC", "rescan"]
+- ["4Lapo13BRPeerManagerC", "rescanFromLatestCheckpoint"]
+- ["4Lapo13BRPeerManagerC", "rescanFull"]
+- ["4Lapo13BRPeerManagerC", "setFixedPeer"]
+- !private ["4Lapo13BRPeerManagerC", "strerror"]
+- ["4Lapo13BRPeerManagerC", "syncProgress"]
+- ["4Lapo13BRPeerManagerC", "testNetParams"]
+- ["4Lapo18BRPeerManagerErrorO", "Int32"]
+- ["4Lapo18BRPeerManagerErrorO", "String"]
+- ["4Lapo18BRPeerManagerErrorO", "_code"]
+- ["4Lapo18BRPeerManagerErrorO", "_domain"]
+- ["4Lapo18BRPeerManagerErrorO", "_getEmbeddedNSError"]
+- ["4Lapo18BRPeerManagerErrorO", "_userInfo"]
+- ["4Lapo18BRPeerManagerErrorO", "deinit"]
+- ["4Lapo18BRPeerManagerErrorO", "posixError"]
+- ["4Lapo21BRPeerManagerListenerP", "BRBlockRef"]
+- ["4Lapo21BRPeerManagerListenerP", "BRPeer"]
+- ["4Lapo21BRPeerManagerListenerP", "BRPeerManagerError"]
+- ["4Lapo21BRPeerManagerListenerP", "Bool"]
+- ["4Lapo21BRPeerManagerListenerP", "networkIsReachable"]
+- ["4Lapo21BRPeerManagerListenerP", "saveBlocks"]
+- ["4Lapo21BRPeerManagerListenerP", "savePeers"]
+- ["4Lapo21BRPeerManagerListenerP", "syncStarted"]
+- ["4Lapo21BRPeerManagerListenerP", "syncStopped"]
+- ["4Lapo21BRPeerManagerListenerP", "txStatusUpdate"]
+- !private ["So9BRTxInputa", "BRTxInputSetAddress"]
+- !private ["So9BRTxInputa", "BRTxInputSetScript"]
+- !private ["So9BRTxInputa", "BRTxInputSetSignature"]
+- !private ["So9BRTxInputa", "CChar"]
+- ["So9BRTxInputa", "String"]
+- ["So9BRTxInputa", "UInt8"]
+- !private ["So9BRTxInputa", "UnsafeBufferPointer"]
+- !private ["So9BRTxInputa", "UnsafeRawPointer"]
+- !private ["So9BRTxInputa", "address"]
+- !private ["So9BRTxInputa", "script"]
+- !private ["So9BRTxInputa", "scriptLen"]
+- !private ["So9BRTxInputa", "sigLen"]
+- !private ["So9BRTxInputa", "signature"]
+- ["So9BRTxInputa", "swiftAddress"]
+- ["So9BRTxInputa", "swiftScript"]
+- ["So9BRTxInputa", "swiftSignature"]
+- !private ["So10BRTxOutputa", "BRTxOutputSetAddress"]
+- !private ["So10BRTxOutputa", "BRTxOutputSetScript"]
+- !private ["So10BRTxOutputa", "CChar"]
+- ["So10BRTxOutputa", "String"]
+- ["So10BRTxOutputa", "UInt64"]
+- ["So10BRTxOutputa", "UInt8"]
+- !private ["So10BRTxOutputa", "UnsafeBufferPointer"]
+- !private ["So10BRTxOutputa", "UnsafeRawPointer"]
+- !private ["So10BRTxOutputa", "address"]
+- !private ["So10BRTxOutputa", "amount"]
+- ["So10BRTxOutputa", "init"]
+- !private ["So10BRTxOutputa", "script"]
+- !private ["So10BRTxOutputa", "scriptLen"]
+- ["So10BRTxOutputa", "swiftAddress"]
+- ["So10BRTxOutputa", "swiftScript"]
+- !private ["4Lapo8BRWalletC", "BRAddress"]
+- ["4Lapo8BRWalletC", "BRMasterPubKey"]
+- ["4Lapo8BRWalletC", "BRTxOutput"]
+- ["4Lapo8BRWalletC", "BRTxRef"]
+- !private ["4Lapo8BRWalletC", "BRWallet"]
+- !private ["4Lapo8BRWalletC", "BRWalletAddressIsUsed"]
+- !private ["4Lapo8BRWalletC", "BRWalletAllAddrs"]
+- !private ["4Lapo8BRWalletC", "BRWalletAmountReceivedFromTx"]
+- !private ["4Lapo8BRWalletC", "BRWalletAmountSentByTx"]
+- !private ["4Lapo8BRWalletC", "BRWalletBalance"]
+- !private ["4Lapo8BRWalletC", "BRWalletBalanceAfterTx"]
+- !private ["4Lapo8BRWalletC", "BRWalletContainsAddress"]
+- !private ["4Lapo8BRWalletC", "BRWalletCreateTransaction"]
+- !private ["4Lapo8BRWalletC", "BRWalletCreateTxForOutputs"]
+- !private ["4Lapo8BRWalletC", "BRWalletFeeForTx"]
+- !private ["4Lapo8BRWalletC", "BRWalletFeeForTxAmount"]
+- !private ["4Lapo8BRWalletC", "BRWalletFeeForTxSize"]
+- !private ["4Lapo8BRWalletC", "BRWalletFeePerKb"]
+- !private ["4Lapo8BRWalletC", "BRWalletFree"]
+- ["4Lapo8BRWalletC", "BRWalletListener"]
+- !private ["4Lapo8BRWalletC", "BRWalletMaxOutputAmount"]
+- !private ["4Lapo8BRWalletC", "BRWalletMinOutputAmount"]
+- !private ["4Lapo8BRWalletC", "BRWalletNew"]
+- !private ["4Lapo8BRWalletC", "BRWalletReceiveAddress"]
+- !private ["4Lapo8BRWalletC", "BRWalletSetCallbacks"]
+- !private ["4Lapo8BRWalletC", "BRWalletSetFeePerKb"]
+- !private ["4Lapo8BRWalletC", "BRWalletSignTransaction"]
+- !private ["4Lapo8BRWalletC", "BRWalletTotalSent"]
+- !private ["4Lapo8BRWalletC", "BRWalletTransactionIsPending"]
+- !private ["4Lapo8BRWalletC", "BRWalletTransactionIsValid"]
+- !private ["4Lapo8BRWalletC", "BRWalletTransactionIsVerified"]
+- !private ["4Lapo8BRWalletC", "BRWalletTransactions"]
+- ["4Lapo8BRWalletC", "Bool"]
+- ["4Lapo8BRWalletC", "Int"]
+- !private ["4Lapo8BRWalletC", "Int32"]
+- !private ["4Lapo8BRWalletC", "MemoryLayout"]
+- ["4Lapo8BRWalletC", "OpaquePointer"]
+- ["4Lapo8BRWalletC", "String"]
+- !private ["4Lapo8BRWalletC", "UINT64_MAX"]
+- !private ["4Lapo8BRWalletC", "UInt256"]
+- ["4Lapo8BRWalletC", "UInt512"]
+- ["4Lapo8BRWalletC", "UInt64"]
+- !private ["4Lapo8BRWalletC", "Unmanaged"]
+- !private ["4Lapo8BRWalletC", "UnsafeBufferPointer"]
+- ["4Lapo8BRWalletC", "addressIsUsed"]
+- ["4Lapo8BRWalletC", "allAddresses"]
+- ["4Lapo8BRWalletC", "amountReceivedFromTx"]
+- ["4Lapo8BRWalletC", "amountSentByTx"]
+- ["4Lapo8BRWalletC", "balance"]
+- ["4Lapo8BRWalletC", "balanceAfterTx"]
+- ["4Lapo8BRWalletC", "cPtr"]
+- ["4Lapo8BRWalletC", "containsAddress"]
+- ["4Lapo8BRWalletC", "createTransaction"]
+- ["4Lapo8BRWalletC", "createTxForOutputs"]
+- ["4Lapo8BRWalletC", "deinit"]
+- ["4Lapo8BRWalletC", "feeForTx"]
+- ["4Lapo8BRWalletC", "feeForTxSize"]
+- ["4Lapo8BRWalletC", "feePerKb"]
+- ["4Lapo8BRWalletC", "init"]
+- ["4Lapo8BRWalletC", "listener"]
+- ["4Lapo8BRWalletC", "maxOutputAmount"]
+- ["4Lapo8BRWalletC", "minOutputAmount"]
+- ["4Lapo8BRWalletC", "receiveAddress"]
+- ["4Lapo8BRWalletC", "signTransaction"]
+- ["4Lapo8BRWalletC", "totalSent"]
+- ["4Lapo8BRWalletC", "transactionIsPending"]
+- ["4Lapo8BRWalletC", "transactionIsValid"]
+- ["4Lapo8BRWalletC", "transactionIsVerified"]
+- ["4Lapo8BRWalletC", "transactions"]
+- ["4Lapo16BRWalletListenerP", "BRTxRef"]
+- ["4Lapo16BRWalletListenerP", "Bool"]
+- ["4Lapo16BRWalletListenerP", "UInt256"]
+- ["4Lapo16BRWalletListenerP", "UInt32"]
+- ["4Lapo16BRWalletListenerP", "UInt64"]
+- ["4Lapo16BRWalletListenerP", "balanceChanged"]
+- ["4Lapo16BRWalletListenerP", "txAdded"]
+- ["4Lapo16BRWalletListenerP", "txDeleted"]
+- ["4Lapo16BRWalletListenerP", "txUpdated"]
+- !private ["SK", "count"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "map"]
+- !private ["SK", "removeSubrange"]
+- !private ["SK", "utf8CString"]
+- !private ["SK", "withUnsafeMutableBytes"]
+- !private ["Sz", "init"]
+- !private ["6SQLite7BindingP", "_getBuiltinLogicValue"]
+- !private ["6SQLite7BindingP", "init"]
+- !private ["6SQLite7BindingP", "init"]
+- !private ["6SQLite7BindingP", "utf8CString"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["So18CFAllocatorContexta", "allocate"]
+- ["So18CFAllocatorContexta", "deallocate"]
+- ["So18CFAllocatorContexta", "init"]
+- ["So18CFAllocatorContexta", "reallocate"]
+- ["So18CFAllocatorContexta", "version"]
+- !private ["So24CFStringBuiltInEncodingsV", "UTF8"]
+- !private ["So24CFStringBuiltInEncodingsV", "rawValue"]
+- !private ["So25CFStringNormalizationFormV", "C"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "assign"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "removeSubrange"]
+- !private ["s7CVarArgP", "utf8CString"]
+- !private ["Sl", "count"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "map"]
+- !private ["Sl", "removeSubrange"]
+- !private ["Sl", "utf8CString"]
+- !private ["Sl", "withUnsafeMutableBytes"]
+- !private ["SL", "advanced"]
+- !private ["SL", "assign"]
+- !private ["SL", "assumingMemoryBound"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "load"]
+- !private ["SL", "storeBytes"]
+- !private ["SL", "utf8CString"]
+- !private ["s28CustomDebugStringConvertibleP", "advanced"]
+- !private ["s28CustomDebugStringConvertibleP", "assign"]
+- !private ["s28CustomDebugStringConvertibleP", "assumingMemoryBound"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "load"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "removeSubrange"]
+- !private ["s28CustomDebugStringConvertibleP", "storeBytes"]
+- ["s28CustomDebugStringConvertibleP", "takeRetainedValue"]
+- !private ["s28CustomDebugStringConvertibleP", "utf8CString"]
+- !private ["s28CustomDebugStringConvertibleP", "withUnsafeMutableBytes"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "advanced"]
+- !private ["s29CustomPlaygroundQuickLookableP", "assign"]
+- !private ["s29CustomPlaygroundQuickLookableP", "assumingMemoryBound"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "load"]
+- !private ["s29CustomPlaygroundQuickLookableP", "storeBytes"]
+- !private ["s29CustomPlaygroundQuickLookableP", "utf8CString"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "advanced"]
+- !private ["s17CustomReflectableP", "assign"]
+- !private ["s17CustomReflectableP", "assumingMemoryBound"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "load"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "removeSubrange"]
+- !private ["s17CustomReflectableP", "storeBytes"]
+- ["s17CustomReflectableP", "takeRetainedValue"]
+- !private ["s17CustomReflectableP", "utf8CString"]
+- !private ["s17CustomReflectableP", "withUnsafeMutableBytes"]
+- !private ["s23CustomStringConvertibleP", "BRAddressEq"]
+- !private ["s23CustomStringConvertibleP", "BRAddressFromScriptPubKey"]
+- !private ["s23CustomStringConvertibleP", "BRAddressFromScriptSig"]
+- !private ["s23CustomStringConvertibleP", "BRAddressHash"]
+- !private ["s23CustomStringConvertibleP", "BRAddressHash160"]
+- !private ["s23CustomStringConvertibleP", "BRAddressScriptPubKey"]
+- !private ["s23CustomStringConvertibleP", "CChar"]
+- !private ["s23CustomStringConvertibleP", "MemoryLayout"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "UInt160"]
+- !private ["s23CustomStringConvertibleP", "UInt8"]
+- !private ["s23CustomStringConvertibleP", "UnsafeMutableRawPointer"]
+- !private ["s23CustomStringConvertibleP", "UnsafeRawPointer"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "removeSubrange"]
+- !private ["s23CustomStringConvertibleP", "s"]
+- !private ["s23CustomStringConvertibleP", "u8"]
+- !private ["s23CustomStringConvertibleP", "utf8CString"]
+- !private ["s23CustomStringConvertibleP", "withUnsafeMutableBytes"]
+- !private ["10Foundation4DataV", "count"]
+- !private ["10Foundation4DataV", "init"]
+- !private ["10Foundation4DataV", "withUnsafeMutableBytes"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "assumingMemoryBound"]
+- !private ["Se", "count"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "map"]
+- !private ["Se", "removeSubrange"]
+- ["Se", "takeRetainedValue"]
+- !private ["Se", "utf8CString"]
+- !private ["Se", "withUnsafeMutableBytes"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "assumingMemoryBound"]
+- !private ["SE", "count"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "map"]
+- !private ["SE", "removeSubrange"]
+- ["SE", "takeRetainedValue"]
+- !private ["SE", "utf8CString"]
+- !private ["SE", "withUnsafeMutableBytes"]
+- !private ["SQ", "BRAddressEq"]
+- !private ["SQ", "BRAddressFromScriptPubKey"]
+- !private ["SQ", "BRAddressFromScriptSig"]
+- !private ["SQ", "BRAddressHash"]
+- !private ["SQ", "BRAddressHash160"]
+- !private ["SQ", "BRAddressScriptPubKey"]
+- !private ["SQ", "C"]
+- !private ["SQ", "CChar"]
+- !private ["SQ", "MemoryLayout"]
+- !private ["SQ", "String"]
+- !private ["SQ", "UInt160"]
+- !private ["SQ", "UInt8"]
+- !private ["SQ", "UTF8"]
+- !private ["SQ", "UnsafeMutableRawPointer"]
+- !private ["SQ", "UnsafeRawPointer"]
+- ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "advanced"]
+- !private ["SQ", "assign"]
+- !private ["SQ", "assumingMemoryBound"]
+- !private ["SQ", "count"]
+- ["SQ", "description"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "load"]
+- !private ["SQ", "map"]
+- !private ["SQ", "rawValue"]
+- !private ["SQ", "removeSubrange"]
+- !private ["SQ", "s"]
+- !private ["SQ", "storeBytes"]
+- ["SQ", "takeRetainedValue"]
+- !private ["SQ", "utf8CString"]
+- !private ["SQ", "withUnsafeMutableBytes"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_userInfo"]
+- !private ["s5ErrorP", "posixError"]
+- !private ["6SQLite11ExpressibleP", "_getBuiltinLogicValue"]
+- !private ["6SQLite11ExpressibleP", "count"]
+- !private ["6SQLite11ExpressibleP", "init"]
+- !private ["6SQLite11ExpressibleP", "init"]
+- !private ["6SQLite11ExpressibleP", "utf8CString"]
+- !private ["6SQLite11ExpressibleP", "withUnsafeMutableBytes"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "removeSubrange"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "utf8CString"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "assumingMemoryBound"]
+- ["s23ExpressibleByNilLiteralP", "takeRetainedValue"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "utf8CString"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "utf8CString"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SH", "BRAddressEq"]
+- !private ["SH", "BRAddressFromScriptPubKey"]
+- !private ["SH", "BRAddressFromScriptSig"]
+- !private ["SH", "BRAddressHash"]
+- !private ["SH", "BRAddressHash160"]
+- !private ["SH", "BRAddressScriptPubKey"]
+- !private ["SH", "C"]
+- !private ["SH", "CChar"]
+- !private ["SH", "MemoryLayout"]
+- !private ["SH", "String"]
+- !private ["SH", "UInt160"]
+- !private ["SH", "UInt8"]
+- !private ["SH", "UTF8"]
+- !private ["SH", "UnsafeMutableRawPointer"]
+- !private ["SH", "UnsafeRawPointer"]
+- ["SH", ""]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "advanced"]
+- !private ["SH", "assign"]
+- !private ["SH", "assumingMemoryBound"]
+- !private ["SH", "count"]
+- ["SH", "description"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "load"]
+- !private ["SH", "map"]
+- !private ["SH", "rawValue"]
+- !private ["SH", "removeSubrange"]
+- !private ["SH", "s"]
+- !private ["SH", "storeBytes"]
+- ["SH", "takeRetainedValue"]
+- !private ["SH", "utf8CString"]
+- !private ["SH", "withUnsafeMutableBytes"]
+- !private ["s6HasherV", "combine"]
+- !private ["s5Int32V", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "utf8CString"]
+- !private ["s12MemoryLayoutO", "size"]
+- !private ["s12MemoryLayoutO", "stride"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "utf8CString"]
+- !private ["SM", "count"]
+- !private ["SM", "init"]
+- !private ["SM", "map"]
+- !private ["SM", "removeSubrange"]
+- !private ["SM", "withUnsafeMutableBytes"]
+- !private ["So8NSCodingP", "utf8CString"]
+- !private ["So9NSCopyingP", "utf8CString"]
+- !private ["So21NSItemProviderReadingP", "utf8CString"]
+- !private ["So21NSItemProviderWritingP", "utf8CString"]
+- !private ["So16NSMutableCopyingP", "utf8CString"]
+- !private ["So8NSObjectC", "utf8CString"]
+- !private ["So8NSObjectP", "utf8CString"]
+- !private ["So14NSSecureCodingP", "utf8CString"]
+- !private ["So8NSStringC", "utf8CString"]
+- !private ["Sj", "init"]
+- !private ["Sq", "assumingMemoryBound"]
+- ["Sq", "takeRetainedValue"]
+- !private ["Sk", "count"]
+- !private ["Sk", "init"]
+- !private ["Sk", "map"]
+- !private ["Sk", "removeSubrange"]
+- !private ["Sk", "withUnsafeMutableBytes"]
+- !private ["Sm", "count"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "map"]
+- !private ["Sm", "removeSubrange"]
+- !private ["Sm", "utf8CString"]
+- !private ["Sm", "withUnsafeMutableBytes"]
+- !private ["SY", "C"]
+- !private ["SY", "UTF8"]
+- !private ["SY", "rawValue"]
+- !private ["10Foundation20ReferenceConvertibleP", "count"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "withUnsafeMutableBytes"]
+- !private ["ST", "count"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "map"]
+- !private ["ST", "removeSubrange"]
+- !private ["ST", "utf8CString"]
+- !private ["ST", "withUnsafeMutableBytes"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "advanced"]
+- !private ["Sx", "assign"]
+- !private ["Sx", "assumingMemoryBound"]
+- !private ["Sx", "init"]
+- !private ["Sx", "load"]
+- !private ["Sx", "storeBytes"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "utf8CString"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "utf8CString"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "utf8CString"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "utf8CString"]
+- !private ["So7UInt128a", "init"]
+- !private ["So7UInt128a", "u16"]
+- !private ["So7UInt128a", "u32"]
+- !private ["s6UInt16V", "init"]
+- !private ["So7UInt160a", "init"]
+- ["So7UInt256a", "String"]
+- ["So7UInt256a", "deinit"]
+- ["So7UInt256a", "description"]
+- !private ["So7UInt256a", "u8"]
+- !private ["s6UInt32V", "init"]
+- !private ["s9UnmanagedV", "fromOpaque"]
+- !private ["s9UnmanagedV", "passRetained"]
+- !private ["s9UnmanagedV", "passUnretained"]
+- ["s9UnmanagedV", "takeRetainedValue"]
+- !private ["s9UnmanagedV", "takeUnretainedValue"]
+- !private ["s9UnmanagedV", "toOpaque"]
+- !private ["SR", "init"]
+- !private ["Sp", "assign"]
+- !private ["Sv", "advanced"]
+- !private ["Sv", "assumingMemoryBound"]
+- !private ["Sv", "init"]
+- !private ["Sv", "load"]
+- !private ["Sv", "storeBytes"]
+- !private ["SV", "assumingMemoryBound"]
+- !private ["SV", "init"]
+- !private ["SU", "init"]
+- !private ["6SQLite5ValueP", "_getBuiltinLogicValue"]
+- !private ["6SQLite5ValueP", "count"]
+- !private ["6SQLite5ValueP", "init"]
+- !private ["6SQLite5ValueP", "init"]
+- !private ["6SQLite5ValueP", "utf8CString"]
+- !private ["6SQLite5ValueP", "withUnsafeMutableBytes"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s24_DestructorSafeContainerP", "removeSubrange"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "utf8CString"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "utf8CString"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "utf8CString"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "utf8CString"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "utf8CString"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "removeSubrange"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "utf8CString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "utf8CString"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "assumingMemoryBound"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "removeSubrange"]
+- ["s21_ObjectiveCBridgeableP", "takeRetainedValue"]
+- !private ["s21_ObjectiveCBridgeableP", "utf8CString"]
+- !private ["s21_ObjectiveCBridgeableP", "withUnsafeMutableBytes"]
+- !private ["6SQLite13_OptionalTypeP", "assumingMemoryBound"]
+- ["6SQLite13_OptionalTypeP", "takeRetainedValue"]
+- !private ["s8_PointerP", "advanced"]
+- !private ["s8_PointerP", "assign"]
+- !private ["s8_PointerP", "assumingMemoryBound"]
+- !private ["s8_PointerP", "init"]
+- !private ["s8_PointerP", "load"]
+- !private ["s8_PointerP", "storeBytes"]
+- !private ["s14_StringElementP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "utf8CString"]
+depends-nominal:
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- "So9BRAddressa"
+- "So5BRKeya"
+- "4Lapo13BRPeerManagerC"
+- "4Lapo18BRPeerManagerErrorO"
+- "4Lapo21BRPeerManagerListenerP"
+- "So9BRTxInputa"
+- "So10BRTxOutputa"
+- "4Lapo8BRWalletC"
+- "4Lapo16BRWalletListenerP"
+- !private "SK"
+- !private "Sz"
+- !private "6SQLite7BindingP"
+- !private "Sb"
+- "So18CFAllocatorContexta"
+- !private "So24CFStringBuiltInEncodingsV"
+- !private "So25CFStringNormalizationFormV"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- "Se"
+- "SE"
+- "SQ"
+- "s5ErrorP"
+- !private "6SQLite11ExpressibleP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "SH"
+- !private "s6HasherV"
+- !private "s5Int32V"
+- !private "s25LosslessStringConvertibleP"
+- !private "s12MemoryLayoutO"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sj"
+- "Sq"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So7UInt128a"
+- !private "s6UInt16V"
+- !private "So7UInt160a"
+- "So7UInt256a"
+- !private "s6UInt32V"
+- "s9UnmanagedV"
+- !private "SR"
+- !private "Sp"
+- !private "Sv"
+- !private "SV"
+- !private "SU"
+- !private "6SQLite5ValueP"
+- !private "s18_BitwiseOperationsP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "6SQLite13_OptionalTypeP"
+- !private "s8_PointerP"
+- !private "s14_StringElementP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/SQLite.swift/SQLite.framework/Modules/SQLite.swiftmodule/x86_64.swiftmodule"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/Zip/Zip.framework/Modules/Zip.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/include/yoga/Yoga.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/Zip/Zip.framework/Headers/Zip-umbrella.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/SQLite.swift/SQLite.framework/Headers/SQLite.swift-umbrella.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/include/React/RCTBridge.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/include/React/RCTBridgeModule.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/include/React/RCTBorderStyle.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/include/React/RCTTextDecorationLineType.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/include/React/RCTAnimationType.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/include/React/RCTFrameUpdate.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/include/React/RCTBridgeDelegate.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/SQLite.swift/SQLite.framework/Headers/SQLite.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/SQLite.swift/SQLite.framework/Headers/SQLite-Bridging.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/include/React/RCTInvalidating.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/include/React/RCTLog.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/Zip/Zip.framework/Headers/Zip.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/Lapo-Bridging-Header.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/include/React/RCTJavaScriptLoader.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/include/React/RCTViewManager.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/include/React/RCTEventDispatcher.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/include/React/RCTDefines.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/include/React/RCTUtils.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/include/yoga/YGEnums.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/include/yoga/YGMacros.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/include/React/RCTPointerEvents.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/include/React/UIView+React.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/SQLite.swift/SQLite.framework/Headers/SQLite-Swift.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/Zip/Zip.framework/Headers/Zip-Swift.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/include/React/RCTComponent.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/include/React/RCTAssert.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/include/React/RCTConvert.h"
+- "/Users/develexedev/dev/integral/Lapo/ios/Modules/breadwallet-core/module.modulemap"
+- "/Users/develexedev/dev/integral/Lapo/ios/Pods/Zip/Zip/minizip/module.modulemap"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/SQLite.swift/SQLite.framework/Modules/module.modulemap"
+- "/Users/develexedev/dev/integral/Lapo/ios/build/Build/Products/Release-iphonesimulator/Zip/Zip.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "ac191ae05f0df09867a86e1ed242dc46"

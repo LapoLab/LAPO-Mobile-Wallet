@@ -1,0 +1,1020 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:/Users/develexedev/dev/integral/lapo-core/ios/Modules"
+      name = "Modules">
+      <Group
+         location = "group:breadwallet-core"
+         name = "breadwallet-core">
+         <FileRef
+            location = "group:BRBIP39Mnemonic.h">
+         </FileRef>
+         <FileRef
+            location = "group:BRBech32.c">
+         </FileRef>
+         <FileRef
+            location = "group:BRTransaction.h">
+         </FileRef>
+         <FileRef
+            location = "group:BRCrypto.h">
+         </FileRef>
+         <FileRef
+            location = "group:BRMerkleBlock.h">
+         </FileRef>
+         <FileRef
+            location = "group:BRPeer.h">
+         </FileRef>
+         <FileRef
+            location = "group:BRArray.h">
+         </FileRef>
+         <FileRef
+            location = "group:BRKey.h">
+         </FileRef>
+         <FileRef
+            location = "group:BRInt.h">
+         </FileRef>
+         <FileRef
+            location = "group:BRBloomFilter.h">
+         </FileRef>
+         <FileRef
+            location = "group:BRChainParams.h">
+         </FileRef>
+         <FileRef
+            location = "group:LICENSE">
+         </FileRef>
+         <FileRef
+            location = "group:BRBase58.h">
+         </FileRef>
+         <FileRef
+            location = "group:BRSet.c">
+         </FileRef>
+         <FileRef
+            location = "group:BRPaymentProtocol.c">
+         </FileRef>
+         <FileRef
+            location = "group:BRAddress.c">
+         </FileRef>
+         <FileRef
+            location = "group:BRBIP32Sequence.c">
+         </FileRef>
+         <FileRef
+            location = "group:BRWallet.c">
+         </FileRef>
+         <FileRef
+            location = "group:BRKeyECIES.c">
+         </FileRef>
+         <FileRef
+            location = "group:BRBIP38Key.c">
+         </FileRef>
+         <Group
+            location = "group:Java"
+            name = "Java">
+            <FileRef
+               location = "group:BRCoreJni.h">
+            </FileRef>
+            <FileRef
+               location = "group:com_breadwallet_core_BRCorePeer.c">
+            </FileRef>
+            <FileRef
+               location = "group:com_breadwallet_core_BRCoreKey.c">
+            </FileRef>
+            <FileRef
+               location = "group:com_breadwallet_core_BRCoreWallet.c">
+            </FileRef>
+            <FileRef
+               location = "group:com_breadwallet_core_BRCorePaymentProtocol.c">
+            </FileRef>
+            <FileRef
+               location = "group:com_breadwallet_core_BRCorePeerManager.h">
+            </FileRef>
+            <FileRef
+               location = "group:com_breadwallet_core_BRCoreMasterPubKey.c">
+            </FileRef>
+            <FileRef
+               location = "group:com_breadwallet_core_BRCoreJniReference.h">
+            </FileRef>
+            <FileRef
+               location = "group:com_breadwallet_core_BRCoreAddress.h">
+            </FileRef>
+            <FileRef
+               location = "group:com_breadwallet_core_BRCorePaymentProtocolInvoiceRequest.h">
+            </FileRef>
+            <FileRef
+               location = "group:Makefile">
+            </FileRef>
+            <FileRef
+               location = "group:com_breadwallet_core_BRCoreChainParams.h">
+            </FileRef>
+            <FileRef
+               location = "group:com_breadwallet_core_BRCorePaymentProtocolPaymentACK.h">
+            </FileRef>
+            <FileRef
+               location = "group:com_breadwallet_core_BRCoreMerkleBlock.h">
+            </FileRef>
+            <FileRef
+               location = "group:com_breadwallet_core_BRCorePaymentProtocolPayment.h">
+            </FileRef>
+            <FileRef
+               location = "group:com_breadwallet_core_BRCoreTransactionInput.h">
+            </FileRef>
+            <FileRef
+               location = "group:com_breadwallet_core_BRCoreTransactionOutput.c">
+            </FileRef>
+            <FileRef
+               location = "group:com_breadwallet_core_BRCorePaymentProtocolMessage.h">
+            </FileRef>
+            <FileRef
+               location = "group:com_breadwallet_core_BRCorePaymentProtocolACK.h">
+            </FileRef>
+            <FileRef
+               location = "group:com_breadwallet_core_BRCoreTransaction.h">
+            </FileRef>
+            <FileRef
+               location = "group:com_breadwallet_core_BRCorePeerManager.c">
+            </FileRef>
+            <FileRef
+               location = "group:com_breadwallet_core_BRCorePaymentProtocolEncryptedMessage.h">
+            </FileRef>
+            <FileRef
+               location = "group:com_breadwallet_core_BRCorePaymentProtocol.h">
+            </FileRef>
+            <FileRef
+               location = "group:com_breadwallet_core_BRCoreWallet.h">
+            </FileRef>
+            <FileRef
+               location = "group:com_breadwallet_core_BRCoreKey.h">
+            </FileRef>
+            <FileRef
+               location = "group:Notes">
+            </FileRef>
+            <FileRef
+               location = "group:BRCoreJni.c">
+            </FileRef>
+            <FileRef
+               location = "group:com_breadwallet_core_BRCorePeer.h">
+            </FileRef>
+            <FileRef
+               location = "group:com_breadwallet_core_BRCorePaymentProtocolRequest.h">
+            </FileRef>
+            <Group
+               location = "group:root"
+               name = "root">
+               <Group
+                  location = "group:com"
+                  name = "com">
+                  <Group
+                     location = "group:breadwallet"
+                     name = "breadwallet">
+                     <Group
+                        location = "group:core"
+                        name = "core">
+                        <FileRef
+                           location = "group:BRCoreMerkleBlock.java">
+                        </FileRef>
+                        <FileRef
+                           location = "group:BRCoreWalletManager.java">
+                        </FileRef>
+                        <FileRef
+                           location = "group:BRCorePaymentProtocolPayment.java">
+                        </FileRef>
+                        <FileRef
+                           location = "group:BRCoreAddress.java">
+                        </FileRef>
+                        <Group
+                           location = "group:test"
+                           name = "test">
+                           <FileRef
+                              location = "group:BRWalletManager.java">
+                           </FileRef>
+                        </Group>
+                        <FileRef
+                           location = "group:BRCorePaymentProtocolMessage.java">
+                        </FileRef>
+                        <FileRef
+                           location = "group:BRCoreKey.java">
+                        </FileRef>
+                        <FileRef
+                           location = "group:BRCoreJniReference.java">
+                        </FileRef>
+                        <FileRef
+                           location = "group:BRCoreChainParams.java">
+                        </FileRef>
+                        <FileRef
+                           location = "group:BRCorePaymentProtocolRequest.java">
+                        </FileRef>
+                        <FileRef
+                           location = "group:BRCorePaymentProtocolACK.java">
+                        </FileRef>
+                        <FileRef
+                           location = "group:BRCoreTransactionInput.java">
+                        </FileRef>
+                        <FileRef
+                           location = "group:BRCorePaymentProtocolInvoiceRequest.java">
+                        </FileRef>
+                        <FileRef
+                           location = "group:BRCoreTransactionOutput.java">
+                        </FileRef>
+                        <FileRef
+                           location = "group:BRCorePeer.java">
+                        </FileRef>
+                        <FileRef
+                           location = "group:BRCoreWallet.java">
+                        </FileRef>
+                        <FileRef
+                           location = "group:BRCorePaymentProtocolEncryptedMessage.java">
+                        </FileRef>
+                        <FileRef
+                           location = "group:BRCoreTransaction.java">
+                        </FileRef>
+                        <FileRef
+                           location = "group:BRCorePeerManager.java">
+                        </FileRef>
+                        <FileRef
+                           location = "group:BRCoreMasterPubKey.java">
+                        </FileRef>
+                     </Group>
+                  </Group>
+               </Group>
+            </Group>
+            <FileRef
+               location = "group:com_breadwallet_core_BRCoreJniReference.c">
+            </FileRef>
+            <FileRef
+               location = "group:com_breadwallet_core_BRCoreMasterPubKey.h">
+            </FileRef>
+            <FileRef
+               location = "group:com_breadwallet_core_BRCoreChainParams.c">
+            </FileRef>
+            <FileRef
+               location = "group:com_breadwallet_core_BRCoreAddress.c">
+            </FileRef>
+            <FileRef
+               location = "group:com_breadwallet_core_BRCoreTransaction.c">
+            </FileRef>
+            <FileRef
+               location = "group:com_breadwallet_core_BRCoreTransactionOutput.h">
+            </FileRef>
+            <FileRef
+               location = "group:com_breadwallet_core_BRCoreTransactionInput.c">
+            </FileRef>
+            <FileRef
+               location = "group:com_breadwallet_core_BRCorePaymentProtocolDetails.h">
+            </FileRef>
+            <FileRef
+               location = "group:com_breadwallet_core_BRCoreMerkleBlock.c">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:BRPeerManager.h">
+         </FileRef>
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
+         <FileRef
+            location = "group:BRKey.c">
+         </FileRef>
+         <Group
+            location = "group:secp256k1"
+            name = "secp256k1">
+            <Group
+               location = "group:obj"
+               name = "obj">
+            </Group>
+            <Group
+               location = "group:build-aux"
+               name = "build-aux">
+               <Group
+                  location = "group:m4"
+                  name = "m4">
+                  <FileRef
+                     location = "group:bitcoin_secp.m4">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ax_prog_cc_for_build.m4">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ax_jni_include_dir.m4">
+                  </FileRef>
+               </Group>
+            </Group>
+            <FileRef
+               location = "group:configure.ac">
+            </FileRef>
+            <Group
+               location = "group:include"
+               name = "include">
+               <FileRef
+                  location = "group:secp256k1_ecdh.h">
+               </FileRef>
+               <FileRef
+                  location = "group:secp256k1_recovery.h">
+               </FileRef>
+               <FileRef
+                  location = "group:secp256k1.h">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:contrib"
+               name = "contrib">
+               <FileRef
+                  location = "group:lax_der_parsing.h">
+               </FileRef>
+               <FileRef
+                  location = "group:lax_der_privatekey_parsing.c">
+               </FileRef>
+               <FileRef
+                  location = "group:lax_der_parsing.c">
+               </FileRef>
+               <FileRef
+                  location = "group:lax_der_privatekey_parsing.h">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:libsecp256k1.pc.in">
+            </FileRef>
+            <FileRef
+               location = "group:TODO">
+            </FileRef>
+            <FileRef
+               location = "group:Makefile.am">
+            </FileRef>
+            <FileRef
+               location = "group:README.md">
+            </FileRef>
+            <FileRef
+               location = "group:COPYING">
+            </FileRef>
+            <Group
+               location = "group:sage"
+               name = "sage">
+               <FileRef
+                  location = "group:weierstrass_prover.sage">
+               </FileRef>
+               <FileRef
+                  location = "group:secp256k1.sage">
+               </FileRef>
+               <FileRef
+                  location = "group:group_prover.sage">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:autogen.sh">
+            </FileRef>
+            <Group
+               location = "group:src"
+               name = "src">
+               <FileRef
+                  location = "group:scalar_impl.h">
+               </FileRef>
+               <FileRef
+                  location = "group:field_10x26_impl.h">
+               </FileRef>
+               <FileRef
+                  location = "group:testrand_impl.h">
+               </FileRef>
+               <Group
+                  location = "group:asm"
+                  name = "asm">
+                  <FileRef
+                     location = "group:field_10x26_arm.s">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:scratch.h">
+               </FileRef>
+               <FileRef
+                  location = "group:ecmult_gen_impl.h">
+               </FileRef>
+               <FileRef
+                  location = "group:field_10x26.h">
+               </FileRef>
+               <FileRef
+                  location = "group:scalar_8x32_impl.h">
+               </FileRef>
+               <FileRef
+                  location = "group:field_5x52.h">
+               </FileRef>
+               <FileRef
+                  location = "group:num_impl.h">
+               </FileRef>
+               <FileRef
+                  location = "group:bench_recover.c">
+               </FileRef>
+               <FileRef
+                  location = "group:field.h">
+               </FileRef>
+               <FileRef
+                  location = "group:bench.h">
+               </FileRef>
+               <FileRef
+                  location = "group:field_5x52_asm_impl.h">
+               </FileRef>
+               <FileRef
+                  location = "group:field_impl.h">
+               </FileRef>
+               <FileRef
+                  location = "group:scalar_4x64.h">
+               </FileRef>
+               <FileRef
+                  location = "group:basic-config.h">
+               </FileRef>
+               <FileRef
+                  location = "group:num.h">
+               </FileRef>
+               <FileRef
+                  location = "group:field_5x52_impl.h">
+               </FileRef>
+               <FileRef
+                  location = "group:ecmult_const_impl.h">
+               </FileRef>
+               <FileRef
+                  location = "group:secp256k1.c">
+               </FileRef>
+               <FileRef
+                  location = "group:ecdsa.h">
+               </FileRef>
+               <Group
+                  location = "group:java"
+                  name = "java">
+                  <FileRef
+                     location = "group:org_bitcoin_NativeSecp256k1.c">
+                  </FileRef>
+                  <Group
+                     location = "group:org"
+                     name = "org">
+                     <Group
+                        location = "group:bitcoin"
+                        name = "bitcoin">
+                        <FileRef
+                           location = "group:NativeSecp256k1.java">
+                        </FileRef>
+                        <FileRef
+                           location = "group:NativeSecp256k1Test.java">
+                        </FileRef>
+                        <FileRef
+                           location = "group:Secp256k1Context.java">
+                        </FileRef>
+                        <FileRef
+                           location = "group:NativeSecp256k1Util.java">
+                        </FileRef>
+                     </Group>
+                  </Group>
+                  <FileRef
+                     location = "group:org_bitcoin_Secp256k1Context.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:org_bitcoin_NativeSecp256k1.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:org_bitcoin_Secp256k1Context.c">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:tests_exhaustive.c">
+               </FileRef>
+               <FileRef
+                  location = "group:scalar.h">
+               </FileRef>
+               <FileRef
+                  location = "group:ecdsa_impl.h">
+               </FileRef>
+               <FileRef
+                  location = "group:ecmult_gen.h">
+               </FileRef>
+               <FileRef
+                  location = "group:scalar_low_impl.h">
+               </FileRef>
+               <FileRef
+                  location = "group:hash_impl.h">
+               </FileRef>
+               <FileRef
+                  location = "group:ecmult.h">
+               </FileRef>
+               <FileRef
+                  location = "group:scratch_impl.h">
+               </FileRef>
+               <FileRef
+                  location = "group:bench_sign.c">
+               </FileRef>
+               <FileRef
+                  location = "group:ecmult_impl.h">
+               </FileRef>
+               <FileRef
+                  location = "group:group.h">
+               </FileRef>
+               <FileRef
+                  location = "group:bench_verify.c">
+               </FileRef>
+               <FileRef
+                  location = "group:tests.c">
+               </FileRef>
+               <FileRef
+                  location = "group:gen_context.c">
+               </FileRef>
+               <FileRef
+                  location = "group:util.h">
+               </FileRef>
+               <FileRef
+                  location = "group:field_5x52_int128_impl.h">
+               </FileRef>
+               <FileRef
+                  location = "group:scalar_4x64_impl.h">
+               </FileRef>
+               <FileRef
+                  location = "group:bench_ecdh.c">
+               </FileRef>
+               <FileRef
+                  location = "group:group_impl.h">
+               </FileRef>
+               <FileRef
+                  location = "group:ecmult_const.h">
+               </FileRef>
+               <FileRef
+                  location = "group:bench_internal.c">
+               </FileRef>
+               <Group
+                  location = "group:modules"
+                  name = "modules">
+                  <Group
+                     location = "group:recovery"
+                     name = "recovery">
+                     <FileRef
+                        location = "group:Makefile.am.include">
+                     </FileRef>
+                     <FileRef
+                        location = "group:tests_impl.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:main_impl.h">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:ecdh"
+                     name = "ecdh">
+                     <FileRef
+                        location = "group:Makefile.am.include">
+                     </FileRef>
+                     <FileRef
+                        location = "group:tests_impl.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:main_impl.h">
+                     </FileRef>
+                  </Group>
+               </Group>
+               <FileRef
+                  location = "group:num_gmp.h">
+               </FileRef>
+               <FileRef
+                  location = "group:hash.h">
+               </FileRef>
+               <FileRef
+                  location = "group:eckey_impl.h">
+               </FileRef>
+               <FileRef
+                  location = "group:bench_ecmult.c">
+               </FileRef>
+               <FileRef
+                  location = "group:testrand.h">
+               </FileRef>
+               <FileRef
+                  location = "group:num_gmp_impl.h">
+               </FileRef>
+               <FileRef
+                  location = "group:scalar_8x32.h">
+               </FileRef>
+               <FileRef
+                  location = "group:scalar_low.h">
+               </FileRef>
+               <FileRef
+                  location = "group:eckey.h">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:BRBIP39WordsEn.h">
+         </FileRef>
+         <FileRef
+            location = "group:BRPeer.c">
+         </FileRef>
+         <FileRef
+            location = "group:BRMerkleBlock.c">
+         </FileRef>
+         <FileRef
+            location = "group:BRTransaction.c">
+         </FileRef>
+         <FileRef
+            location = "group:BRCrypto.c">
+         </FileRef>
+         <FileRef
+            location = "group:BRBIP39Mnemonic.c">
+         </FileRef>
+         <FileRef
+            location = "group:BRBech32.h">
+         </FileRef>
+         <FileRef
+            location = "group:BRBIP32Sequence.h">
+         </FileRef>
+         <FileRef
+            location = "group:BRAddress.h">
+         </FileRef>
+         <FileRef
+            location = "group:BRPaymentProtocol.h">
+         </FileRef>
+         <FileRef
+            location = "group:BRBase58.c">
+         </FileRef>
+         <FileRef
+            location = "group:BRSet.h">
+         </FileRef>
+         <FileRef
+            location = "group:BRBloomFilter.c">
+         </FileRef>
+         <FileRef
+            location = "group:test.c">
+         </FileRef>
+         <FileRef
+            location = "group:BRKeyECIES.h">
+         </FileRef>
+         <FileRef
+            location = "group:module.modulemap">
+         </FileRef>
+         <Group
+            location = "group:bcash"
+            name = "bcash">
+            <FileRef
+               location = "group:BRBCashParams.h">
+            </FileRef>
+            <FileRef
+               location = "group:BRBCashAddr.c">
+            </FileRef>
+            <FileRef
+               location = "group:BRBCashAddr.h">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:BRWallet.h">
+         </FileRef>
+         <FileRef
+            location = "group:BRPeerManager.c">
+         </FileRef>
+         <Group
+            location = "group:ethereum"
+            name = "ethereum">
+            <FileRef
+               location = "group:BREthereumTransaction.c">
+            </FileRef>
+            <FileRef
+               location = "group:BREthereumLog.h">
+            </FileRef>
+            <FileRef
+               location = "group:BREthereumEther.h">
+            </FileRef>
+            <FileRef
+               location = "group:BREthereumAccount.h">
+            </FileRef>
+            <FileRef
+               location = "group:BREthereumAccountState.h">
+            </FileRef>
+            <FileRef
+               location = "group:BREthereumToken.h">
+            </FileRef>
+            <FileRef
+               location = "group:BREthereumLightNodeAnnounce.c">
+            </FileRef>
+            <FileRef
+               location = "group:BREthereumBloomFilter.c">
+            </FileRef>
+            <FileRef
+               location = "group:BREthereumNetwork.c">
+            </FileRef>
+            <Group
+               location = "group:util"
+               name = "util">
+               <FileRef
+                  location = "group:BRUtilMath.h">
+               </FileRef>
+               <FileRef
+                  location = "group:BRUtilHex.h">
+               </FileRef>
+               <FileRef
+                  location = "group:BRUtilMath.c">
+               </FileRef>
+               <FileRef
+                  location = "group:BRUtilMathParse.c">
+               </FileRef>
+               <FileRef
+                  location = "group:BRUtil.h">
+               </FileRef>
+               <FileRef
+                  location = "group:BRUtilHex.c">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:BREthereumLightNode.h">
+            </FileRef>
+            <FileRef
+               location = "group:BREthereumGas.h">
+            </FileRef>
+            <FileRef
+               location = "group:BREthereumHash.c">
+            </FileRef>
+            <FileRef
+               location = "group:Makefile">
+            </FileRef>
+            <FileRef
+               location = "group:BREthereumContract.c">
+            </FileRef>
+            <FileRef
+               location = "group:BREthereumTransactionReceipt.c">
+            </FileRef>
+            <FileRef
+               location = "group:BREthereumWallet.c">
+            </FileRef>
+            <FileRef
+               location = "group:BREthereumPrivate.h">
+            </FileRef>
+            <FileRef
+               location = "group:BREthereumBlock.h">
+            </FileRef>
+            <FileRef
+               location = "group:BREthereumAmount.h">
+            </FileRef>
+            <Group
+               location = "group:Java"
+               name = "Java">
+               <FileRef
+                  location = "group:com_breadwallet_core_ethereum_BREthereumNetwork.c">
+               </FileRef>
+               <FileRef
+                  location = "group:com_breadwallet_core_ethereum_BREthereumBlock.h">
+               </FileRef>
+               <FileRef
+                  location = "group:com_breadwallet_core_ethereum_BREthereumLightNode.h">
+               </FileRef>
+               <FileRef
+                  location = "group:com_breadwallet_core_ethereum_BREthereumAccount.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Makefile">
+               </FileRef>
+               <FileRef
+                  location = "group:com_breadwallet_core_ethereum_BREthereumToken.h">
+               </FileRef>
+               <FileRef
+                  location = "group:com_breadwallet_core_ethereum_BREthereumAmount.h">
+               </FileRef>
+               <FileRef
+                  location = "group:com_breadwallet_core_ethereum_BREthereumTransaction.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Notes">
+               </FileRef>
+               <FileRef
+                  location = "group:com_breadwallet_core_ethereum_BREthereumNetwork.h">
+               </FileRef>
+               <FileRef
+                  location = "group:com_breadwallet_core_ethereum_BREthereumLightNode.c">
+               </FileRef>
+               <Group
+                  location = "group:root"
+                  name = "root">
+                  <Group
+                     location = "group:com"
+                     name = "com">
+                     <Group
+                        location = "group:breadwallet"
+                        name = "breadwallet">
+                        <Group
+                           location = "group:core"
+                           name = "core">
+                           <Group
+                              location = "group:ethereum"
+                              name = "ethereum">
+                              <FileRef
+                                 location = "group:BREthereumWallet.java">
+                              </FileRef>
+                              <Group
+                                 location = "group:test"
+                                 name = "test">
+                                 <FileRef
+                                    location = "group:BREthereumLightNodeClientTest.java">
+                                 </FileRef>
+                              </Group>
+                              <FileRef
+                                 location = "group:BREthereumTransaction.java">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:BREthereumLightNode.java">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:BREthereumAccount.java">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:BREthereumNetwork.java">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:BREthereumToken.java">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:BREthereumBlock.java">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:BREthereumAmount.java">
+                              </FileRef>
+                           </Group>
+                        </Group>
+                     </Group>
+                  </Group>
+               </Group>
+               <FileRef
+                  location = "group:com_breadwallet_core_ethereum_BREthereumToken.c">
+               </FileRef>
+               <FileRef
+                  location = "group:com_breadwallet_core_ethereum_BREthereumWallet.h">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:BREthereum.h">
+            </FileRef>
+            <Group
+               location = "group:rlp"
+               name = "rlp">
+               <FileRef
+                  location = "group:BRRlp.h">
+               </FileRef>
+               <FileRef
+                  location = "group:BRRlpCoder.h">
+               </FileRef>
+               <FileRef
+                  location = "group:BRRlpCoder.c">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:BREthereumAccountState.c">
+            </FileRef>
+            <FileRef
+               location = "group:BREthereumEther.c">
+            </FileRef>
+            <FileRef
+               location = "group:BREthereumLog.c">
+            </FileRef>
+            <FileRef
+               location = "group:BREthereumAccount.c">
+            </FileRef>
+            <FileRef
+               location = "group:BREthereumTransaction.h">
+            </FileRef>
+            <FileRef
+               location = "group:BREthereumLightNodeListen.c">
+            </FileRef>
+            <FileRef
+               location = "group:BREthereumGas.c">
+            </FileRef>
+            <Group
+               location = "group:Swift"
+               name = "Swift">
+               <FileRef
+                  location = "group:ethereum.h">
+               </FileRef>
+               <Group
+                  location = "group:ethereumTests"
+                  name = "ethereumTests">
+                  <FileRef
+                     location = "group:ethereumTests-Bridging-Header.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ethereumTests.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Info.plist">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:ethereum.xcodeproj">
+               </FileRef>
+               <FileRef
+                  location = "group:Notes">
+               </FileRef>
+               <FileRef
+                  location = "group:Info.plist">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:les"
+               name = "les">
+               <FileRef
+                  location = "group:BREthereumHandshake.c">
+               </FileRef>
+               <FileRef
+                  location = "group:BREthereumNodeEventHandler.h">
+               </FileRef>
+               <FileRef
+                  location = "group:test-les.h">
+               </FileRef>
+               <FileRef
+                  location = "group:BREthereumNode.h">
+               </FileRef>
+               <FileRef
+                  location = "group:BREthereumFrameCoder.h">
+               </FileRef>
+               <FileRef
+                  location = "group:BREthereumNodeManager.c">
+               </FileRef>
+               <FileRef
+                  location = "group:BREthereumLES.c">
+               </FileRef>
+               <FileRef
+                  location = "group:BREthereumLESBase.h">
+               </FileRef>
+               <FileRef
+                  location = "group:BREthereumHandshake.h">
+               </FileRef>
+               <FileRef
+                  location = "group:test-les.c">
+               </FileRef>
+               <FileRef
+                  location = "group:BREthereumNodeEventHandler.c">
+               </FileRef>
+               <FileRef
+                  location = "group:BREthereumFrameCoder.c">
+               </FileRef>
+               <FileRef
+                  location = "group:BREthereumNode.c">
+               </FileRef>
+               <FileRef
+                  location = "group:BREthereumLESBase.c">
+               </FileRef>
+               <FileRef
+                  location = "group:BREthereumLES.h">
+               </FileRef>
+               <FileRef
+                  location = "group:BREthereumNodeManager.h">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:BREthereumNetwork.h">
+            </FileRef>
+            <FileRef
+               location = "group:BREthereumLightNode.c">
+            </FileRef>
+            <FileRef
+               location = "group:BREthereumBase.h">
+            </FileRef>
+            <FileRef
+               location = "group:BREthereumBloomFilter.h">
+            </FileRef>
+            <FileRef
+               location = "group:BREthereumToken.c">
+            </FileRef>
+            <FileRef
+               location = "group:test.c">
+            </FileRef>
+            <FileRef
+               location = "group:BREthereumBlock.c">
+            </FileRef>
+            <FileRef
+               location = "group:BREthereumLightNodePrivate.h">
+            </FileRef>
+            <FileRef
+               location = "group:BREthereumTransactionReceipt.h">
+            </FileRef>
+            <FileRef
+               location = "group:BREthereumContract.h">
+            </FileRef>
+            <FileRef
+               location = "group:BREthereumWallet.h">
+            </FileRef>
+            <FileRef
+               location = "group:BREthereum.c">
+            </FileRef>
+            <Group
+               location = "group:event"
+               name = "event">
+               <FileRef
+                  location = "group:BREvent.c">
+               </FileRef>
+               <FileRef
+                  location = "group:BREventQueue.h">
+               </FileRef>
+               <FileRef
+                  location = "group:BREvent.h">
+               </FileRef>
+               <FileRef
+                  location = "group:BREventQueue.c">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:BREthereumAmount.c">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:BRBIP38Key.h">
+         </FileRef>
+      </Group>
+   </Group>
+   <FileRef
+      location = "self:">
+   </FileRef>
+</Workspace>
