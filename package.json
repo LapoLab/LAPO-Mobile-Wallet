@@ -20,7 +20,7 @@
   "dependencies": {
     "babel-polyfill": "^6.26.0",
     "immutable": "^4.0.0-rc.12",
-    "lapo-core": "file:./lapo-core",
+    "lapo-core": "git+ssh://git@github.com/LapoLab/LAPO-Mobile-Wallet-Core.git",
     "moment": "^2.22.2",
     "react": "16.6.3",
     "react-native": "0.56.1",
@@ -37,7 +37,7 @@
     "react-native-push-notification": "^3.1.2",
     "react-native-qrcode": "^0.2.7",
     "react-native-qrcode-svg": "^5.1.1",
-    "react-native-select-contact": "file:./react-native-select-contact",
+    "react-native-select-contact": "git://github.com/LapoLab/react-native-select-contact.git",
     "react-native-share": "^1.1.3",
     "react-native-splash-screen": "^3.2.0",
     "react-native-svg": "^8.0.8",
