@@ -1,5 +1,0 @@
-dependencies: \
-  /Users/develexedev/dev/integral/Lapo/ios/Modules/breadwallet-core/ethereum/BREthereumNetwork.c \
-  /Users/develexedev/dev/integral/Lapo/ios/Modules/breadwallet-core/module.modulemap \
-  /Users/develexedev/dev/integral/Lapo/ios/Modules/breadwallet-core/ethereum/BREthereumNetwork.h \
-  /Users/develexedev/dev/integral/Lapo/ios/Modules/breadwallet-core/BRInt.h

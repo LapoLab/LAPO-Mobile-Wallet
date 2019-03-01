@@ -1,6 +1,0 @@
-version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
-options: "2ddeb7f7f28581b0925beffce5b68fa3"
-build_time: [1541151871, 992267000]
-inputs:
-  "/Users/develexedev/dev/integral/Lapo/node_modules/lapo-core/ios/BRCore.swift": [1541046865, 0]
-  "/Users/develexedev/dev/integral/Lapo/node_modules/lapo-core/ios/RNLapoCoreManager.swift": [1541046966, 0]
