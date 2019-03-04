@@ -1,7 +1,8 @@
 # Lapo
 
 ## Introduction
-Lapo is a PIVX / DASH cryptocurrency wallet works without servers.
+
+Lapo is a PIVX/DASH cryptocurrency wallet works without servers.
 
 First launch of the application:
 1. The wallet is restored or a new one is created
@@ -34,6 +35,7 @@ Package installation
 ```sh
 yarn
 ```
+
 Server launch
 ---
 
@@ -44,28 +46,30 @@ yarn start        # starts dev server
 Running an application on ios
 ---
 
-`` sh
+``` sh
 yarn ios # runs ios
-`` `
+```
+
 Running an application for a specific iPhone model
 ---
- - iPhone SE
 
-`` sh
+- iPhone SE
+
+``` sh
 yarn ios --simulator = "iPhone SE"
-`` `
+```
 
- - iPhone X
+- iPhone X
 
-`` sh
+``` sh
 yarn ios --simulator = "iPhone X”
-`` `
+```
 
 - iPhone 7 Plus
 
-`` sh
+``` sh
 yarn ios --simulator = "iPhone 7 Plus”
-`` `
+```
 
 Requirement to android build 
 ---
@@ -74,33 +78,26 @@ Requirement to android build
 download (https://developer.android.com/ndk/downloads/older_releases)
   and unzip to ~/⁨Library/Android⁩/⁨sdk⁩/ndk-bundle⁩
 
-Requirement to android build 
----
-- cmake version 3.6.4111459
-- ndk-bundle current version 17
-download (https://developer.android.com/ndk/downloads/older_releases)
-and unzip to ~ / Library / Android / sdk / ndk bundle
-
-
 Running an application on android
 ---
 1. Run the emulator:
 
-`` `
+```
 Launch Android Studio -> Tools -> AVD Manager Add or select a device and launch
-`` `
+```
 
 2. Run the application
 
-`` sh
+``` sh
 yarn android # run android, before starting, you must start the emulator or connect the device.
-`` `
+```
 
 Build for production android
 -----
-`` sh
-react-native bundle - platform android - dev false - center-file index.js - bundle-output android / app / src / main / assets / index.android.bundle - assets-dest android / app / build / intermediates / res / merged / release /
-`` `
+
+``` sh
+react-native bundle - platform android - dev false - center-file index.js - bundle-output android/app/src/main/assets/index.android.bundle - assets-dest android/app/build/intermediates/res/merged/release/
+```
 
 Then build -> Generate signed app
 
@@ -113,6 +110,7 @@ There is the modular architecture of src/modules in RN. In the module, if necess
 
 Native code for Android
 ---
+
 Stored in the js package lapo-core, in the android directory.
 
 
@@ -122,32 +120,33 @@ Stored in the ios folder. Run the project through the file Lapo.xcworkspace (Xco
 
 Components
 ---
- - The main components of the system are in src/commons/components/.
-- System modules are in src / modudels /.
+
+- The main components of the system are in src/commons/components/.
+- System modules are in src/modudels/.
 
 Common
 ---
- - how API is used only native in Java/C ++ and Swift/C ++
 
+- how API is used only native in Java/C ++ and Swift/C ++
 
 Redux and Sagas
 ---
- - Redusers are located in src/modules/Module name/reducers,
- - Sagas are located in src / modules / Module Name / sagas,
- - Store settings located in src/edux/ store.js,
- - Actions are located in src/modules/module name/actions.
 
+- Redusers are located in src/modules/Module name/reducers,
+- Sagas are located in src/modules/Module Name/sagas,
+- Store settings located in src/edux/store.js,
+- Actions are located in src/modules/module name/actions.
 
 Screens
 ---
 
- - Located in src / modules.
- - Nesting of screens can be found in the src / Navigation navigation.
+- Located in src/modules.
+- Nesting of screens can be found in the src/Navigation navigation.
 
 Pictures, icons
 ---
 
- - Located in src / asserts
+- Located in src / asserts
 
 Utilities
 ---
@@ -160,4 +159,4 @@ Main libraries:
 - redux-saga
 - react-navigation
 - flow
-- jest```
+- jest
